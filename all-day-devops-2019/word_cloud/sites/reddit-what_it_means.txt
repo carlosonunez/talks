@@ -1,0 +1,159 @@
+
+jump to content
+GET NEW REDDIT
+MY SUBREDDITS
+				HOME-POPULAR-ALL-RANDOM-MOD-USERS | WORLDNEWS-FLYING-CONSULTING-FATFIRE-DEVOPS-POLITICALDISCUSSION-AWS-KUBERNETES-DOCKER-AZURE-ITMANAGERS-ETL-BUSINESSSCHOOL
+EDIT »
+		reddit.com programmingcomments
+		mrcrassic (3,889)|messages|chat messages7|mod messages|mod messages|preferences|logout
+
+this post was submitted on 16 Jul 2019
+6 points (62% upvoted)
+shortlink: https://redd.it/cdunhh
+
+Submit a new link
+
+
+Get an ad-free experience with special benefits, and directly support Reddit.
+Get Reddit Premium
+programming
+join2,311,076 readers
+2,248 users here now
+Show my flair on this subreddit. It looks like:
+mrcrassic
+/r/programming is a reddit for discussion and news about computer programming
+
+Guidelines
+	•	Please keep submissions on topic and of high quality.
+	•	Just because it has a computer in it doesn't make it programming. If there is no code in your link, it probably doesn't belong here.
+	•	Direct links to app demos (unrelated to programming) will be removed.
+	•	No surveys.
+	•	Please follow proper reddiquette.
+
+Info
+	•	Do you have a question? Check out /r/learnprogramming, /r/cscareerquestions, or Stack Overflow.
+	•	Do you have something funny to share with fellow programmers? Please take it to /r/ProgrammerHumor/.
+	•	For posting job listings, please visit /r/forhire or /r/jobbit.
+	•	Check out our faq. It could use some updating.
+	•	Are you interested in promoting your own content? STOP! Read this first.
+
+Related reddits
+	•	/r/technology
+	•	/r/ProgrammerTIL
+	•	/r/learnprogramming
+	•	/r/askprogramming
+	•	/r/coding
+	•	/r/compsci
+	•	/r/dailyprogrammer
+	•	/r/netsec
+	•	/r/webdev
+	•	/r/web_design
+	•	/r/gamedev
+	•	/r/cscareerquestions
+	•	/r/reverseengineering
+	•	/r/startups
+	•	/r/techsupport
+Specific languages
+created by spez
+a community for 13 years
+
+message the moderators
+MODERATORS
+		ketralnis
+		spez
+		Poromenos
+		tryx
+		dons
+		masta
+		kylev
+		chromakode
+		a_redditor
+		about moderation team »
+RECENTLY VIEWED LINKS
+		   Why I turned down an AWS job offerarticle
+		161 points | 83 comments      Notes on Site Reliability Engineering
+		30 points | 9 comments      Airpods Pro Unboxing, Size Comparison, and Initial Impressions
+		508 points | 313 comments      AirPods Pro Earpiece Tip Replacements Will Cost $4
+		638 points | 254 comments      Huawei FreeBuds 3 review: No more AirPods envy - Android Authority
+		0 points | 53 comments     clear  
+account activity
+
+
+
+
+What It Means To Be A Site Reliability Engineer (dev.to)
+		6 points submitted 3 months ago by VladTeti4 commentssharesavehidegive awardreportcrosspost
+
+
+
+all 4 comments
+sorted by: top
+
+formatting help
+content policy
+save
+
+
+
+[–]tayo42 8 points 3 months ago 
+I really don't understand the difference between the expectations of an sre and engineers. The things sre ends up doing should be expected of any experienced engineer. Why is monitor, deploy and make sure code and services are reliable a unique job? How is this just not built into the job requirements of not getting fired as a developer? SRE only exists in the web world, there are none for things like developing for mobile.
+fwiw, my title is sre...
+		permalinkembedsavereportgive awardreply
+
+
+
+[–]of_no_consequence 1 point 3 months ago 
+It's a priority thing. For example, if you push out a feature n months ago, it may not be in your peripheral as to being an issue for any number of reasons. Perhaps the SLA says 3s response, but it's 5s and you don't know that. Maybe a client is doing something weird that's a blip in monitoring, but you don't have time to track down. In larger organisations, you may be dealing with types of engineering that's not SRE focused, where an SRE may be looking at all metrics, triaging and organising things to be "better."
+		permalinkembedsaveparentreportgive awardreply
+
+
+
+[–]tayo42 5 points 3 months ago 
+I don't see why all of that should not be part of the job for a swe. Maintenance to fix bugs, make sure the stuff you write is reliable enough to meet an sla. That's not a job title, it should just be being good at your job. The expectations of code written are poor and it's just being pushed off to others. It's nonsensical to me.
+		permalinkembedsaveparentreportgive awardreply
+
+
+
+[–]of_no_consequence 5 points 3 months ago 
+By the same token, front end, back end, ops, is all in reach of a developer. But as an organisation grows, you'll end up splitting responsibilities up. Not that anyone should eschew performance, good behaviour, etc... but in an org of say, 10k developers, there's a chance you lose visibility over time in a sea of people.
+		permalinkembedsaveparentreportgive awardreply
+
+
+
+
+
+
+
+
+
+		about
+		blog
+		about
+		advertising
+		careers
+		help
+		site rules
+		Reddit help center
+		wiki
+		reddiquette
+		mod guidelines
+		contact us
+		apps & tools
+		Reddit for iPhone
+		Reddit for Android
+		mobile website
+		<3
+		reddit premium
+		reddit coins
+		redditgifts
+Use of this site constitutes acceptance of our User Agreement and Privacy Policy. © 2019 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+Advertise - technology
+π 
+
+
+
+
+
+
+

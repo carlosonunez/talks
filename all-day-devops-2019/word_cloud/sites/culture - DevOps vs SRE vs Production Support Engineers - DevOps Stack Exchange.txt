@@ -1,0 +1,210 @@
+
+
+
+	.	   
+	.	Log in Sign up 
+	.	
+By using our site, you acknowledge that you have read and understand our Cookie Policy, Privacy Policy, and our Terms of Service. 
+
+DevOps Stack Exchange is a question and answer site for software engineers working on automated testing, continuous delivery, service integration and monitoring, and building SDLC infrastructure. It only takes a minute to sign up.
+Sign up to join this community 
+￼ 
+Anybody can ask a question 
+￼ 
+Anybody can answer 
+￼ 
+The best answers are voted up and rise to the top 
+
+DevOps Beta 
+	.	Home  
+	.	Questions  
+	.	Tags  
+	.	Users  
+	.	Unanswered  
+DevOps vs SRE vs Production Support Engineers
+Ask Question 
+Asked 1 year, 3 months ago 
+Active 7 months ago 
+Viewed 780 times 
+
+7
+
+
+DevOps primarily focuses on Delivery Speed and SRE focuses on Reliability in production but where does Production Support Engineers fit who also focuses on production monitoring, alerting, performance, user experience, incident management, RCA and work on code defects and understand business functionality? 
+	•	In a SRE world, would production support engineers be more aligned to SRE or merged with SRE? 
+culture sre organization 
+share|improve this question
+edited Jul 26 '18 at 8:54 
+￼
+chicks
+1,2751
+1 gold badge
+6
+6 silver badges
+24
+24 bronze badges
+asked Jul 22 '18 at 2:31 
+￼
+Sam
+362
+2 bronze badges
+
+		 In a SRE world, would production support engineers be more aligned to SRE or merged with SRE? - PS engineers would merge with SRE. – KatariaA Mar 26 at 2:26   
+add a comment 
+2 Answers 
+active
+oldest
+votes
+
+4
+
+The best answer to DevOps vs SRE is here What's the Difference Between DevOps and SRE ? From the above series, you will understand Class SRE implements DevOps and both are working on a similar ground and it's pretty align goal for both of them. 
+As a production support, you will be doing the task which you have mentioned in the question, apart, you need deep visibility, alert and notifications, latency, metrics, tracking, security, etc. lots of things to take care. And, it basically providing the service to the end users who is utilizing your application or system. Also, I see production support team have written the dockerfile and bash scripts to automate many tasks. So, whenever user faced any issue that first comes to Production Support team and it might went to other IT teams if it's not easily resolve. But, if you look at SRE, their sole purpose is to keep system in reliable state every time, maintain resiliency, etc. In some organization, the DevOps does this part too. 
+From my perspective, all the three terms are same as their goal align and just differ in functionality. These functionality differs from organization to organizations. But, DevOps are intended to bring culture and shift in paradigm so that everyone will work collaboratively. Hope this helps.
+
+share|improve this answer
+answered Jul 22 '18 at 9:50 
+￼
+mohan08p
+2871
+1 silver badge
+7
+7 bronze badges
+
+add a comment 
+
+4
+
+I don't want to nit pick, but I respectfully disagree with the idea that DevOps is about speed while SRE is about reliability. I understand this is an easy thing to think -- especially because SRE has "Reliability" in its name -- but it a'int so. :-)
+SRE is all about velocity. 
+We think that over the long run you'll go much much faster if you recognize when the wheels are starting to go wobbly (SLOs and Error Budgets) and slow down in those cases to make things better. That, in our experience, is much faster than having to stop for a goodly long time because we let a bunch of reliability related technical debt pile up.
+SRE can be thought of as a specific instantiation of DevOps with a more uniformly enforced set of constraints. (Hence the Class SRE implements DevOps formulation above.)
+
+share|improve this answer
+answered Mar 25 at 5:02 
+￼
+Dave Rensin
+411
+1 bronze badge
+
+add a comment 
+Your Answer 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+Sign up or log in
+Sign up using Google 
+Sign up using Facebook 
+Sign up using Email and Password 
+Post as a guest
+Name
+
+Email
+Required, but never shown
+
+Post as a guest
+Name
+
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy 
+Not the answer you're looking for? Browse other questions tagged culture sre organization or ask your own question. 
+Blog 
+	•	 Stack Overflow Podcast #126 – The Pros and Cons of Programming with ADHD  
+	•	 My Most Embarrassing Mistakes as a Programmer (so far)  
+Featured on Meta 
+	•	 Feedback post: Moderator review and reinstatement processes  
+	•	 Post for clarifications on the updated pronouns FAQ  
+
+Related
+18
+What processes or tools enable Segregation of Duties when engineers both deploy and run code?
+13
+What Key Performance Indicators (KPIs) are used to measure DevOps?
+13
+What is the difference between the traditional Development and Operations Model and Site Reliability Engineering?
+66
+How to help DevOps Engineers feel less like a lone wolf?
+9
+What are fetching DevOps analogies?
+9
+Is scrum or kanban really useful for SRE teams?
+Hot Network Questions 
+	▪	How time is defined in astronomical science 
+	▪	Peano's dot notation 
+	▪	What does "T.O." mean? 
+	▪	What would an inclusive curriculum look like in a computer science course? 
+	▪	Is this change to how XP works in D&D 3.5 unbalanced? 
+	▪	If I am just replacing the car engine, do I need to replace the odometer as well? 
+	▪	Wood versus marble rolling pin 'performance' 
+	▪	A Caesar cipher in Python3 
+	▪	Teleportation is invented but it has nasty side-effects % of the time, how will that affect usage of the technology? 
+	▪	What is the speed of "electricity"? 
+	▪	Is SSH key with passphrase a 2FA 
+	▪	Would the US government of the 1960’s be able to feasibly recreate a modern laptop? 
+	▪	Why apt package chromium-browser installs snap package instead? 
+	▪	Tic Tac Toe console program 
+	▪	Is (manual) feature extraction outdated? 
+	▪	Disable memory refresh on Z80 
+	▪	Can the Wish spell be used to allow someone to be able to cast all of their spells at will? 
+	▪	If someone orders a pizza in the US and doesn't pay for it, could they be arrested? 
+	▪	Why is Google's quantum supremacy experiment impressive? 
+	▪	A question about modulus for polynomials 
+	▪	Is there a Ukrainian transcript of Trump's controversial July 25 call to President Zelensky? 
+	▪	Is it worth delving deep outside my field to revise a paper? 
+	▪	How exactly do you avoid fooling yourself? 
+	▪	Fast symmetric key cryptography class 
+Question feed 
+Subscribe to RSS 
+Question feed
+To subscribe to this RSS feed, copy and paste this URL into your RSS reader.
+https://devops.stackexchange.com/feeds/question/4573
+
+
+
+DEVOPS
+		Tour
+		Help
+		Chat
+		Contact
+		Feedback
+		Mobile
+		Disable Responsiveness
+COMPANY
+		Stack Overflow
+		Stack Overflow Business
+		Developer Jobs
+		About
+		Press
+		Legal
+		Privacy Policy
+STACK EXCHANGE NETWORK
+		Technology
+		Life / Arts
+		Culture / Recreation
+		Science
+		Other
+		Blog
+		Facebook
+		Twitter
+		LinkedIn
+site design / logo © 2019 Stack Exchange Inc; user contributions licensed under cc by-sa 4.0 with attribution required. rev 2019.10.30.35292 
+DevOps Stack Exchange works best with JavaScript enabled 
+ 

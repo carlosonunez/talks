@@ -1,0 +1,2123 @@
+
+jump to content
+GET NEW REDDIT
+MY SUBREDDITS
+				HOME-POPULAR-ALL-RANDOM-MOD-USERS | WORLDNEWS-FLYING-CONSULTING-FATFIRE-DEVOPS-POLITICALDISCUSSION-AWS-KUBERNETES-DOCKER-AZURE-ITMANAGERS-ETL-BUSINESSSCHOOL
+EDIT »
+		reddit.com devopscomments
+		mrcrassic (3,889)|messages|chat messages7|mod messages|mod messages|preferences|logout
+
+this post was submitted on 31 Aug 2018
+125 points (96% upvoted)
+shortlink: https://redd.it/9bsm75
+
+Submit a new text post
+
+
+Get an ad-free experience with special benefits, and directly support Reddit.
+Get Reddit Premium
+devops
+leave119,297 readers
+206 users here now
+Show my flair on this subreddit. It looks like:
+mrcrassicConsultant a.k.a "The Enemy"(edit)
+Welcome to /r/DevOps
+/r/DevOps is a subreddit dedicated to the DevOps movement where we discuss upcoming technologies, meetups, conferences and everything that brings us together to build the future of IT systems
+What is DevOps? Learn about it on our wiki!
+Traffic stats & metrics
+Rules and guidelines
+Be excellent to each other!
+All articles will require a short submission statement of 3-5 sentences.
+Use the article title as the submission title. Do not editorialize the title or add your own commentary to the article title.
+Follow the rules of reddit
+Follow the reddiquette
+No editorialized titles. 
+No vendor spam. Buy an ad from reddit instead.
+Job postings here
+More details here
+Social & Fun
+@reddit_DevOps
+##DevOps @ irc.freenode.net
+Find a DevOps meetup near you!
+Icons info!
+General Information
+https://github.com/Leo-G/DevopsWiki
+
+created by [deleted]
+a community for 9 years
+
+message the moderators
+MODERATORS
+		mthode
+		rufusdenne
+		about moderation team »
+RECENTLY VIEWED LINKS
+		   Why I turned down an AWS job offer
+		161 points | 83 comments      Notes on Site Reliability Engineering
+		29 points | 9 comments      Airpods Pro Unboxing, Size Comparison, and Initial Impressions
+		509 points | 313 comments      AirPods Pro Earpiece Tip Replacements Will Cost $4
+		647 points | 255 comments      Huawei FreeBuds 3 review: No more AirPods envy - Android Authority
+		0 points | 53 comments     clear  
+account activity
+This is an archived post. You won't be able to vote or comment.
+
+
+
+
+Why is it so difficult to hire for DevOps/SRE? (self.devops)
+125 points submitted 1 year ago by Educational_Leopard
+Obviously, there's not enough good engineers out there in any discipline, but it seems to me that DevOps/SRE is particularly difficult to find people to fill. 
+I have some theories:
+	•	"DevOps Engineer" is a loaded and overloaded term. Setting aside the old adage that devops is a culture not a role, people with the job title "devops engineer" could be doing anything from old school sysadmin for on-prem servers, build engineering, release management, cloud infrastructure management, internal tool development, IT support, distributed systems engineering, cultural outreach, or nearly anything else to do with tech. With such wide ranging a wildly divergent set of responsibilities, filtering CVs for the skills and tools my team needs is messy and noisy.
+	•	There's no traditional educational path to enter devops. I think the diversity of experience and background is one of the great strengths of the wider devops community, but it makes it difficult to identify talent early on. A great devops engineer can come from anywhere: most of the best ones I've worked with don't have formal CS education and several come from non-tech backgrounds like law or accounting.
+	•	The relative youth of the popular tooling: obviously, we'd all like to hire an engineer with twenty years AWS experience and ten years managing kubernetes in production... but if everybody has less than three years, it's hard to identify who is great at it.
+Anyone else have ideas? And how can we work around this?
+		232 commentssharesavehidegive awardreportcrosspost
+
+
+
+top 200 commentsshow all 232
+sorted by: top
+
+
+
+[–]areReady 126 points 1 year ago 
+I try to hire smart people with the right work attitude rather than hit a checklist of things they've done before. Filtering resumes is a pain, but I've been very happy with my hires so far.
+For instance, I hired a junior onto my DevOps team because he learned Visual Basic 3 in order to fix a problem with an old CnC machine at his old employer. In 2016. He had the right attitude, was eager to learn, and could figure stuff out. 6 months later he's our go-to for building pipelines for new frameworks or whatever thing one of our new acquisitions bought from some vendor. I want people who aren't afraid to dive into new things, know the difference between looking and changing (I still can't tolerate cowboys), and are confident that, although it might take some time, if we get our hands on something that sucks, we will be able to make it better.
+To me, DevOps is more about principles about how we work than it is about tools or job roles. Obviously you can't hire somebody seriously green into a senior position, but I think there's a lot more leeway than you think if you go after people who aren't afraid to work on hard problems that matter.
+		permalinkembedsavegive award
+
+
+
+[–]kaydub88 17 points 1 year ago 
+(I still can't tolerate cowboys)
+Could you clarify what you mean here?
+I work on what I consider a team of cowboys. No documentation, no testing, always doing stuff live in production.
+		permalinkembedsaveparentgive award
+
+
+
+[–]areReady 33 points 1 year ago* 
+We're in the finance industry. If we don't have a clear change control process and follow it, we get the beatdown. I also consider it an ethical obligation because if we screw up, we can cause serious problems for our customers, either through breach or failure to execute timely transactions.
+And to clarify further, I push back as much as I can against chains of process for my team. I want us to work on things we think are important, and we work on things where there's no apparent progress for weeks and then - bam - it all comes together and somebody's life is way better. Even there, though, I just can't let cowboy processes happen to production. Get in there and look all you want, but changes have to be recorded.
+		permalinkembedsaveparentgive award
+
+
+
+[–]kaydub88 17 points 1 year ago 
+Sounds magical.
+My team looks at me as the guy who sits around twiddling my thumbs because I like change control and I'm methodical in how I operate. I like to put more time upfront in a task so it's easily repeatable. I literally had to tell my boss the other day that I wasn't going to cowboy something just because he wanted it done right now. The typical MO here is to just shell into a box, change shit, never tell anyone or document it... I just don't work that way.
+		permalinkembedsaveparentgive award
+
+
+
+[–]Fenrisulfir 16 points 1 year ago 
+Do you work for my on-prem cloud engineering team? I’m fighting with them all the time.
+Me: “hey, it’s Monday and our shit worked on Friday and now it doesn’t. What happened?”
+Them: “Nothing happened. We have no idea if anything changed. It all looks good on our end.”
+...
+Them two weeks later: “oh ya. There was a quarterly patching window that got pushed back so we had an off cycle that wasn’t in the official release calendar but don’t worry, it was upstream and shouldn’t have affected any of your stuff.”
+Me smashing my head into my desk: “well it fucking did!”
+		permalinkembedsaveparentgive award
+
+
+
+[–]kaydub88 8 points 1 year ago 
+I could write a book about how bad some things are fucked up here.
+How about, send all logs to email. So we run our own in house roundcube as if it's an ELK stack. Go search through emails to find logs. Oh, if the app can't send an email for a log it block everything and the app crashes too.
+No clear communication. My boss likes to tell me stuff as he wishes it was, not as it actually is. I've been working on migrating some stuff to a better platform, so first I have to decode what actually is going on with our app and our systems, since there's literally zero documentation. When I find stuff I run to my boss and ask him some clarification on it. 
+"Hey Boss, I mentioned making these web nodes immutable, but I see we have custom domain certs and they're different in every region, so do I need these certs?" Boss: "Oh no, we set those up in the app and don't need them." "Cool, I'll make the web nodes completely immutable since they're pretty much the same. We can upgrade by building new AMIs and rolling them out." Boss: "Yeah, that sounds great."
+After finishing the week out and starting to test deployments I ask him about the certs again. "Hey Boss, certs aren't working like you said... what's the deal?" Boss: "You need the certs from the web nodes. We're planning on adding it into the app but we're not there yet." "..."
+So I burned a whole week doing something that ended up being worthless. I'd say about 40-50% of the work my team does ends up being wasted work. Lots of projects half finished. Lots of tools hanging on by a thread. Lots of tasks half completed in our ticketing system... either things are too broken to actually fix the issue or we've decided to pivot to something else, and then pivot to seomthing else, then pivot one more time to something else...
+When I ask how something was setup I just get told to go look at our other servers. This guy wrote all the bash scripts holding this place together. They consider it configuration management when they put their bash scripts into salt and then all their configurations are tarballs that get copied to the host with salt and then untarred.
+You get the idea. Just a total shit show. They pay me well and I work remotely 100% of the time though... can't beat the work life balance. I endure.
+		permalinkembedsaveparentgive award
+
+
+
+[–]yourparadigm 9 points 1 year ago 
+Dude, find a new team -- dealing with that kind of dysfunction won't advance your skills and career.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]drop_the_bass_64 4 points 1 year ago 
+I just left a team that was a total shitshow. I stayed a lot longer than I intended and let me tell you: it's biting me in the ass. Interview while you're there instead of leaving intending to find something - it's much easier to find a job while you're at a place already. If you leave beforehand they all think you are fired and that begs the question. If you complain about the company it looks bad on you for staying and associates you with the negativity.
+Learn from my pain and leave ASAP my dude. Like you I could have written a book about the idiocy. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]manys 2 points 1 year ago 
+Well that sounds like a handful. One thing that jumps out at me is the in-app SSL business. My understanding is that it's far, far more common to terminate SSL in front of the app, and it sounds like you could have salvaged your work by adding the termination to your config or throwing a terminating proxy to the mix. Anyhoo, it's the weekend, hopefully you don't have anything scheduled!
+		permalinkembedsaveparentgive award
+
+
+
+[–]kaydub88 1 point 1 year ago 
+There is an SSL terminating proxy. We have custom domains for our customers in our app. When they make a custom domain we have to manually add their ssl cert to the proxy. I was told that we have a way built into our app for customers to just automatically upload their SSL so we don't have to do it. There's some jumbled together code on our nginx that works with our app servers, so I assumed this was all done.
+It wasn't until I finished and was deploying this stuff testing that my boss said "Oh no, that's not there yet, it's stuff we want to do in the future."
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+
+[–]tipsy_turvy 1 point 1 year ago 
+About this certs thing - it doesn't seem like your work was useless at all. You could still use your immutable AMIs as you planned and then just pull the region / env specific stuff at boot time (using user data or something similar). Is there anything that's preventing you from doing this?
+		permalinkembedsaveparentgive award
+
+
+
+[–]ponyboy3 1 point 1 year ago 
+seriously, put them on s3, make am ism role, pull and install via userdata
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–][deleted] 1 year ago 
+[deleted]
+		
+
+
+
+[–]kaydub88 1 point 1 year ago 
+Yeah dude, that's literally all their config management when I started.
+My boss constantly says things how he wants them to be, not how they are. So it's always a challenge, especially working in a remote environment.
+		permalinkembedsavegive award
+
+
+
+
+
+
+
+
+
+
+
+
+[–]tadamhicks 9 points 1 year ago 
+I just want to be super pedantic here. DevOps is about architecting a process up front so that things like change control are more or less automated out of the way. That means an engineer can identify a problem and push a fix in an extremely rapid fashion. The fix isn't something done directly on prod code or in a prod environment...it still has to go through a pipeline...but there shouldn't be anything stopping the fix from getting to where it needs to be (the customer) as long as it passes all of the checks and balances. 
+So, in a way DevOps is about allowing us to reconcile with our cowboy nature...I can move and code SUPER quick, but there are still all the controls for my actions that create a proper audit trail, etc...
+		permalinkembedsaveparentgive award
+
+
+
+[–]kaydub88 8 points 1 year ago 
+There's nothing cowboy about committing code changes and having automated build and testing processes which allow you to quickly code and make changes. That's the methodical nature I'm talking about.
+Cowboy is when you bumble around in a shell for a couple hours until things just magically work. Then you logout and hope to never look at that shit again. Good luck to the next guy. If you make code changes they include great git messages such as "lol" and "whoops". I don't mean those words are in the message, I mean they are the message.
+		permalinkembedsaveparentgive award
+
+
+
+[–]tadamhicks 6 points 1 year ago 
+yeah, that's why I said that DevOps appeals to our cowboy nature instead of saying that DevOps lets you cowboy. The point of DevOps, though, is that a developer or admin doesn't need to slow down and be methodical...methodology is built into the process. People who are methodological by nature don't do well in a well managed DevOps environment.
+For reference I've been on both sides...what I see is that there are people that are REALLY good at the architecture and people that are REALLY good at moving quick...and now I work for a tool vendor and frequently have to interface with orgs going through this exact challenge. Stephen King actually talked about this in relation to Gunslingers in the Dark Tower series. Super nerdy of me to bring up, but as I just read it I found it a perfect analogy. Essentially the main character, Roland, is a "gunslinger" and he talks about how it's very awkward for him to introspect and think about the "how" of things. He's a doer and he just does...threat appears and he shoots. He's a cowboy. Conversely there are people who are on the other side of the coin, who see the implications of every action and want to ruminate first. In well-oiled "DevOps" cultures I see architects and engineers...architects design the event driven methodology, and engineers actualize. 
+If you're more prone to methodology in your nature then you would probably be much happier in an architect role. I've found as the years have worn on me (still young, but IT old), I'm less interested in being a gunslinger and more interested in the bigger, architectural thinking myself. I like working with organizations and helping them bridge silos and allow their gunslingers to move more quickly, while still maintaining a method to the madness that meets biz requirements. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]Yioda 4 points 1 year ago 
+Are we still discussing *what* is devops about? Like how many years have passed? That should ring a bell about the nonsense and marketing bs that the illdefined term has become.
+		permalinkembedsaveparentgive award
+
+
+
+[–]tadamhicks 5 points 1 year ago 
+I don’t think it was ever ill defined. I think people want to be the new and shiny even if they aren’t. Like Hadoop 5 years ago or Kubernetes now...people are chasing these things unnecessarily. 
+DevOps was never really sexy though. Read some of Gene Kim’s stuff and it’s downright businessey and kinda boring...it’s all about process and sounds a lot like Lean Six Sigma kinda stuff. A buncha cool toys showed up for nerds to play with though and everyone freaked out with tool lust. 
+I remind people of what it is all the time because what it is happens to be incredibly relevant, especially in the Enterprise. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]Yioda 1 point 1 year ago 
+Understood. Indeed I agree that it is very relevant to real world scenarios. And of course agree on people chasing things that dont need or dont even know what they are.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]manys 2 points 1 year ago 
+i think it still means "half a sysadmin" with the other half being Amazon or Heroku or whatever.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[–]rasputine 11 points 1 year ago 
+work on what I consider a team of cowboys. No documentation, no testing, always doing stuff live in production
+Ahahahaha fuuuuuuuuck thaaaat
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]ponyboy3 3 points 1 year ago 
+you work with amateurs
+		permalinkembedsaveparentgive award
+
+
+
+[–]kaydub88 1 point 1 year ago 
+You don't even know the half of it.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+[–]noleft_turn 15 points 1 year ago 
+I wish more hiring was done this way.... but it's hard for everyone involved. It seems like everyone that's hiring is just interested in checking as many boxes as possible instead of gauging how well the candidate might do with new tooling, methodologies or technologies. 
+
+I interviewed for a devops role at a blockchain startup. They literally asked me what the name of the aws service was that did so and so thing. It's like they think I can't learn anything new anymore.
+		permalinkembedsaveparentgive award
+
+
+
+[–]petep6677 14 points 1 year ago 
+a blockchain startup
+IE fleecing gullible investors of their cash as long as they possibly can.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]trackpete 12 points 1 year ago 
+A lot of people don't seem to realize that DevOps/SREs will have a wildly varying set of skills that often directly apply to very few places - there are so many different ways to do things that expecting someone who is familiar with the way you chose to do things is ridiculous. As you say, hire for ability and background (as well as transferable skills).
+As a note, conveying this to HR/etc. if your company is large enough to have it is VERY important. You have to make sure they're not taking a giant list of conflicting keywords and automatically filtering out candidates who don't have experience in the eight different CI systems you listed / etc.
+I think a lot of people aren't realizing the candidates they're missing out on because of keyword filtering these days.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]Freakin_A 4 points 1 year ago 
+I have the same outlook. I look for general trends that their work history has been moving in the right direction, and competency with at least one programming/scripting language.
+My main goal is to find humble, passionate problem-solvers who are eager to learn, as those are the traits that are most beneficial for an SRE/devops engineer in my experience. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]CommeGaston 3 points 1 year ago 
+I think this is pretty sound advice and very smart. You also create a healthy lifecycle of hiring young, eager learners and letting experienced people who fancy a new challenge go.
+My workplace doesn't really understand the concept that good people make good products. They rather push money towards projects and tools rather than people.
+I work on an infrastructure team who are in charge of ~10 websites and services (100s of servers etc). There's now only 3 of us and we were all previous graduates (not necessarily from tech backgrounds) and only been full time in the role for around 1-2 years. We're by no means brilliant, but I feel we've done well considering. It would be nice to have more team members, and a senior to add some experience for us to learn from quicker.
+I think my workplace takes us for granted though, and don't quite realise that if they didn't have a graduate scheme, they wouldn't have a team to work on all that infrastructure. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]warpigg 1 point 1 year ago 
+This^ I touched on this in my comment (below) on this post as well. I wish there were more hiring managers like you out there.
+I am personally finding it very hard to land a job b/c of this...
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]noOneCaresOnTheWeb 1 point 1 year ago 
+Any tips on expressing eagerness to learn and ability to figure stuff out on my resume?
+		permalinkembedsaveparentgive award
+
+
+
+[–]areReady 3 points 1 year ago* 
+It's admittedly hard on the resume. I rely heavily on internal and 3rd-party recruiters to get a sense of personality up front.
+Working with a good recruiter can be the best thing for your career. They get to know you, and I get to know them. When I have a recruiter I trust (which generally means a few hours of conversation over a few months for them to get an idea of what I'm looking for), they give me context around a resume and career path for an individual. That goes way, way farther than the words on a resume.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]mdaniel 1 point 1 year ago 
+I mean this genuinely: why not add a line in the accomplishments section that says what you solved by learning something they weren't willing/able/whatever to train you on?
+I can deeply appreciate that so much of this industry is nothing but learning, however if you frame the point not as "I learned something" but rather "I took initiative, because of a real problem (versus trending tech)" then I would hope a reader would see you have a pattern of go-getter-ness.
+Just do try and boil it down to as succinct as possible, otherwise it can lose the message in the forest of words -- I find that true of everything, but especially in a resume
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]dexx4d 1 point 1 year ago 
+Document side projects?
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]calligraphic-io 1 point 1 year ago 
+Link your resume to other landing pads that show your learning capacity. Have a personal web page, and blog on tech stuff that's interesting to you. Contribute articles to Medium or other spaces with tech writing, and link them back to your home page and social media. Make webinars, post them on Youtube, and link them back.
+My social media footprint is all about the tech (except for Facebook, I have some family and friends that use it and I don't Instagram since I'm not an attractive person). I dig through people's social media presence when I'm considering a relationship with them (new client, etc.), and I can get a good feel for them in a way that I can't reading their cv. I think most people hiring do the same with prospects.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]phileat 1 point 1 year ago 
+wants to work for this guy/gal
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]lytol[🍰] 109 points 1 year ago 
+Pay well and put the salary range in the job listing.
+		permalinkembedsavegive award
+
+
+
+[–]No_Concern 66 points 1 year ago 
+If I see "competitive + benefits" one more time...
+		permalinkembedsaveparentgive award
+
+
+
+[–]Sysmonster 35 points 1 year ago 
+Competitive + benefits + exciting work culture 
+		permalinkembedsaveparentgive award
+
+
+
+[–]lemon_tea 26 points 1 year ago 
+while (EXCITING_WORK_CULTURE == "Putting out after-hours dumpster fires for 40 extra hours each week"):
+        how_about_no()
+		permalinkembedsaveparentgive award
+
+
+
+[–]NACHO_DINO 8 points 1 year ago 
+Honest question, is this really how people tend to view a company when they advertise culture? 
+		permalinkembedsaveparentgive award
+
+
+
+[–]el_seano 17 points 1 year ago 
+Speaking for myself, it's just another empty platitude. Nothing concrete to indicate what the hell the culture is, and if they lean extra hard on it, it gives the impression the leadership mistakes buzzwords for, well... Actual leadership.
+		permalinkembedsaveparentgive award
+
+
+
+[–]NACHO_DINO 1 point 1 year ago 
+Have you seen this be the case after being on-boarded, or is during the interview process?
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]kilteer 8 points 1 year ago 
+If you’re advertising culture, it’s because you know your offer is lacking in salary, benefits, or both.
+		permalinkembedsaveparentgive award
+
+
+
+[–]afterosmosis 2 points 1 year ago 
+It’s like saying your company has a feisty personality.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]NACHO_DINO 1 point 1 year ago 
+What if salary and benefits are above par?
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]Ailbe 6 points 1 year ago 
+I can only speak for myself but I think culture is really important. However, if a company advertises culture and touts it, and then its just another run of the mill IT sweat shop with your average dumpster fire a night response type organization, the ramifications will be huge. The sense of betrayal will be pretty significant. I know personally I'd take that harder than if I'd just taken a job for a company that pretty much admitted 'yea, we're a dumpster fire, but here, take this great compensation package to make up for it'
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]Neil_Fallons_Ghost 5 points 1 year ago 
+You shouldn’t need to advertise your culture. It should be a given. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]r0ck0 4 points 1 year ago* 
+I probably don't have the most balanced views on this kind of thing... but I've found that some places that like to show off their "cool" break rooms with games and free meals and stuff like that, will generally have a culture of working long hours, unpaid overtime... even if not actually directly enforced by the management.
+Not actually a good sample size or anything, but worked at a couple of places that were like this... one was a young "FuNkY" webdev agency, and the other a TV/film post-production company. The meals and "games area" and stuff like that seemed more to be to show off to the clients than actually use. The post-production company paid shit (even as the main IT guy), because there's always young people willing to get into "exciting" industries like TV and stuff like that, even when you're in the non-creative departments.
+I'm self-employed now, and don't ever intend on becoming an employee again.
+But if I did, I wouldn't even want to work somewhere like Google, where I think the benefits probably do get used properly (and need to be)... I don't want to compete with people that are willing to basically live at work and dedicate their lives to someone else's company.
+Whereas in more "boring" looking companies and industries, people are more likely to go home at 5pm. They can't get away with as much shit as "exciting" companies can.
+I know there's exceptions, and I could even be wrong on average. But I hope that at least explains why I make this assumption.
+		permalinkembedsaveparentgive award
+
+
+
+[–]NACHO_DINO 1 point 1 year ago 
+This is really good, thank you for taking the time to give your two cents. It does make sense that there are companies that would use this to crank more out of their staff, I wish there was less of that. Personally I’m interested in an environment that promotes growth for the return of quality work and progress. I know it’s a rarity, but I can only hope for the best
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+
+[–]gingimli 6 points 1 year ago* 
+"We work hard and play hard."
+
+Expect to put in 60+ hours a week while middle management treats you to the occasional happy hour while you wish you were just buying your own drinks with the co-workers you actually like. 
+
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]eventi 2 points 1 year ago 
+And SNACKS!
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]Sell-The-Fing-Dip 18 points 1 year ago 
+IDK how many recruiters have hit me up with this. I ask them what the pay schedule is and come with some week ass #. No wonder you can't find anyone qualified. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]sternone_2 20 points 1 year ago 
+I just did a phone interview yesterday, I told the internal recruiter what I was making, I asked what the package is after talking to him for 30 minutes. He said not to worry. I asked again. He didn't disclose. Scheduled second phone call, I said never mind and cancelled it. 
+Why is this so freaking difficult to tell me how much you pay? ffs. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]Willbo 14 points 1 year ago 
+If you live in California they recently passed a law that requires employers to disclose the pay range when asked.
+		permalinkembedsaveparentgive award
+
+
+
+[–]halbritt 2 points 1 year ago 
+Recruiters and hiring managers also can't ask what people were making in their last position. I can see the benefit for candidates, but it makes it hard to start the negotiation.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]Cidate 4 points 1 year ago 
+I usually ask right off the hit. Some people find it brash, but I'd rather not waste my or the recruiters time.
+		permalinkembedsaveparentgive award
+
+
+
+[–]halbritt 2 points 1 year ago 
+Absolutely. That's how you qualify the role.
+"My salary target is $X" and it's either go or no go. Half the time the recruiter will say, "base?"
+Yes, base. I.e. that portion of my income from which I'm going to be paying my mortgage.
+		permalinkembedsaveparentgive award
+
+
+
+[–]sternone_2 3 points 1 year ago 
+You can hear most recruiters cringe on the spot, I know they only make 1/3rd of that and some 1/4th. 
+		permalinkembedsaveparentgive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+
+
+
+
+[–]MrMunchkin 4 points 1 year ago 
+Was it a direct hire? I know big companies aren't allowed to disclose up front because they get approval for a "range" of levels, and they often want to determine your skill level before approving the headcount for whatever level they think is appropriate.
+		permalinkembedsaveparentgive award
+
+
+
+[–]sternone_2 6 points 1 year ago 
+Yeah well sorry then, I have 10-15 requests for interviews per day on my linkedin and I get messages every week that I appeared 15.000 times in searches. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]ProbablyRickSantorum 2 points 1 year ago* 
+I learned the hard way from the recruiter that got me into my current job, that I should be more ambiguous/less forthcoming when answering that question. I was offered a slight ($3000) bump in salary for my old job along with about 15% of salary in RSUs. I accepted because it was a place I wanted to work at. 
+Come to find out a few months later from one of my coworkers (who started the same day as I did and had 2 years more experience), he was hired at $35k more than I was, plus an additional $15k in RSUs. We both have the same title and responsibilities. He was a real bro and basically coached me through communicating that I was being robbed to my new manager. My manager agreed that I was not getting paid appropriately and basically took it all the way up to the CTO. Since then I got a 30% raise but I still feel that I should have been comped for how bad they fucked me. 
+I see that recruiter pretty often and have to fight the urge to tell him what a cunt he is. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]sternone_2 1 point 1 year ago 
+Why don't you? 
+explain that recruiter next time you see him what a douche he is
+People are pussies and always suck up in corporate, in fact, shit works in corporate because most people are too scared to speak up. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+
+
+
+
+
+[–]huxley00 75 points 1 year ago 
+Because it's really hard and about 80% or more of people in IT can't handle the work and aren't good at programming.
+It's essentially like hiring a developer (already hard) while asking them to have a bunch of additional skillsets outside of programming.
+You're literally stacking hard with harder.
+I think there is a decent amount of folks out there, you just have to be willing to pay for what they're going to give you (automation and a high level of cost reduction).
+		permalinkembedsavegive award
+
+
+
+[–][deleted] 1 year ago* 
+[deleted]
+		
+
+
+
+[–]ITestInProduction 19 points 1 year ago 
+Can confirm that my title contains "DevOps", I do mostly sysadmin work, and make only 68k. Reading this was painful.
+		permalinkembedsavegive award
+
+
+
+[–]welcometotheregime 19 points 1 year ago 
+Don't stop learning, and don't get comfortable. The position you have now is a mere stepping stone. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]manys 7 points 1 year ago 
+For different reasons it was painful for me too, brother.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]TheIncorrigible1 0 points 1 year ago 
+make less than 100k
+OR you work in a low COL location in the Midwest. 
+		permalinkembedsavegive award
+
+
+
+[–][deleted] 1 year ago* 
+[deleted]
+		
+
+
+
+[–]calligraphic-io 4 points 1 year ago 
+Is there much remote work for DevOps? I worked network ops / sysadmin early in my career, and then switched to coding about 6 years ago. I'd consider moving back if i thought I could remote. And is $100/hr USD reasonable for remote DevOps work? Given someone who is very strong in OS (contributed kernel code), the current ecosystem (Kubernetes, virtualization, etc.), the normal DevOps tools, software deployment, all the buzz words, development in a variety of languages (including Go, been working with it since it seems big in DevOps world), etc.?
+		permalinkembedsavegive award
+
+
+
+[–][deleted] 1 year ago* 
+[deleted]
+		
+
+
+
+[–]vrillco 2 points 1 year ago 
+I’m curious why you lumped Canada in with Ukraine and India ? Our cost of living here is on par with LA and NYC, and for most of us English is a first-class language. Why the hell would a guy like me be 1/4 the price when I am externally indistinguishable from the average high-functioning USian ?
+Is our subsidised healthcare that big of a game-changer ?
+I’m a devops guy (and then some), and I charge market rates around here, which makes it hard to find gigs but worthwhile when you get them, plus it screens out the shady cheapskates. Heck, I sometimes get brought in to clean up the messes made by India and Ukraine remotes... at 4x the price.
+		permalinkembedsavegive award
+
+
+
+[–][deleted] 1 year ago* 
+[deleted]
+		
+
+
+
+[–]vrillco 2 points 1 year ago 
+I guess you’re right, after factoring in the exchange rate we do come out rather inexpensive vs US workers. 70k would be low for me but even plugging in my preferred numbers it’s still a bargain. I’m used to thinking about currencies from the opposite perspective, as a frequent importer of hardware that 20-25% exchange gap has been murderous to my bottom line.
+		permalinkembedsavegive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+
+
+
+
+[–]calligraphic-io 1 point 1 year ago 
+thanks for your response on my DevOps remote salary question, I really appreciate it.
+		permalinkembedsavegive award
+
+
+
+
+
+
+
+
+[–]halbritt 3 points 1 year ago 
+Check job listings in SF on linkedin. There's lots of remote work. I have some full-time remote employees getting >135k.
+Finding an engineer willing to deal with the housing market and the commute in SF is pretty difficult, especially for companies that don't have something to differentiate themselves from FAMGA.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]TheIncorrigible1 1 point 1 year ago 
+I haven't searched in a few years but that's great. 
+		permalinkembedsavegive award
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]dexx4d 6 points 1 year ago 
+make less than 100k
+Or you're not in the USA.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]reconditus 2 points 1 year ago 
+Even in the Midwest, <100k would be junior territory. 100-110 is the average for an experienced devops type where I am, smack in the rust belt. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]metamet 1 point 1 year ago 
+Not Minneapolis.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+
+[–][deleted] 1 year ago* 
+[deleted]
+		
+
+
+
+[–]craftsparrow 3 points 1 year ago 
+They don't actually know what they're asking for. They just know buzz words and tangentially what it's used for. 
+		permalinkembedsavegive award
+
+
+
+
+
+
+
+
+[–]halbritt 1 point 1 year ago 
+Hiring developers isn't that hard. Finding "ops" people that know infrastructure isn't that hard. Finding someone that can do both is tremendously difficult.
+I just made a hire after a 3 month vacancy. It was pretty difficult. I spoke to a lot of people. My only requirement for "dev" was that the person could literally write a page worth of python, commit that to a branch and submit a pull request.
+Don't need to study the redbook, we're basically writing glue, not advanced algorithms.
+I gave up on finding anyone with actual kubernetes experience. Lots of folks had done pilots, very few had actual experience with kubernetes or containers in production.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]BitterLumpkin 51 points 1 year ago 
+Issues I've run into as a job seeker
+	•	Pay: don't waste my time put the salary range in the posting
+	•	Mythical full stack: SRE/Devops is seen as "part time" work. I've been passed over because even though I manage hundreds of services and thousands of instances/containers my skillset isn't building microservices in Java too. Or that I can't whiteboard data structures and binary trees, you know cause that's ever fucking needed in my role. All that for only a 10% paycut from my current position in one of the top 5 most expensive US cities. 
+	•	You're already fucked and I'm not interested in slinging your shit for a year to fix 3 years of no Devops: the story I often hear is there has been no effort towards Devops or SRE development and now that leadership realizes they're fucked the plan is to hire their way out. I've literally been told the plan is to hire 'x' SREs but there is no team organizational plan or strategy for fixing the current mess. 
+	•	Culture/benefits/work life balance: SREs are in high demand, and even if you can meet the salary demands for your area and experience needs, does your company culture suck? Cause if it's worse than my current role, why bother? Money is great but more experienced engineers know it's not everything
+I think ultimately what it comes down to is Devops/SRE is hot right now. If you want high level experience, you're going to have to entice that talent away from their current spot. Otherwise you'll be getting lower experience, which isn't necessarily a problem. Maybe you need to reevaluate your needs, can you attract the talent you think you need? Or could you get by with motivated junior talent that can be educated and mentored?
+		permalinkembedsavegive award
+
+
+
+[–]warpigg 19 points 1 year ago 
+Or could you get by with motivated junior talent that can be educated and mentored?
+I think most can do this - provided they have a good senior team member in place. I tried to touch on this in my comment. I think we (community) need to really consider this approach...
+		permalinkembedsaveparentgive award
+
+
+
+[–]BitterLumpkin 12 points 1 year ago 
+Absolutely, it's similar to developer roles. Everyone thinks they need rockstars. The problem with rockstars is they aren't going to waste their time with your small consultancy, or contracting gig, or your actually very simple needs. 
+I'd rather have an experienced mentor and motivated junior engineers, than a team of rockstars. Because you know who rockstars don't get along with? Other rockstars. 
+I've seen the best thinkers and doers fresh out of school, rather than the 20 year vets. Not saying experience isn't necessary, but mentoring the fresh opinions/thinking has yielded far better results than having highly opinionated "experts" in my time in tech. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]CrunchyChewieLead DevOps Engineer 6 points 1 year ago 
+...has yielded far better results than having highly opinionated "experts" in my time in tech
+
+I'd argue if you have to qualify them with quotation marks, they weren't really experts. The momentum/output a truly senior/principal IC brings to a team is almost too hard to quantify.
+		permalinkembedsaveparentgive award
+
+
+
+[–]BitterLumpkin 2 points 1 year ago 
+They read a blog post, now they are clearly experts and would just love to tell you why mongo is the only solution. Until they read another blog...
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+
+
+[–]combuchan 3 points 1 year ago 
+I fucking hate getting binary treed. It's probably a good sign they don't know what they're doing. 
+I got interviewed as a devops candidate and they had the hardest whiteboard question I've ever faced (least common ancestor on binary tree) with a unix challenge that was so good and complete I adopted it for my own interviews (write down the letters A - Z with a shell command beginning with each letter).
+Devops is not an excuse to pay people 60% of the salaries of two different types of engineers.
+		permalinkembedsaveparentgive award
+
+
+
+[–]Romeo3t 11 points 1 year ago 
+write down the letters A - Z with a shell command beginning with each letter
+Unless you spin the question differently than other companies, I hate this question; I've seen it in the past. Why are we testing my cold recall abilities? What does that have to do with the job?
+I love it when instead questions test my knowledge of these things with something that applies it practically. Give me a scenario(or scenarios) in which the strong knowledge of shell commands allows me to excel. I truly believe people usually even remember more when prompted this way.
+Sorry I've been recently job hunting and these kind of questions irk me. I dislike being weeded out based on something that has nothing to do with the years of experience I have through hard work on the job, but instead punish me for not studying menial things like I'm in college again.
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]neotecha 1 point 1 year ago 
+write down the letters A - Z with a shell command beginning with each letter
+Wow, that's amazing
+		permalinkembedsaveparentgive award
+
+
+
+[–]combuchan 2 points 1 year ago 
+Yeah. It tests knowledge with recall. 
+I grade it like A - F standard, and this is only from an operations perspective where only a unicorn would excel at this and programming competency that I would otherwise assess. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]transfer_window 3 points 1 year ago 
+Since you have been on the lookout, do you know any companies that are hiring for these roles remotely?
+https://www.reddit.com/r/devops/comments/9bsm75/why_is_it_so_difficult_to_hire_for_devopssre/e56dxez
+		permalinkembedsaveparentgive award
+
+
+
+[–]calligraphic-io 2 points 1 year ago 
+I'm wondering too.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+[–][deleted] 1 year ago* 
+[deleted]
+		
+
+
+
+[–][deleted] 1 year ago 
+[deleted]
+		
+
+
+
+[–]combuchan 3 points 1 year ago 
+Standard is phone screen, 4-hour on site, offer letter where I'm at.
+The problem is:
+	•	people drag this out or screw candidates around by advertising positions, closing them, and then reopening them
+	•	working with multiple or shitty recruiters who have no idea about the specifics or culture or even the fucking address of the company who whore the position out to as many people as possible 
+	•	pretty much anyone who works with multiple recruiters is bad news in my book
+	•	companies who ignore the stigma of contract-to-hire/contract-to-fire and somehow depend loyalty and perfection when they don't offer it to candidates.
+	•	rely on low-paid contractors to an absolute excess with a talent acquisition process that is fraught with the same jackassery as above. Or even FTEs. I've empathized and laughed with recruiters over their own misery when they offer me bottom-barrel salaries or hourly rates and I'm like ... "how long have you been trying to fill this role?"
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–][deleted] 2 points 1 year ago 
+Mostly agree - except, do not send me a HackerRank/Karat/whatever third-party interview unless you're willing to let me talk to the hiring manager first. My biggest criteria for a job is having good leadership - I don't want to waste an hour of my time on a third-party technical interview until I've talked to the hiring manager and made sure I feel like they're a good fit, they need somebody like me, etc. To just throw up arbitrary technical screens without that context is just a waste of my time - it could just be an attempt to fill a bench, fill some recruiter's quota for people in the funnel, etc. 
+I have seen a rash of these in NYC lately and they can, officially, GTFO here with that nonsense.
+		permalinkembedsave
+
+
+
+
+
+
+
+
+[–]mscman 9 points 1 year ago 
+Stop being cute - be professional in your posts. We’re all adults here and like to be talked to like adults. If you have “rockstar”, “ninja”, “nerd”, “guru” or some other bullshit term in your post I move on. Be professional always.
+Also: Paid lunches == work through lunch “We’re a family” == work all the time Paid phone == on call 24/7 Cool fun atmosphere == work all the time Ping pong tables, video games == work all the time and some people slack off playing all day. 
+100% agreed especially on these points. I'm not gonna do the silicon valley startup thing because I'm at the point in my career where frankly, I have enough options I don't have to. The only thing those buzzwords tell me is that I'm going to be asked to do way more work than what I'm paid for.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]aggel0s 6 points 1 year ago 
+Also: Paid lunches == work through lunch “We’re a family” == work all the time Paid phone == on call 24/7 Cool fun atmosphere == work all the time Ping pong tables, video games == work all the time and some people slack off playing all day. 
+Exactly. What's not obvious when this is advertised, is that you are still expected to deliver, you have to put in the hours, you can't just play video games and ping pong. Having this type of fun at the workplace means you're just going to be spending more time there.
+Unfortunately, this works fine for younger people, who don't have a family of their own and home is a crappy shared apartment or living with their parents, who then work at odd hours and mess the schedule for those with families and social lives outside work.
+Personally, I'd wish these perks to be extra money in my paycheck instead, especially the free junk food and booze. The only perk I really care, is to have a full hour for my lunch break that I can take outside if I want. 
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]dexx4d 2 points 1 year ago 
+I have a family and that’s what’s most important to me.
+I think this may be key - the people with the experience wanted in a DevOps role aren't fresh out of university, they're older and more experienced, and have different priorities.
+I'm currently taking a lower salary to work for a startup because I'm full time telecommuting and can take care of errands, help out on the farm, and spend time with my kids as needed during the day, as long as everything gets done on time and I'm reachable via Slack during work hours in a reasonable time frame.
+		permalinkembedsavegive award
+
+
+
+
+
+
+
+
+[–]elbento 32 points 1 year ago 
+Simply because devops is more than just rebadging ops. 
+It requires the methodical approach of a developer (structured, modular, testable code) combined with the Unix/Linux knowledge of a sys admin.
+This combination is rare.
+		permalinkembedsavegive award
+
+
+
+[–]huxley00 20 points 1 year ago 
+I think it's important to point out that it's not only rare, it's hard. The difficulty in finding good people is there are only so many people that are even capable of doing the work, in a holistic sense.
+		permalinkembedsaveparentgive award
+
+
+
+[–]c0Re69 13 points 1 year ago 
+Plus, you can't learn it in a course like basic webdev (html, css, js); you have to put in a few years of production experience, sprinkled with some nice outages. I think this is also a major factor.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+
+[–]MattTheFlashStaff Site Reliability Engineer 27 points 1 year ago 
+We are already well aware of what you typed, we know you need us and we know there are few of us. It's already difficult to get systems admins / systems engineers, this is a subset of that. If you are an SRE, you already know or are about to know the next time you job search that you can basically pick exactly where you want to work. Advice to this sub, become an SRE. 
+Advice to companies, train your own SRE's in house. Site (Systems) reliability engineering is a culture shift, you can't just expect to be able to hire a few and be like "oh I have an SRE team now". 
+Source: Staff SRE, GCP Architect. 
+		permalinkembedsavegive award
+
+
+
+[–][deleted] 1 year ago 
+[deleted]
+		
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+
+
+[–]TacoJihad 26 points 1 year ago 
+I think a lot of the problem is they expect someone in this role to know a great deal about everything... Code (multiple languages), software builds / deployment, infrastructure, sys administration, database work, networking, scrum / agile / sprints, and so much more... It's almost impossible to find someone with such a wide skillset. 
+I work as a senior infrastructure engineer for Salesforce. I am expected to be a subject matter expert on all of these things but in reality it's almost impossible - some things are going to slip between the cracks or I am not going to be as strong as others in certain areas. Thankfully we have teams that help fill the gaps, but still - it feels like too much sometimes.
+
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]kaydub88 28 points 1 year ago 
+You guys hire remotely? 
+I'm a linux/devops engineer. I work remotely. I get hounded by recruiters, but nowhere is interested in having remote workers.
+I make decent money but I should be making more, it's just not worth a small increase in pay to have to be in an office 5 days a week.
+		permalinkembedsavegive award
+
+
+
+[–]noOneCaresOnTheWeb 27 points 1 year ago 
+Remote work is becoming a qualifier for me even in non remote jobs.
+If it's not encouraged I can bet on your management being shit because you qualify "working" as being seen in the office. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]BitterLumpkin 15 points 1 year ago 
+Right? If my value is measured in how many hours my butt is in my designated seat...pass. Most of my highest productive hours are odd times, when an exciting issue strikes at say 2am. I did a lot of time in government work, and left for this exact reason. 
+How about I spend those 2 commuting hours working instead? Company culture is more important than getting the highest possible salary. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]capri71 7 points 1 year ago 
+Company culture is more important than getting the highest possible salary.
+I totally agree (unless it's contracting).
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+
+[–]MrMunchkin 10 points 1 year ago 
+DING DING DING! We have a winner!
+Todays wonderful prize is brought to you by "Shit Management" and is a wonderful, warm, ergonomic seat that you can stare at a screen saver all day in! Lucky you!
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]lorarcDevOps Engineer 2 points 1 year ago 
+My company encourages remote work, it's not because we want people to be seen, it's because it's a way to save on office space and parking space. I don't think we have enough desks to sit half of my department.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]halbritt 2 points 1 year ago* 
+Nah.
+Remote workers get isolated and require a lot of care and feeding (of information). Face to face interactions and collaboration are valuable. IMO, most remote workers are task-based employees and don't get to enjoy the multiplier benefit that comes with a well functioning team. I'm not saying that remote work isn't appropriate, just that there are reasons to prefer non-remote work other than shit management.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+
+[–][deleted] 1 year ago* 
+[deleted]
+		
+
+
+
+[–]kaydub88 4 points 1 year ago 
+To me the perfect job is 2-3 days a week wfh and then 2-3 days a week being in the office. You get a good amount of time for collaboration and "housekeeping" while keeping a good amount of time to just sit down and grind out some work.
+Feels like those kind of positions are harder to find than full remote or full in office.
+		permalinkembedsavegive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]tootie 21 points 1 year ago 
+It's similar to hiring good devs 10 years ago. If the current dev market is any indicator, hiring good SREs is only going to get harder.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]cnewham699 13 points 1 year ago 
+I was asked this in an interview recently "Where do you see DevOps in 5 years time?" My response hopefully with more granularity than there is now. I'm a DevOps engineer in the UK from an Ops background, I've been working as a systems engineer prior to that. We have the same problems in the industry now as we did when I started, too many umbrella job titles that can mean so many different things depending on whom you employer is. DevOps can mean two completely different things to two businesses yet as a potential employee I'm supposed to understand and correctly use every single tool you already use. Not to mention that not knowing those tools guarantees that I won't get the position. It seems everybody wants DevOps engineers but no one wants to help develop people into DevOps engineers, well not in the UK anyway.
+		permalinkembedsavegive award
+
+
+
+[–]Bradmau5 4 points 1 year ago 
+Same position as you buddy and from the UK aswell.. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]cnewham699 4 points 1 year ago 
+It's so frustrating, I've made to the final interview twice recently to be told they really liked me but my lack of one thing or another means I haven't got the role. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]Bradmau5 3 points 1 year ago 
+Spot on.. Got to the final for a major retailer and they knew I was predominantly windows and Azure focused. They have a windows team but they decided to have me interviewed by a Linux team.. They felt my Linux wasn't up to scratch... 🤔
+		permalinkembedsaveparentgive award
+
+
+
+[–]cnewham699 3 points 1 year ago 
+Exactly, I really think devops as a term is so overused in the industry. It will have to watered down at some point, it’s far too much of an umbrella title at this point. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+
+
+[–]unitegondwanalandSr. Systems Engineer 5 points 1 year ago 
+Same situation in the U.S. although some companies are seeing the reality that they just need to "upskill" their own people to get the results they want.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+
+[–]NoraBraveHIRING DEVOPS ENGINEERS 13 points 1 year ago 
+I am a firm believer that by finding someone who understands programming and has a kind of background in linux/win administration can do anything in DevOps. At this point I am looking for people who want to grow in the field more than "Senior" people.
+		permalinkembedsavegive award
+
+
+
+[–]zylithi 5 points 1 year ago 
+This mindset can be pretty dangerous, however... once I saved a company $3,000 a month because their "devops" guy couldn't figure out why an application was running slow so he threw a single r4.16xlarge at it, loaded his entire app stack onto it, and called it a day... all it took was a couple of auto-scaling groups, a Redis cache and a couple of Aurora boxes.
+		permalinkembedsaveparentgive award
+
+
+
+[–]NoraBraveHIRING DEVOPS ENGINEERS 8 points 1 year ago 
+All it takes is training and experience. I'm not arguing to hand them their laptop and tell them to have fun. Working with other people and helping each other is expected. 
+Not just going to leave my colleague alone to install an app on AWS if they have never done it before and they have no experience doing it. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]YvesSoete 5 points 1 year ago 
+You only say that because you have no budget to hire really good people. 
+Good luck, it won't work. 
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+
+[–]warpigg 13 points 1 year ago* 
+DevOps Engineer" is a loaded and overloaded term. Setting aside the old adage that devops is a culture not a role, people with the job title "devops engineer" could be doing anything from old school sysadmin for on-prem servers, build engineering, release management, cloud infrastructure management, internal tool development, IT support, distributed systems engineering, cultural outreach, or nearly anything else to do with tech. With such wide ranging a wildly divergent set of responsibilities, filtering CVs for the skills and tools my team needs is messy and noisy.
+Yep - it is overused and loaded. I tend to not like the term, but its here to stay now. It got over marketed. The best you can do is look for good /decent sysadmin and dev skills (and/or good aptitude + great atttitude). I'd take attitude / willingness to learn over hard skills now. IMO a lot of this can be learned as long as you have a good senior mentor in place. Bonus = this person learns your way and your best practices and you possibly avoid a hotshot that brings ego and practices that may not jive with your org/team
+There's no traditional educational path to enter devops. I think the diversity of experience and background is one of the great strengths of the wider devops community, but it makes it difficult to identify talent early on. 
+Although this would be nice, its been that way for years for sysadminish type positions (heck even devs - many times a CS degree doesnt mean that person is super high quality). It would be nice if there were better certifications / degrees that truly tested for the "devops" skills but this is where we are. Again I'd look for proven aptitude and positive/great attitude and communication over having all the skills. Provided (again) you have a good mentor already in place on the team. (Finding that person may be a challenge, but talking to people in your circles/networking can usually root them out).
+Also there are some great candidates out there that have the skills / aptitude / attitude but do not interview well under some of the new and cool interview techniques in place now (the whiteboarding, the live over the shoulder coding sessions, etc.) I think the best way would be "trial" work - person comes in and works with the team and if they perform / communicate well they stay. But that would be hard to implement - but IMO one of the best ways to see real world performance. 
+The relative youth of the popular tooling: obviously, we'd all like to hire an engineer with twenty years AWS experience and ten years managing kubernetes in production... but if everybody has less than three years, it's hard to identify who is great at it.
+Thoughts - as you say it is new (most of the tech is new), so that presents part of the problem. The other issue is that I believe instead of looking for the rockstar that knows everything (which is rare due to my previous point + the fact that to be a rockstar means you have to have been lucky enough to be at a company/environment that pushed the edge so you could have exp in these tools very early on) - INSTEAD look for smart, driven people (with good ops and some dev bkgrd) willing to learn that may not have all the skills now but can be cultivated over time. You can then "train" for exactly what you want. 
+I find that many people seem to be looking for rockstars and then wonder why its so hard to find people, but in the meantime they take months and months to interview (sometimes close to a year) and pass on lots of great folks that could make an impact for the company much sooner.
+EDIT: another positive - this non-rockstar will probably be more appreciative that they were given a shot and stick around longer than the rockstar that job hops every 1-2 years. (Assuming they were treated well culturally, market salary etc)
+Anyway, my thoughts - could be right; probably wrong :)
+		permalinkembedsavegive award
+
+
+
+[–]lorarcDevOps Engineer 6 points 1 year ago 
+I used to be a rockstar developer, lots of drugs and drama and a knack to do what noone else on the team can do just so people will stop panicking and let me cure my hungover in peace, I got better and moved on to a more demanding job. Don't hire rockstars, ever.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]crashorbitCreating the legacy systems of tomorrow 13 points 1 year ago 
+First off IT uses the term "engineer" loosely. Second DevOps typically are doing neither Development nor Operations. Third DevOps teams are scared of grey hair. 
+		permalinkembedsavegive award
+
+
+
+[–]warpigg 7 points 1 year ago 
+haha - scared of grey hair. This might be true - sad b/c exp (even if not in latest tools) is considered disposable. I think the stereotype of grey beards being stuck in their ways etc (even if sometimes true) hurts. It is not fair since I think many are not. But its out there - I've seen team member photos on company websites and everyone is under the age of 30 LOL
+		permalinkembedsaveparentgive award
+
+
+
+[–]capri71 4 points 1 year ago 
+Check out Meetup groups for DevOps. Loads of grey haired people. I assume they're employed, as well.
+Anyway, who'd want to work for a ageist company?
+		permalinkembedsaveparentgive award
+
+
+
+[–]warpigg 2 points 1 year ago 
+When I was in the bay area this wasnt really true (teams were mostly under 30). In Colorado, where I am now it seems a bit more acceptive (from what i have seen so far), but the companies doing interesting things with good cultures tend to be mostly young folks. I'm not saying they actively practice ageism its just an observation based on meeting teams and seeing websites with team photos. 
+Of course me assuming that might be ageism too haha
+		permalinkembedsaveparentgive award
+
+
+
+[–]capri71 3 points 1 year ago 
+You almost certainly know more about it than I do. I'm still in conventional sysadmin but with an eye on devops. For me I was just glad to see people at Meetups looking older than me. :)
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[–]kabooozie 11 points 1 year ago 
+Coming from an education background, I find posts like these darkly humorous. The teaching world has sometimes had this pervasive attitude of “let’s get rid of the bad teachers and hire the good teachers.” Teaching is a practice. It’s a lifelong process of professional development. It’s a cycle of planning, execution, and self reflection. Capacity develops over the course of a career. It’s not a set of discrete skills. It’s putting skills to use in an artful practice.
+Software development should be the same way. SRE’s don’t grow on trees. They aren’t born. They aren’t fully formed after a college degree. It’s a practice that develops over the course of a career. The reason there aren’t very many SRE’s is because the industry is only looking to hire unicorns rather than study how to transform a horse into a unicorn and sharpen its horn over time. Successful companies invest in their people. A successful DevOps team should take pride in its efficiency at mentoring potential into prowess.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]neilhwatson 13 points 1 year ago 
+Go to DevOps and similar meetups. Chat with folks, see who's looking to move.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]m23khan 10 points 1 year ago 
+Hiring for DevOps is hard because often the employer is not clear about what exact type of DevOps person they want. When it comes to technical DevOps roles, I can think of 3 different type of roles which require different folks,
+-> DevOps for OPS -- your system admin who has some networking skills and can script proficiently in a at least one more language other than shell/powershell. This person can be used to deploy and automate various components of IT infrastructure and can help troubleshoot issues with those components. They can also identify infrastructure requirements for the next project. This person will champion the cause for things like Infrastructure as Code and can whip up/use the existing CI/CD pipeline for delivering infrastructure artifacts.
+
+-> DevOps for DEV -- this person is proficient Developer and understands the DEV stack at the company. This person can deep dive into build/deploy failures and troubleshoot. They can also identify resource requirements (JVM settings e.g.) and potential frameworks to be used. They are comfortable with build scripting and setting up builds and understand adding and utilizing performance metrics for the apps. being used/created. This person will champion cause for things like applying software development best practices and can whip up/use the existing CI/CD pipeline for delivering software artifacts.
+
+-> DevOps tools expert -- this person is proficient with administration of the DevOps pipeline that is in place, can help out the local Devs/BAs/other IT members on how to use the tool. This person also knows and keeps up to date all the time about the DevOps tools in the IT industry and can help in architecting out and leading the implementation of any changes to the DevOps pipeline.
+		permalinkembedsavegive award
+
+
+
+[–][deleted] 1 year ago* 
+[deleted]
+		
+
+
+
+[–]m23khan 5 points 1 year ago 
+I am not hating on Shell or Powershell scripting. They are amazing and fit the bill for a lot of infrastructure work. But modern day infrastructure involves things like writing scripts to automate/provision components on Public and/or Private cloud -- sure you can embed API calls with cURL/etc in your shell script or perhaps the cloud provider offers a SDK for shell but you would be hard pressed to find a sizeable community online to reach out to for debugging/getting ideas. Python is a *must* for Ops folks and DevOps focussing on infrastructure. Other languages may hold merit as well but for what it's worth, this is not the thread for discussion on that.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]sofixa11 2 points 1 year ago 
+literally everything should be handled by powershell.
+Infrastructure Provisioning? Powershell. Build/Release? TFS+PowerShell IIS management? Powershell. AWS management? Powershell. Networking? Powershell. Configuration management? Powershell. Webhooks? Notifications? Etc? Powershell. SCCM management? Powershell.
+Can != Should !!! Just because Poweshell can do all of that doesn't mean it should - declarative idempotent tools are a much better fit, and DSC is, from ehat i hear, in its infancy. 
+You can do all that with Python or Ruby or Golang, but most of it is left to proper configuration management tools ( Chef, Puppet, Ansible, Salt) and/or IaC ones ( terraform, CloudFormation, etc) because they're better at it.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]mesophyl 2 points 1 year ago 
+I'm working at a fortune 100 company and is a Microsoft shop. We do most with Chef now. Doing every infra with Powershell is retarded. Too many dependencies between versions, usually no central repository of PS code. Too many vendors think they need to bring out their PS extensions, then never support them. Lol 
+		permalinkembedsavegive award
+
+
+
+
+
+
+
+
+[–]mesophyl 2 points 1 year ago 
+Don't forget DevSecOps . Lol 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]Bluemoo25 7 points 1 year ago 
+I'm a DevOps engineer, when I go to conferences the more DevOps centered presentations the presenter will usually say they're hiring. 
+Try getting on at a conference and present.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]hugthemachines 5 points 1 year ago 
+I think this is a problem in many IT/dev roles. Maybe not in what my developer colleagues call "pure code monkey" and I think they mean someone who just types code all day long.
+I feel like there is no really reliable way to solve it. You just have to consider exactly what you need in the person and try to find out if he/she is the one, in a smart way.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]Bradmau5 7 points 1 year ago 
+The main issue is companies deciding they need a devops or SRE guy to fill a gap that requires multiple people from different backgrounds.
+I've gone for multiple devops jobs in the past 2 months only to not get the role because their spec is too wide. They expect you to know a lot about pretty much everything. "must have 5 years programming experience, must know about CI/CD, must be able to work with docker, kubernetes, linux, windows, Azure, gcp, AWS, jenkins, teamcity, octopus deploy, vsts, etc."
+From someone with 2 years experience, someone who took the initiative to setup there companies entire Azure infrastructure, Arm templates, octopus deploy, teamcity, automation testing. You are never going to get someone who ticks every box but if someone shows the initiative to innovate and make a company from a tech standpoint run more smoothly you should take a chance on them. Give them the 3-6 months probation to prove they are an asset worth keeping.
+You never know you may be surprised by the 25 year old Lead Devops Engineer with only 2 years experience. 
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]Sell-The-Fing-Dip 5 points 1 year ago 
+IDK hopefully this helps. Maybe I just rambled on but...
+Senior SysOps people may not have X years in X cloud but they have probably been using the tools that the cloud is based on. Anyone with years of exp with things like VMWare, Chef, Docker etcetera should make the transition to other virtual and cloud tech just fine. 
+In my experience, many shops have a pay scale of $68 - $95k. I work in the KC metro area and that's not going to attract or keep many senior engineers. I am a Sr Systems Admin/Engineer but have been in "DevOps" and "SRE" for 8-9 years and would expect a pay scale from $92-$120k +. So make sure you are paying enough for your market. A Senior Ops guy is really worth the $. 
+I know myself and my peers like to go into newer dev shops and leave when they mature and become boring. Stable systems are not challenging and you can only refine build pipelines, security protocols, change work processes and suffer through on-call rotations for so long before the grass gets greener elsewhere. Make sure you have a good culture that allows the best ideas to bubble up. Keep things fresh and exciting with hack days and etcetera. 
+Nobody has 10 years experience in anything anymore because things move and shift to quickly. Hire smart people and build them up. Only hire senior people that are excited about training and learning from people with less exp. You will end up with a solid pipeline and you won't have to actively try and hire as much. Whatever you do don't hire people that act like software development and DevOps trends are religion or any tool/language/cloud is the only way to go. They will kill productivity, culture and moral. 
+If you are having problems hiring you might have a bad culture and the talent pool in your area know this. Read The Culture Code and Up the Organization. 
+Devs can make great Ops people but they might get bored. Have a few senior devs work with your ops team as 20% of their job so you get a good mixture of ideas and experience. 
+		permalinkembedsavegive award
+
+
+
+[–]BitterLumpkin 6 points 1 year ago 
+That's pretty much the job description right? Devops/SRE should basically automate themselves out of a job. Without a good culture of experimentation and improvement to keep new work flowing, getting bored is a natural progression. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]Sell-The-Fing-Dip 6 points 1 year ago 
+Pretty much but you never get to not do work because needs, API's and tools change. I would rather deliver pizza than perform audits, do updates and sit in meetings that have no purpose so I tend to move around every 2 years and wonder why nobody considers me for a director role. lol. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]engagThe 4 points 1 year ago 
+In my experience, many shops have a pay scale of $68 - $95k. I work in the KC metro area and that's not going to attract or keep many senior engineers. I am a Sr Systems Admin/Engineer but have been in "DevOps" and "SRE" for 8-9 years and would expect a pay scale from $92-$120k +. So make sure you are paying enough for your market. A Senior Ops guy is really worth the $.
+Also to note, with remote work an option, you are not just competing within your own market. I know a few in the KC area who went remote and nearly doubled their pay. 90-120k for experienced devops closer to entry/mid level in the remote market, and a lot of devops folks are intelligent and motivated enough to market themselves and maximize their earning potential.
+I think devops folk think of themselves as the unicorn, and it’s not far off from the truth, there are very few who can do it well because the space moves so quickly and is quite broad. 
+Also, more than developers, devops are often put in a position where they are a bottleneck or at least bottleneck fixer for many teams. That kind of pressure is not something everyone wants to deal with.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]lorarcDevOps Engineer 5 points 1 year ago 
+VMWare doesn't translate into cloud at all. Sure, it's virtualization but it just doesn't translate into "cloud native" applications with all the PaaS and SaaS solutions.
+		permalinkembedsaveparentgive award
+
+
+
+[–]cgssg[🍰] 1 point 1 year ago 
+It depends. For some jobs, the VMware skill level is 'let's click together some VMs in UI and raise a support ticket with vendor for anything beyond that'. For others it's infra as code, hypervisor for OpenStack and such. At the same time, some DevOps think that all infra can be abstracted away and is the same because hey, I can 'dockerize my solution' . 
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+
+
+[–]SquiffSquiff 5 points 1 year ago 
+There's some good answers here but rather than a 'me too' comment I will point to something else that comes up a lot. Recruiters, even internal recruiters are just terrible from every angle. Example:
+I have been in my current position ~6 months. I'm actually permanent staff and was initially approached by this employer after I had been at my previous place less than 6 months. The environment, location and compensation were all very clear from the get go and preferable to the move. 
+Like many posters here I get several contacts a day from recruiters - I am not 'looking' or applying. Occasionally a position will be interesting enough that I will do a telephone interview, and rarely a first phone call with a technical person. The path stops when the would-be employer starts acting like I applied to them with questions like 'why do you want this job?' or 'what are your motivations for moving?'. Well hey, you knew I wasn't looking and you approached me. These are my benefits and what I like about where I am, you tell me why I want to move. Response: offended silence.
+If you are going out of your way to track down and contact people in a very buoyant market who are not looking, did not apply and are currently working elsewhere then don't behave like they are one of hundreds of applicants and they are there to impress you over the other candidates. You are the suitor. I don't have time to speak to recruiters on the phone and I am not interested in playing guessing games. I want to know upfront:
+	•	Location
+	•	Remote working complement
+	•	Compensation
+	•	Current stack
+	•	(If 'SRE') current and planned size of team: count(${team}) <8 ? fail : interested
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–][deleted] 4 points 1 year ago* 
+It's not related to Devops only. I think it's hard to hire good experienced developer, qa (not just clicking one) and so on. There is also a large variety of frameworks/libs/algorithms/blablabla. And it's not only about IT sphere.
+		permalinkembedsave
+
+
+
+
+
+
+[–]52FordF1Pickup 4 points 1 year ago 
+TL:DR-- Hire people who have a proven track record figuring stuff out regardless the technology vs. a huge paper trail is my opinion (certs are good and prove people are hunger to learn).
+Longer... You've explained what I've been doing for last 18 years. From Web developer, to terminal Server, AD, SQL Cluster, DNS, DHCP, GPO and many other Microsoft stuff to VMware / vRealize (all things) last five years. Now, the cool and shiny is AWS, Azure. I'm focused on Hashicorp tools for cloud agnostic toolset. I'm early in the journey to public cloud automation but see DevOps culture becoming clearer. There are some "wheels on the bus" tasks yet so it's not all cool and shiny yet. Dusting off some of my programming skills from years past learning python, leveraging the years of .NET and powershell and getting better at JavaScript. 
+I recently interviewed to see what a cloud solution architect would entail. Apparently, experience from the past including writing books, architecting on the bleeding edge with a proven track record doesn't mean much. :) 
+		permalinkembedsavegive award
+
+
+
+[–]iwipemyown 1 point 1 year ago 
+Certs are good and prove people are hunger to learn
+I’d be careful with this. I have seen people get certs when they are looking for a new job. They ultimately mean that you know the tech the way it is taught to be used, but not that you can use it creatively to solve an abstract problem. 
+That’s not to say that you’re not a ninja, but it’s not a sure thing. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]zylithi 4 points 1 year ago* 
+I have the opposite problem - employers reaching out to me for interviews for stuff like PHP web development, server roll & rack, helpdesk, etc. without an understanding of what devops actually entails.
+I can do all that stuff, but at this time in my career, it would be akin to giving a mechanical engineer a hammer and having him work on a production line.
+I've had half a dozen interviews this month, and they all have the same theme - they see devops as "that thing that all the cool shops are doing" but have no clue what it actually entails. They might as well be trying to guide in B-17s with coconuts and bamboo. Please somebody get the reference...
+I think the disconnect revolves around the fact that devops has no clear universal definition. My definition? I build tools and processes that act as force multipliers in software development. That's it... however, a lot of employers I've interviewed with stop at "software development."
+		permalinkembedsavegive award
+
+
+
+[–]kdegraaf 2 points 1 year ago 
+They might as well be trying to guide in B-17s with coconuts and bamboo. Please somebody get the reference...
+https://en.wikipedia.org/wiki/Cargo_cult#Pacific_cults_of_World_War_II
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]aggel0s 1 point 1 year ago 
+My definition? I build tools and processes that act as force multipliers in software development. That's it...
+Fully agree with this definition, but if you had to use only one word, automation. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]dork_salad 4 points 1 year ago 
+It's hard to find the ops, CI/CD, DBA, capacity planner, middleware master, cloud guru, automation whiz, network administrator, sr docker engineer, open stack/shift/source/systems/fly, virtualization virtuoso, who when not busy wants to pound out Java code. It's like they took the sysadm role, piled a kitchen sink of randomness on top and called it devops. Other times they just give root to some devs , tell them it's now Dev ops, and let them figure it out on the fly while popping the corn in preparation for the incoming horror show due to start in 3.2.. (internet is down. All of it). Devops is the best poorly understood and randomly implemented idea I've seen in awhile. Maybe ever.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]tadamhicks 3 points 1 year ago 
+My working theory is that people AREN'T clear about what they want. For instance, do you want someone to architect your CI/CD pipeline? Then hire someone who has worked with build systems in an enterprise before...maybe someone who has also done some test writing...release management is also a good skillset here. Do you want someone to do config management at scale? Look for a SysAdmin who can script. Go on and on. There are specific practice areas and there are people who have these skills. Go find them.
+
+The SRE battle is a whole other can of challenges, though. At least from what I've seen. Take people with the backgrounds I mentioned for the skillsets I mentioned and now force them to think about scale and self-healing. Scaling and self-healing are practice areas in their own right, and these areas ARE relatively new. Old skool mentality was to spec for the highest load, but in today's world the economics just don't make sense. Self-healing in the old world was a DR strategy (which everyone had and hoped they would never have to use), but in the new world the scale makes that untenable. But there are people who, regardless of a background or skillset in these subjects, are REALLY REALLY interested in it. These are fun problems to solve, so I find myself looking for people who like a challenge and, in particular, these specific challenges.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–][deleted] 1 year ago 
+[deleted]
+		
+
+
+
+[–]CommonMisspellingBot 2 points 1 year ago 
+Hey, mental_nefariousness, just a quick heads-up: alot is actually spelled a lot. You can remember it by it is one lot, 'a lot'. Have a nice day!
+The parent commenter can reply with 'delete' to delete this comment.
+		permalinkembedsavegive award
+
+
+
+
+
+
+
+
+[–]CarriersHaveArrived 2 points 1 year ago 
+I would love an opportunity to become an SRE but I am basically stuck in my ops job. Reason why is because we don't learn much industry wide tech. We have proprietary tech that we use that other people developed. Only way for me to get out is to learn outside of work. And it's definitely a challenge when I am already working 50+ hour weeks. It's super stressful as well. So when I get home I don't want to touch a computer.
+Now that I'm a senior position I have even more responsibilities.
+		permalinkembedsavegive award
+
+
+
+[–]dexx4d 1 point 1 year ago 
+I was caught in that trap before - it wasn't bad until they shut down development in our country and laid everybody off.
+		permalinkembedsaveparentgive award
+
+
+
+[–]YvesSoete 2 points 1 year ago 
+They shut down all IT development in your country? And then they laid everybody from your country off?
+Wauw.
+		permalinkembedsaveparentgive award
+
+
+
+[–]dexx4d 1 point 1 year ago 
+That's correct, closed down the national office and laid off all of the staff. Some guys had been with the company for >15 years.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+
+
+[–]pa07950 2 points 1 year ago 
+We haven’t had as much trouble hiring compared to other colleagues in the field. It’s been stated before that the term “DevOps” is so broad that there are few, if any, people that cover all the areas of technology.
+Our approach is to fill specific skills knowing that good technologists will learn quickly. Our last hire looks more like a linux admin on paper, a prior hire is a true programmer. We approach hiring like a sports team: each hire brings specific skills but as a whole we have experience in all the required technical areas.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]jldugger 2 points 1 year ago 
+A great devops engineer can come from anywhere: most of the best ones I've worked with don't have formal CS education and several come from non-tech backgrounds like law or accounting.
+The greater problem IMO is how little CS degrees prepare you. We can't just hire a smart CS grad. You gotta find the three per graduating class that worked for the uni as a system administrator, and then outbid LinkedIn, Google, Amazon, Apple, Netflix, etc.
+I have an inside pipeline from my previous university gig, but our hiring timeline doesn't even match the graduation cadence, and we have no internship pipeline, so my leads all have offers in hand when we even think about approaching them.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]wsendai 2 points 1 year ago 
+Traditionally programming and operation were two separate career paths. It was separate for a reason, they require different mindset. Since DevOps meant the marriage of these two separate paths, it's pretty rare to find people who are good at both. The problem became more serious since DevOps became cool, and most companies are now looking for DevOps, even if the job is mostly sysadmin job. So people will just re-label themselves as DevOps, even though they are not really DevOps (lacking either the operations or the programming side).
+That's why it's difficult to find good DevOps/SRE. It's a rare combination of two separate mindset.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]motoawk 2 points 1 year ago 
+Good candidates are usually taken care of well. While I'm pretty underemployed my employer takes very good care of me. Why should I jump ship for $X? Also, devops really is a system engineer and a programmer but most places pay jack.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]greevous00 2 points 1 year ago 
+if everybody has less than three years, it's hard to identify who is great at it.
+...which simply points to how ridiculous the CV/resume process is for finding/hiring new candidates. It's not unique to this situation. You need to hire for cultural fit first, and skills second. Hire someone who learns quickly, is curious, and isn't an asshole. No CV is going to tell you those things. You learn them in person. You have to treat interviewing like it's a fundamental part of your job as a leader (something you do pretty much on an ongoing basis) because it is.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]0x0b 2 points 1 year ago 
+I am currently a Systems Engineer with deep Ops and AWS experience. My goal is to become a SRE / DevOps Engineer. I personally find it hard to break into this space coming from the operations side. Most of the job requirements typically includes this blurb "You're a software developer....blah blah blah who knows how to do AWS/Linux/Operations stuff". So I'm hitting the books and learning how to further my scripting skills into actual coding. Someday perhaps.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]badtux99 2 points 1 year ago 
+My thoughts:
+1) Pay. For some reason, managers think that the people who actually make things work aren't as important as the people who do R&D on shiny new things to sell. If you don't pay people, all you get is bottom of the barrel.
+2) Lack of recognition. The reality is that most managers don't understand what devops is all about. They have metrics to use for pure software developers -- number of checkins, number of lines written, number of JIRA issues resolved, etc. -- but no idea how to measure what DevOps people do. Keeping everything working and ensuring smooth deployments with automation is important, but managers don't understand how it happens, and don't know how to measure it, so people move out of DevOps as fast as they move into it. 
+3) Hostile managers, period. Managers view DevOps as a cost, not as a revenue source. They give DevOps short shrift, treat DevOps personnel as if they were disposable and interchangeable, refuse to invest in the resources that DevOps people need to do their jobs smoothly, and thus people don't want to do DevOps. Add to the lack of support the fact that DevOps is incredibly frustrating -- you're trying to automate things using tools that in many cases are barely beta quality, full of bugs that you have to work around, etc., not to mention the cruddy cloud frameworks we have to work with -- and you have a recipe for quick burnout of DevOps people.
+So anyhow, if you're not developing good DevOps people internally from your own engineering staff, it's time to ask yourself why. Do you fit into one of the categories of managers above -- the ones who view DevOps as a cost, not a revenue source, the ones who think DevOps shouldn't be paid as much as a pure developer, the ones who think DevOps people are just trained monkeys, the ones who think that DevOps people don't need the best tools to do their job? Congratulations. You're part of the problem. People know what's valued inside a company. If you're not valuing DevOps, neither will they -- and you'll continue to have problems finding people to do the job.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]edwcarra17 2 points 1 year ago 
+Here are the things I look for. 
+	•	Salary: There are too many companies in my area trying to make light of a few skill sets and pay way under industry standards 
+	•	Don't ask for the impossible: Example, Kubernetes was release in 2015. Don't ask for 10 years of experience the tool has only been in circulation for 4 years. Any experience is worth looking into. 
+	•	Avoid Buzz words: Dont mention technology or cool new innovations if your company is still running old tools and legacy equipment. Be honest we tend to figure out in the first week or two that you need someone to put out fires apposed to building out solutions and innovating 
+	•	Think about reorganizing your team/departments before hiring or writting the job description. Ive been apart of companies who had teams that had too large of a scope. 
+Another good reason to reorganize is that you have high value employees doing none revenue impacting work.
+Try to Forecast Burnout: If your "devops" team is on-boarding your new employees company wide that is a problem. Esspecially if they are signing up to inherit massive technical debt and they need to also deploy internal development tools. You will have a lot of turn over. It can be pretty overwhelmingly.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]markrebec 1 point 1 year ago 
+Setting aside the old adage that devops is a culture not a role
+Or maybe don't do that...? Maybe embrace it, and hire solid engineers who care about their product (and their own happiness) and have an interest in learning and making things better.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]dustinmm80 1 point 1 year ago 
+unfortunately it seems like a lot of companies have no/limited vision on where they're trying to go with devops. so they try to hire devops people in and solve all their problems. with limited clarity and support. of course that won't work.
+you probably have potential devops/SREs working in your company right now. they need the right motivation, support and training.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]davetherooster 1 point 1 year ago 
+Could you post a rough idea of location (region), job requirements and salary? (I know this isn’t for jobs but it’s handy to know what you’re offering and what you’re after for that remuneration.)
+If it’s either unattainable skills wise for one person or financially not appealing enough, folks on here will soon let you know.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]Kasemodder 1 point 1 year ago 
+It's the misuse of the term, 100% in my opinion
+
+There are technical people who work in DevOps processes. Call them Systems engineers, software integrators, Automation Developer, Cloud Strategists, whatever is more in line with what they will actually do. Just stop calling them DevOps.
+Then there are DevOps process and culture creators. Call them Program Managers, Directors, EVP of Product Development, CIO, etc. Just don't call them DevOps.
+
+
+Because of the buzzword, everyone feels like they need it to keep competitive (p.s, they're right). And because that's what's being hired, every semi-technical job seeker plasters that on their resume, without being able to even explain what DevOps is, and end up doing work that is not even closely related to DevOps practices.
+
+
+Source: Frustrated DevOps technolgy and culture consultant that keeps getting recruiting calls to be a Puppet/Ansible developer for half the pay or less
+
+
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]capri71 1 point 1 year ago 
+You didn't mention certification.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]saargrin 1 point 1 year ago 
+everybody want somebody who will fill all the niches outside actual rnd 
+that is usually technically impossible and a person who agrees to step into that is probably doing that out of desperate desire to move out of their current position 
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]drop_the_bass_64 1 point 1 year ago 
+On the other end, I've been struggling getting in a devops role ever since leaving my last place of work. 
+The place had a mentality that was not synonymous with devops (scripting blocked in many cases, very little cloud infrastructure, even outbound access to things like slack and github weren't allowed from production). I did manage to get some tools in place (git on prem, jenkins, octo deploy) but I have been working on my own to learn the tools. I've been uploading some script demos to my github as well as my IaC setup and even acing any demos that companies want me to do, but it seems like many are looking for 2-3 years experience in the tools, rather than someone with *some* experience who's willing to learn. 
+
+Maybe if you're looking for someone with years of experience, dial that back to someone who can pick up a new tech quickly and demonstrate its usefulness, rather than the circumstances of the places they've worked before. 
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–][deleted] 1 point 1 year ago 
+Stop asking for "x years experience with n". Start looking for career trajectory, progression, and adaptability in a resume. Think about the fundamentals behind what you're looking for, not the high level stuff. 
+Example: "Experience working with Airflow"
+vs. "Experience writing or running python applications, managing batch processing, with Flask, Postresql, etc"
+
+
+		permalinkembedsave
+
+
+
+
+
+
+[–]carsncode 1 point 1 year ago 
+If you've got one person who knows what they're doing and can provide a holistic vision and plan of attack, fill out with juniors. Look for a quick learner with a solid foundation in dev or ops, with any experience in the other side (past job, side work, hobby, something) who is looking to make a career change. There just aren't enough solid engineers out there, you have to be willing to train them on the job.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]combuchan 1 point 1 year ago 
+Hire on soft skills, culture fit, and adaptability. Nobody has 100% skills you're looking for so stop looking for it. 
+Devops for me is a customer service role, except my customers are other engineers instead of product managers, end users, or QA--depending on the size of the company I can be working with 100 of them. Technically oriented people that have a degree of people skills are rare in my book. 
+From another viewpoint, it's difficult for me to get into this with my advancing age, but as I started a new job recently a good friend reminded me to be "humble and hungry" like I was back in the day and I think it's the thing people want. Devops is hard to self study for without a coherent project behind it that demands its cutting edge of technology, if you can figure this out you win. 
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]RegularUser003 1 point 1 year ago 
+No educational path to DevOps is the most critical issue that I can see. I can get a degree in CS, I can study IT support, but the only way I can become a DevOps engineer is to be hired by a company and trained into the role. And even then, the educational value of that position will be heavily influenced by what I was hired to do and who I am working under. 
+I'm not sure what the long term solution is.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]mrcrassicConsultant a.k.a "The Enemy" 1 point 1 year ago 
+To me, SRE = Sysadmin + Software Engineer. Finding good sysadmins or software engineers is hard. Consequently, finding folks in the middle of that Venn Diagram will be REALLY hard, and most companies won’t want to afford them anyway.
+(Many American SREs at FAANGs will make $200k/year total comp starting . Many companies don’t want to pay that, so they don’t get access to that talent.)
+You could grow them yourself like /u/areReady suggested, but that’s difficult if you don’t have the right starting points and culture. And then you have to incentivize them enough to keep them from going to a FAANG anyway.
+		permalinkembedsaveeditdisable inbox repliesdelete
+
+
+
+
+
+
+[–]solatic 1 point 1 year ago 
+Put a salary band in the job ad. People who don't need to move, aren't interested in taking time off to go to multiple interviews + maybe a take home assignment just to find out you won't even meet their current pay
+Promote remote work. Even if you're not fully remote, you should be mostly remote, especially for ICs who don't need to frequently show up for meetings. Remote work, more than anything else, is evidence of a results-focused work culture.
+Hire for culture, train for skills. Recruiting and hiring managers should deeply and intuitively understand both, which is different and distinct from actually getting the work done, which is why you're actually hiring somebody, not to effect cultural change or do work that nobody understands, nobody can grade, and nobody can maintain if your new hire jumps ship.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]Iguyking 1 point 1 year ago 
+This boils down to a simple answer. These folks hiring DevOps want to hire a single person who knows how to do everything for you at the price of an intern. 
+Others have answered this excellently from full stack reasoning to developer, to lack of ops, to build engineer to actual business code developers. It of course all is the same, we think this is the magical unicorn that will solve all our woes without needing to change what we do or how we do it.
+SRE is an actual role. It only works as a real role of they have the no questioned authority to say, you can't go to production with that code. Period. Too many places have created this position after reading the book from Google on how they do it, yet they don't empower the SRE role to be successful. They see SRE from Google and go. Oooooo we should do that. They missed the other 200 pages in the book that talk about culture to support an SRE role.
+Who wants to be the scapegoat for any production issue 247365 with no authority to change to make it better? That's what happens to most DevOps and SRE roles. 
+The question a potential employer who's looking for real DevOps/SRE needs to be able to answer is "who is accountable for that production outage"? If the answer is the DevOps/SRE position, then that employer has missed the boat and will have lots of challenges hiring. If they say the entire product team, then their is hope. Do the developers of that code ever have to carry a pager? Do the developers need to spend time supporting a production issue to supplement resolving tickets coming in from a recent change? If no, then likely having a major problem hiring.
+		permalinkembedsavegive award
+
+
+
+
+
+load more comments (25 replies)
+
+
+
+		about
+		blog
+		about
+		advertising
+		careers
+		help
+		site rules
+		Reddit help center
+		wiki
+		reddiquette
+		mod guidelines
+		contact us
+		apps & tools
+		Reddit for iPhone
+		Reddit for Android
+		mobile website
+		<3
+		reddit premium
+		reddit coins
+		redditgifts
+Use of this site constitutes acceptance of our User Agreement and Privacy Policy. © 2019 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+π 
+
+
+
+
+
+
+

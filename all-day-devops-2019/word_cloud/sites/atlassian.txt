@@ -1,0 +1,114 @@
+￼ 
+		
+
+Browse topics
+		Incident communication  
+		Incident response  
+		On call  
+		Tools  
+		KPIs  
+		Postmortem  
+		Devops 
+		Overview  
+		SRE  
+		Tutorials  
+		Handbook  
+		Template generator  
+		ITSM  
+Love DevOps? Wait until you meet SRE 
+You may have heard of a little company called Google. They invent cool stuff like driverless cars and elevators into outer space. Oh: and they develop massively successful applications like Gmail, Google Docs, and Google Maps. It’s safe to say they know a thing or two about successful application development, right?
+They’re also the pioneers behind a growing movement called Site Reliability Engineering (SRE). SRE effectively ends the age-old battles between Development and Operations. It encourages product reliability, accountability, and innovation – minus the hallway drama you’ve come to expect in what can feel like Software Development High School.
+How? Let’s look at the basics.
+What in the world is SRE? 
+Google’s mastermind behind SRE, Ben Treynor, still hasn’t published a single-sentence definition, but describes site reliability as “what happens when a software engineer is tasked with what used to be called operations.”
+The underlying problem goes like this: Dev teams want to release awesome new features to the masses, and see them take off in a big way. Ops teams want to make sure those features don’t break things. Historically, that’s caused a big power struggle, with Ops trying to put the brakes on as many releases as possible, and Dev looking for clever new ways to sneak around the processes that hold them back. (Sounds familiar, I'd wager.)
+SRE removes the conjecture and debate over what can be launched and when. It introduces a mathematical formula for green- or red-lighting launches, and dedicates a team of people with Ops skills (appropriately called Service Reliability Engineers, or SRE’s) to continuously oversee the reliability of the product. As Google’s own SRE Andrew Widdowson describes it, “Our work is like being a part of the world’s most intense pit crew. We change the tires of a race car as it’s going 100mph.”
+Doesn’t sound revolutionary yet? Much of the magic is in how it works. Here are some of the core principles – which also happen to be some of the biggest departures from traditional IT operations.
+First, new launches are green-lighted based on current product performance. 
+Most applications don’t achieve 100% uptime. So for each service, the SRE team sets a service-level agreement (SLA) that defines how reliable the system needs to be to end-users. If the team agrees on a 99.9% SLA, that gives them an error budget of 0.1%. An error budget is exactly as it’s named: it’s the maximum allowable threshold for errors and outages.
+ProTip: You can easily convert SLAs into "minutes of downtime" with this cool uptime cheat sheet.
+Here’s the clincher: The development team can “spend” this error budget in any way they like. If the product is currently running flawlessly, with few or no errors, they can launch whatever they want, whenever they want. Conversely, if they have met or exceeded the error budget and are operating at or below the defined SLA, all launches are frozen until they reduce the number of errors to a level that allows the launch to proceed.
+The genius? Both the SREs and developers have a strong incentive to work together to minimize the number of errors.
+SREs can code, too 
+In the old model, you throw people at a reliability problem and keep pushing (sometimes for a year or more) until the problem either goes away or blows up in your face.
+Not so in SRE. Both the development and SRE teams share a single staffing pool, so for every SRE that is hired, one less developer headcount is available (and vice versa). This ends the never-ending headcount battle between Dev and Ops, and creates a self-policing system where developers get rewarded with more teammates for writing better performing code (i.e., code that needs less support from fewer SREs).
+￼ 
+SRE teams are actually staffed entirely with rock-star developer/sys-admin hybrids who not only know how to find problems, but fix them, too. They interface easily with the development team, and as code quality improves, are often moved to the development team if fewer SRE’s are needed on a project.
+In fact, one of the core principles mandates that SRE’s can only spend 50% of their time on Ops work. As much of their time as possible should be spent writing code and building systems to improve performance and operational efficiency.
+Developers get their hands dirty, too 
+At Google, Ben Treynor had to fight for this clause, and he’s glad he did. In fact, in his great keynote on SRE at SREcon14 he emphasizes that getting this commitment from your executives before you launch SRE should be mandatory.
+Basically, the development team handles 5% of all operations workload (handling tickets, providing on-call support, etc.). This allows them to stay closely connected to their product, see how it is performing, and make better coding and release decisions.
+In addition, any time the operations load exceeds the capacity of the SRE team, the overflow always gets assigned to the developers. When the system is working well, the developers begin to self-regulate here as well, writing strong code and launching carefully to prevent future issues.
+SRE’s are free agents (and can be pulled, if needed) 
+To make sure teams stay healthy and happy, Treynor recommends allowing SRE’s to move to other projects as they desire, or even move to a different organization. SRE encourages highly motivated, dedicated, and effective teamwork – so no team member should be held back from pursuing his or her own personal objectives.
+If an entire team of SREs and developers simply can’t get along and are creating more trouble than reliable code, there’s a final drastic measure you can take: Pull the entire SRE team off of the project, and assign all of the operations workload directly to the development team. Treynor has only done this a couple times in his entire career, and the threat is usually enough to bring both teams around to a more positive working relationship.
+There’s quite a bit more to SRE than I can cover in once article – like how SRE prevents production incidents, how on-call support teams are staffed and the rules they follow on each shift, etc.
+Our take 
+IT is full of buzzwords and trends, to be sure. One minute it’s cloud, the next it’s DevOps or customer experience or gamification. SRE is in a strong position to become much more than that, particularly since it is far more about the people and process than the technology that underlies them. While technology certainly can (and likely will) adapt to the concept as it matures and more teams adopt it, you don’t need new tools to align your development and operations organizations around the principles of Site Reliability Engineering.
+In future articles, we’ll look at just that: practical steps for taking a step towards SRE, and the role technology can play.
+ 
+ABOUT THE AUTHOR 
+￼ 
+PATRICK HILL 
+I've been with Atlassian a while now, and recently transfered from Sydney to our Austin office. (G'day, y'all!) In my free time, I enjoy taking my beard from "distinguished professor" to "lumberjack" and back again. Find me on Twitter! @topofthehill
+
+TUTORIAL
+Setting up an on-call schedule with Opsgenie
+In this tutorial, you’ll learn how to set up an on-call schedule, apply override rules, configure on-call notifications, and more, all within Opsgenie.
+Read this tutorial 
+
+
+UP NEXT
+Incident communication templates and examples
+When responding to an incident, communication templates are invaluable. Get the templates our teams use, plus more examples for common incidents.
+Read this article 
+
+		 
+		 
+		 
+		 
+Up Next 
+Tutorials
+
+￼ 
+PRODUCTS 
+Jira Software 
+Jira Align 
+Jira Service Desk 
+Confluence 
+Trello 
+Bitbucket 
+View all products 
+RESOURCES 
+Technical Support 
+Purchasing & licensing 
+Atlassian Community 
+Knowledge base 
+Marketplace 
+My Account 
+Create support ticket 
+EXPAND & LEARN 
+Partners 
+Training & Certification 
+Documentation 
+Developer Resources 
+Purchasing FAQ 
+Enterprise services 
+View all resources 
+ABOUT ATLASSIAN 
+Company 
+Careers 
+Events 
+Blogs 
+Investor Relations 
+Trust & Security 
+Contact us 
+English
+ Choose your language Deutsch English Čeština Español Français Italiano 한국어 Magyar Nederlands 日本語 Polski Português Română Suomi русский 中文  
+Privacy policy 
+Terms 
+Copyright © 2019 Atlassian
+		 
+		 
+		 
+		 

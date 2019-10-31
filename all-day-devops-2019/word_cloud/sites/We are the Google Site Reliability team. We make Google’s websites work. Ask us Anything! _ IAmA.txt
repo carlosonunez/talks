@@ -1,0 +1,2999 @@
+
+jump to content
+GET NEW REDDIT
+MY SUBREDDITS
+				HOME-POPULAR-ALL-RANDOM-MOD-USERS | WORLDNEWS-FLYING-CONSULTING-FATFIRE-DEVOPS-POLITICALDISCUSSION-AWS-KUBERNETES-DOCKER-AZURE-ITMANAGERS-ETL-BUSINESSSCHOOL
+EDIT »
+		reddit.com IAmAcomments
+		mrcrassic (3,889)|messages|chat messages7|mod messages|mod messages|preferences|logout
+
+this post was submitted on 24 Jan 2013
+2,234 points (91% upvoted)
+shortlink: https://redd.it/177267
+
+Submit a new text post
+
+
+Get an ad-free experience with special benefits, and directly support Reddit.
+Get Reddit Premium
+IAmA
+join19,501,945 readers
+6,382 users here now
+Show my flair on this subreddit. It looks like:
+mrcrassic
+Submit an AMA
+Request an AMA
+Please check out our Rules and FAQs
+Click here to schedule an AMA on our calendar.
+Consider supporting our Patreon
+AMAs are scheduled in Eastern Time (GMT-4:00).
+Date
+Time
+Person
+Description
+Remind
+1 Nov
+4am
+John Plant
+Primitive Technology Youtuber and Author: John Plant
+Remind
+1 Nov
+10:45am
+Paul Gambill, CEO of the Nori carbon removal marketplace
+Pulling CO2 out of the atmosphere
+Remind
+1 Nov
+12pm
+Michael Siegel
+Public Health Physician on Vaping Epidemic
+Remind
+2 Nov
+3pm
+David Farrier
+Filmmaker: Dark Tourist, Tickled
+Remind
+4 Nov
+11:30am
+Armond Welch
+100 Year Old WW2 Veteran
+Remind
+5 Nov
+4pm
+Richelle Gatto
+Ohio State Park Naturalist, Mom, Outdoors lover
+Remind
+6 Nov
+9:30am
+Tommy Noonan
+Founder of ReviewMeta
+Remind
+6 Nov
+8pm
+Bryan Caplan and Zach Weinersmith
+Author: Open Borders and Illustrator: Open Borders
+Remind
+12 Nov
+11am
+Professor Sian Harding
+Professor of Cardiac Pharmacology
+Remind
+see more...
+
+Submitting:
+AMAs should be about:
+	•	Something uncommon that plays a central role in your life, or
+	•	A truly interesting and unique event.
+	•	Explanation and examples of this rule can be found here
+All AMAs require proof.
+	•	Proof should be included in the text of the post when you start your AMA. If it must remain confidential, you can message it to the moderators and we can verify you.
+	•	See here for tips concerning proof and examples
+Request threads
+	•	Requests should be posted in /r/IAmARequests
+Commenting:
+Please note:
+	•	All initial responses to posters must contain a properly punctuated question.
+	•	Attempting to bypass this rule by adding a ? to a non question will result in a permanent ban.
+	•	See more on our comment removals policy here
+Other:
+Useful Links!
+	•	Email us at mods@askmeanythi.ng!
+	•	Step-by-step guide to doing an AMA
+	•	Related subreddits
+	•	Follow us on Twitter or Like us on Facebook!
+
+	•	1 Oct 
+	•	The Capital Gazette Newsroom Shooting Survivors
+	•	2 Oct
+	•	The Salt Lake Tribune Pulitzer Prize Winners
+	•	3 Oct 
+	•	Pravda Russia's Leading Newspaper
+	•	4 Oct 
+	•	Uganda's Daily Monitor Uganda's Leading Newspaper
+	•	5 Oct 
+	•	The Boston Globe Spotlight Investigation Team
+	•	8 Oct 
+	•	Native News Online Indigenous Peoples' Day 
+	•	9 Oct  
+	•	PBS NewsHour National Correspondent 
+	•	10 Oct  
+	•	The New York Times National Immigration Reporter 
+	•	11 Oct  
+	•	The Guardian Environment Reporter 
+	•	12 Oct  
+	•	Fox News Bret Baier, Chief Political Editor 
+	•	15 Oct 
+	•	The Socialist Worker Danny Catch, Columnist 
+FacebookTwitterInstagramGoogle Calendar
+Please check out our Rules and FAQs
+
+created by 32bites
+a community for 10 years
+
+message the moderators
+MODERATORS
+		cahaseler Lead Moderator
+		orangejulius Senior Moderator
+		flyryan Legacy Moderator
+		Seraph_Grymm Senior Moderator
+		Mikecom32 Senior Moderator
+		davec79 Senior Moderator
+		carlinha1289 Senior Moderator
+		greynol5 Senior Moderator
+		Camsy34 Senior Moderator
+		JonLuca Senior Moderator
+		...and 44 more »
+RECENTLY VIEWED LINKS
+		   articleWhy I turned down an AWS job offer
+		156 points | 83 comments      Notes on Site Reliability Engineering
+		31 points | 9 comments      Airpods Pro Unboxing, Size Comparison, and Initial Impressions
+		516 points | 313 comments      AirPods Pro Earpiece Tip Replacements Will Cost $4
+		652 points | 255 comments      Huawei FreeBuds 3 review: No more AirPods envy - Android Authority
+		0 points | 53 comments     clear  
+account activity
+This is an archived post. You won't be able to vote or comment.
+
+
+
+
+We are the Google Site Reliability team. We make Google’s websites work. Ask us Anything! (self.IAmA)
+2234 points submitted 6 years ago * by sre_pointyhairGoogle SRE
+Hello, reddit!
+We are the Google Site Reliability (SRE) team. We’re responsible for the 24x7 operation of Google.com, as well as the technical infrastructure behind many other Google products such as GMail, Maps, G+ and other stuff you know and love. We’ve been traditionally invisible and behind-the-scenes but we thought we’d drop on here and answer any questions about what we do, what stuff we come up against, and what it’s like to be an SRE.
+Other interesting things to give you an idea of what we do:
+Blog post about the Leap Second written by Chris Pascoe from SRE give an ides of the kind of hairy problems we come up against.
+Steven Levy wrote a Wired Article about inside our datacenters, and managed to make us sound like some sort of amazing justice team.
+Kripa (who’s one of our participants today!) also writes about DiRT for ACM Queue.
+We’ll be here from 12pm to 2pm PST to answer your questions, when we'll have info on our participants.
+Proof (official Google accounts) : 
+https://plus.google.com/+GoogleDevelopers/posts/AjoRBrKYvsR https://twitter.com/googledevs/status/294234581303967745
+EDIT 11:50PST: We're just getting set up here to answer your questions. We are:
+Kripa Krishnan (/u/kripakrishnan), SRE Technical Program Manager and DiRT mastermind from our Mountain View HQ. Kripa works on infrastructure efforts in Google Apps. 
+Cody Smith (/u/clusteroops), long-time senior SRE from Mountain View. Cody works on Search and Infrastructure.
+Dave O’Connor (/u/sre_pointyhair), Site Reliability Manager from our Dublin, Ireland office. Dave manages the Storage SRE team in Dublin that runs Bigtable, Colossus, Spanner, and other storage tech our products are built on.
+John Collins (/u/jrc-sre), SRE Ombudsman, advocate and general force for good, from Mountain View. 
+EDIT 13:56PST: OK folks, we're all done. Thanks for the questions, hope our answers were satisfactory. May the queries flow and the pagers be silent.
+*EDIT Jan 30: Corrected the spelling of @stevenlevy's name. Whoops-a-daisy. * 
+		1390 commentssharesavehidegive awardreportcrosspost
+
+
+
+top 200 commentsshow 500
+sorted by: top
+
+
+
+[–][deleted] 463 points 6 years ago* 
+What's the biggest 'Oh shit' moment you've ever had?
+		permalinkembedsave
+
+
+
+[–]kripakrishnanGoogle SRE 321 points 6 years ago 
+Each year we do a test of the resilience of our systems as part of an exercise called DiRT (Disaster Recovery Testing). DiRT was developed to find vulnerabilities in critical systems and business processes by intentionally causing failures in them, and to fix them before such failures happen in an uncontrolled manner. DiRT tests both Google's technical robustness, by breaking live systems. The expected behavior is that no one will notice anything because our systems are resilient to such failures. This is usually a very exciting time for SREs in Google.
+One of the tests we did was that of taking down a single old database shard just to see what would happen -- a seemingly harmless test. And then we realized we brought down over 30 of our front ends that depended on this single shard. You know that got fixed. (For more: http://queue.acm.org/detail.cfm?id=2371516)
+		permalinkembedsaveparentgive award
+
+
+
+[–]immerc 214 points 6 years ago 
+Can a mod give kripakrishnan, clusteroops and jrc-sre some kind of flair so people know that they're also officially part of this AMA?
+		permalinkembedsaveparentgive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 202 points 6 years ago 
+Yes, this please.
+		permalinkembedsaveparentgive award
+
+
+
+[–]Slaich 143 points 6 years ago 
+Running this script will mark you all as submitters, giving you the blue highlight.
+In Chrome you can just copy paste into your address bar (chrome removes the "javascript:" at the start, so you have to add that manually).
+In Firefox: If you hit shift+F4 (or go to web developer - Scratchpad in the menu) in FF, it should open a scratchpad. If you paste the code there, and run it (Ctrl + R, or use the menu), it should work.
+javascript:(function(){ 
+var arr = document.getElementsByClassName("id-t2_a4rx7");
+for (i = 0; i < arr.length; i++) {
+   arr[i].className = arr[i].className + " submitter";
+}
+
+var arr = document.getElementsByClassName("id-t2_abse2");
+for (i = 0; i < arr.length; i++) {
+   arr[i].className = arr[i].className + " submitter";
+}
+
+var arr = document.getElementsByClassName("id-t2_acnhz");
+for (i = 0; i < arr.length; i++) {
+   arr[i].className = arr[i].className + " submitter";
+}
+
+var arr = document.getElementsByClassName("id-t2_ablrr");
+for (i = 0; i < arr.length; i++) {
+   arr[i].className = arr[i].className + " submitter";
+}})()
+		permalinkembedsaveparentgive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 108 points 6 years ago 
+Seems legit.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]andrewpost 68 points 6 years ago 
+Google, hire this man.
+		permalinkembedsaveparentgive award
+
+
+load more comments (5 replies)
+		
+
+
+
+
+
+
+
+
+[–]sirin3 20 points 6 years ago 
+But that will not work for not yet loaded child comments, will it?
+Better use:
+ javascript:$("<style>.id-t2_a4rx7, .id-t2_abse2, .id-t2_acnhz, .id-t2_ablrr { background-color: #0055DF !important; border-radius: 3px 3px 3px 3px; color: white !important; font-weight: bold; padding: 0 2px; }</style>").appendTo($("head"))
+		permalinkembedsaveparentgive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–]matshala 12 points 6 years ago 
+Works like a charm.
+		permalinkembedsaveparentgive award
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]ingress-sma 29 points 6 years ago 
+I think 15 pieces of flair is the minimum.
+		permalinkembedsaveparentgive award
+
+
+load more comments (5 replies)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]syscomet 196 points 6 years ago 
+Oh shit, I took down Gmail for half the users in this datacenter. 2007.
+		permalinkembedsaveparentgive award
+
+
+
+[–]long_wang_big_balls 61 points 6 years ago 
+Never forget
+		permalinkembedsaveparentgive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–]6roybatty6Lead Engineer, Eero 50 points 6 years ago 
+Oh shit, we ordered a fleet of these machines and every single one of them has badly routed traces to the clock generator that causes DRAM errors. 2005.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]Greenouttatheworld 124 points 6 years ago 
+TIL most of Google hangs out at reddit, current and ex-googlers are coming out of the woodwork slowly but surely in this thread.
+		permalinkembedsaveparentgive award
+
+
+
+[–][deleted] 211 points 6 years ago 
+Are you saying you DON'T work for Google? 
+Get a load of this guy...
+		permalinkembedsaveparent
+
+
+
+[–]PseudoSwag 96 points 6 years ago 
+Who invited him?
+		permalinkembedsaveparentgive award
+
+
+
+[–][deleted] 61 points 6 years ago 
+She doesn't even go here!
+		permalinkembedsaveparent
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+
+load more comments (5 replies)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]1010011010 101 points 6 years ago 
+"Oh shit, I'm oncall for the first time"?
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–][deleted] 94 points 6 years ago* 
+My favorite moment as a Google SRE on Gmail was when we had a bug causing storage system to fill endlessly. After months of debugging, and on the day before Christmas Eve, one of our ultra smart engineers had discovered what was causing it, and had figured out a way to fix it.
+As the SRE on call I was tasked with safely applying the fix. We worked together change the setting not really knowing it what it would do at scale. First test on a million users or so worked good, so I started rolling it out globally.
+The storage dropped like a rock. Total stored bytes was falling like a rock (think terra bytes of deleted data every page reload. After a bunch of heart stopingly "oh shit! oh shit! oh shit! What have I done?!" moments and a mad scramble too figure out how to not lose peoples email, it flattened out.. Everything was normal. Nothing was reported as missing. All valid data was intact.
+The other engineer looked at me and said: "you just deleted more useless data in an hour than most people will create in their lifetimes..
+I am still terrified of the oh shit feeling, but prideful of the non oh shit outcome. =)
+		permalinkembedsaveparent
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–]brianbot5000 72 points 6 years ago 
+"Oh shit, it's steak fajita day in the cafeteria!"
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]weareconvo 62 points 6 years ago 
+"Oh shit, some idiot changed the grind settings on my Microkitchen's espresso machine"
+		permalinkembedsaveparentgive award
+
+
+
+[–]Ranek520 29 points 6 years ago 
+There are like a billion warning signs about NOT doing this in the MK! How does this happen?!
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+
+[–]confused_undergrad 38 points 6 years ago* 
+This has to be the time a Google employee added '/' to the sites blacklist effective marking the entire internet as blacklisted. Source
+		permalinkembedsaveparentgive award
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (7 replies)
+		
+
+
+
+
+
+
+
+
+[–]Nomsfud 375 points 6 years ago 
+If you're on reddit right now then who is making google work until your AMA is over?
+		permalinkembedsavegive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 723 points 6 years ago 
+We have a guy.
+		permalinkembedsaveparentgive award
+
+
+
+[–]fragglet 589 points 6 years ago 
+The guy here. I can confirm this.
+		permalinkembedsaveparentgive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 1354 points 6 years ago 
+OH GOD THE SERVERS WHAT ARE YOU DOING HERE.
+		permalinkembedsaveparentgive award
+
+
+
+[–]azurleaf 72 points 6 years ago 
+Damn it, now I have to clean off my laptop screen.
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]alexxerth 58 points 6 years ago 
+And this is how Google died.
+On that note, this was the funniest AMA I've ever seen because of that comment alone. It shall surely be an injoke in reddit for months to come.
+		permalinkembedsaveparentgive award
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+load more comments (5 replies)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]Red_Inferno 181 points 6 years ago 
+Time to DDOS Google.
+		permalinkembedsaveparentgive award
+
+
+
+[–]NPHisKing 72 points 6 years ago* 
+Pretty sure for that to work we would need to use Google's own servers against them, otherwise there wouldn't be enough servers in the world!
+		permalinkembedsaveparentgive award
+
+
+
+[–][deleted] 6 years ago* 
+[deleted]
+		
+
+
+
+[–]Centropomus 16 points 6 years ago 
+In all seriousness, Google engineers DoS Google far more often than the outside world does, because they have access to all sorts of debug features that can make their traffic extremely expensive. Intern season is always exciting in that regard, because they know just enough to be dangerous.
+		permalinkembedsavegive award
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]SpontaneousHam 15 points 6 years ago 
+Clearly we need to use TracerT,
+		permalinkembedsaveparentgive award
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]gaog 56 points 6 years ago 
+nice try, google manager
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]Bluecoat93 19 points 6 years ago 
+Jeff Dean (Chuck Norris is on vacation)
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]pamplemousse28 18 points 6 years ago 
+assumption: googlers aren't always on reddit
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]thejeero 381 points 6 years ago 
+	•	How often are Google's sites DDoS'd throughout the year?
+	•	When was the last time Google's main page was down? (I legitimately don't remember not being able to reach google.com)
+		permalinkembedsavegive award
+
+
+
+[–]lojkine 254 points 6 years ago* 
+This cartoon is from june 2003. A week or so later Google was down for a couple of hours.
+		permalinkembedsaveparentgive award
+
+
+
+[–]XavierMendel 238 points 6 years ago 
+Seriously, though. If you can't connect to Google.com, the problem is on your end. I don't think it's actually gone down since 2003. Nearly a decade of uptime.
+		permalinkembedsaveparentgive award
+
+
+
+[–]InsertMeaningfulName 150 points 6 years ago 
+Yep. If anyone wants to check if the internet is working, just go to Google.com
+		permalinkembedsaveparentgive award
+
+
+
+[–]Jinno 225 points 6 years ago 
+Important: search for something. Your browser may have cached the main page.
+		permalinkembedsaveparentgive award
+
+
+
+[–]SciencePreserveUs 32 points 6 years ago 
+I always click on the "News" link at the top of the Google home page. Always fresh content there.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (7 replies)
+		
+
+
+
+
+
+
+
+load more comments (12 replies)
+		
+
+
+
+
+
+
+
+
+[–]LM10 57 points 6 years ago 
+For them, even a millisecond down time would count as the page being down. We don't know how many of those they've had, but I'm pretty sure it has been down since 2003. We just don't notice because it's back within no time.
+		permalinkembedsaveparentgive award
+
+
+load more comments (9 replies)
+		
+
+
+
+
+
+
+
+load more comments (10 replies)
+		
+
+
+
+
+
+
+
+
+[–][deleted] 6 years ago 
+[deleted]
+		
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]clusteroopsGoogle SRE 246 points 6 years ago 
+We get attacked all the time, although most are so small or simple that our systems automatically diffuse or block them. For the larger products (e.g. Search, GMail), we only really need to manually intervene a handful of times per year.
+Home page outages almost never affect all users simultaneously. There many different systems involved in simply connecting users to Google, and most incidents happen outside of our network. We do occasionally have network outages, which are regional, e.g. a few states or countries. We also occasionally introduce language-specific bugs, e.g. garbling CJK. As far as I can recall, the last global outage was back in 2005:
+http://en.wikinews.org/wiki/Google_suffers_DNS_outage
+		permalinkembedsaveparentgive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–]Supercharged38 35 points 6 years ago 
+That's a better question for secops/netops. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]weareconvo 100 points 6 years ago 
+My usual response to those questions is:
+1) Google gets DDoS'd constantly. You could even consider all of the combined users' normal usage of the site a kind of DDoS, given its scale.
+2) Google doesn't go down because secops and netops are smart.
+		permalinkembedsaveparentgive award
+
+
+
+[–]Supercharged38 51 points 6 years ago 
+Verrryyy smart. Disturbingly smart. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]LM10 62 points 6 years ago 
+They go to the top schools, and recruit the top guys from the top schools. Imagine how a company would be that had the top students from yearly classes at MIT, Stanford, CMU and Berkeley working for them. That's Google.
+		permalinkembedsaveparentgive award
+
+
+
+[–]weareconvo 45 points 6 years ago 
+I dunno, I was a pretty indifferent student at Stanford.
+		permalinkembedsaveparentgive award
+
+
+
+[–][deleted] 42 points 6 years ago 
+He did say "top students"...
+		permalinkembedsaveparent
+
+
+
+[–]weareconvo 42 points 6 years ago 
+Yeah uh, I worked at Google for 5+ years, was my point there. It didn't work, because I left out a particular piece of information.
+		permalinkembedsaveparentgive award
+
+
+load more comments (9 replies)
+		
+
+
+
+
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (9 replies)
+		
+
+
+
+
+
+
+
+
+[–]LM10 28 points 6 years ago 
+There's only so much difference between a DDoS and a surge of legitimate users. Reddit often causes DDoS's of love on small websites that get linked here. Long story short, all popular sites are under some form of DDoS, it's the way that they handle the traffic that makes it awesome.
+I remember reading somewhere that in the early days of Google, a data center caught fire. This was when Google was still barely 2-3 years old IIRC. Even then, the site had already been set up so that the persistent backups kicked in and there was practically no downtime.
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–][deleted] 16 points 6 years ago 
+Approximately 50% of all internet users use Google. It's pretty hard to DDoS a website that is designed to handle traffic from somewhere around a billion people every day.
+		permalinkembedsaveparent
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (10 replies)
+		
+
+
+
+
+
+
+
+
+[–]savior6 279 points 6 years ago 
+have you ever got to a problem you couldn't fix and thought, "lets google it" then just sat there and went fuck?
+		permalinkembedsavegive award
+
+
+
+[–]tgxn 33 points 6 years ago 
+This needs a reply.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]SpecialEmily 33 points 6 years ago 
+It is common knowledge at Google that "Google doesn't work at Google". Everything is special and bespoke and you won't find a fix on Stackoverflow etc. 
+Yes this came up several times during my Noogler days.
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–]DisrespectfulToDirt 209 points 6 years ago 
+What skills are required to be an SRE member? Are you hardware engineers? Software guys? Do you write shell scripts? Program Lego robots to drive around datacenters all day turning servers off-and-on?
+		permalinkembedsavegive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 188 points 6 years ago 
+There are a bunch of people of many different backgrounds that make up SRE - hardware, software, networks, security, etc. Your average SRE usually concentrates on software in their day to day work, although you do need to know hardware to do stuff like qualifying new hardware platforms (we do a bunch of this in Storage, where we qualify new drive sizes, new boards, etc. for our software such as colossus). We do write code to support the service, and also contribute code to the software itself (i.e. it’s often easier and faster to just send a patch to the software, rather than opening a feature request). 
+As for essential skills, it’s hard to define strictly (that’s one of the reasons why it’s so difficult to find good SREs). We take people from a pure software engineering background, sysadmins, network architects, and sometimes people come out of left field from completely different industries to surprise us with their ability to do the job (we did have one guy join SRE who used to be a motorcycle racer).
+		permalinkembedsaveparentgive award
+
+
+
+[–]tonezime 38 points 6 years ago 
+I know at least one person who went from Sales to SRE.
+		permalinkembedsaveparentgive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 86 points 6 years ago 
+Yep - we do an internal training program for people who are in other areas that would like to cross-train (it's hard to do, not everyone makes it). The people who come over from that program are awesome, additional perspective always adds to what we do.
+		permalinkembedsaveparentgive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+
+load more comments (8 replies)
+		
+
+
+
+
+
+
+
+
+[–]Supercharged38 37 points 6 years ago 
+Data centers are staffed by HwOps (hardware operations) OEs (operations engineers). SRE plays a role, but the OEs are the ones who keep the hardware side of things going. SREs and OEs work together to keep the infrastructure together on a day to day basis. FWIW I work in one of the larger of googles data centers and would be happy to answer questions (that I legally can) on that issue. 
+		permalinkembedsaveparentgive award
+
+
+
+[–][deleted] 6 years ago 
+[deleted]
+		
+
+
+load more comments (20 replies)
+		
+
+
+
+
+
+
+
+load more comments (7 replies)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]zimmund 189 points 6 years ago 
+Would you rather fix a cluster-sized server or a server-sized cluster?
+Edit: your rock, guys.
+		permalinkembedsavegive award
+
+
+
+[–]jrc-sreGoogle SRE 213 points 6 years ago 
+Sitting atop a horse sized duck I would attemp to fix the cluster sized server.
+		permalinkembedsaveparentgive award
+
+
+
+[–]Talking_Duck 21 points 6 years ago 
+Ducks are great at hunting bugs.
+So sitting on a duck, will be very helpful
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (5 replies)
+		
+
+
+
+
+
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 199 points 6 years ago 
+I don't understand the question. I fix cluster-sized servers all the time.
+Edit: thanks! I'd been looking for that.
+		permalinkembedsaveparentgive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–]sinthar 183 points 6 years ago 
+So..um what happened during the Nexus 4 launch?
+		permalinkembedsavegive award
+
+
+
+[–][deleted] 30 points 6 years ago 
+This. And basically, what happens when a particular Google supported website starts to get unexpectedly high traffic? What is the problem and how is this solved?
+		permalinkembedsaveparent
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+load more comments (17 replies)
+		
+
+
+
+
+
+
+
+
+[–]nopropulsion 180 points 6 years ago 
+are there any cool easter eggs that people aren't really aware of that you can mention?
+		permalinkembedsavegive award
+
+
+
+[–]clusteroopsGoogle SRE 339 points 6 years ago 
+Not quite a easter egg, but one of my favorite esoteric features is the unit disambiguation in the calculator. For instance, a "pound" could be mass, force, or currency, so you can ask for something ridiculous like:
+https://www.google.com/search?q=10+pounds+pounds+pounds+in+kilograms+newtons+dollars
+		permalinkembedsaveparentgive award
+
+
+
+[–][deleted] 6 years ago* 
+[removed]
+		
+
+
+
+[–]mrmackdaddy 54 points 6 years ago 
+Well, as he said, "pound" can be a unit of mass (pound-mass), force (pound-force), or currency (British Pound). If something were for some reason expressed in terms of a mass times a force times a currency it could be a "Pound pound pound". You could convert it into different units like the kilogram (mass), newton (force), and US dollars (currency) which is what clusteroops is doing.
+		permalinkembedsavegive award
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 196 points 6 years ago 
+Searching for 'do a barrel roll' has to be my favourite :-)
+		permalinkembedsaveparentgive award
+
+
+
+[–]Puk3s 38 points 6 years ago 
+If anyone really wanted to learn how to do a barrel roll they would be saddened by the results.
+		permalinkembedsaveparentgive award
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+
+[–]sleeplessone 27 points 6 years ago 
+not zerg rush
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (6 replies)
+		
+
+
+
+
+
+
+
+
+[–]110011001100 116 points 6 years ago 
+Search for recursion
+		permalinkembedsaveparentgive award
+
+
+
+[–]mthoody 79 points 6 years ago 
+Did you mean recursion?
+		permalinkembedsaveparentgive award
+
+
+
+[–]matty_a 56 points 6 years ago 
+Did you mean recursion?
+		permalinkembedsaveparentgive award
+
+
+
+[–]SometimesPostsThings 23 points 6 years ago 
+Did you mean recursion?
+		permalinkembedsaveparentgive award
+
+
+
+[–]Teqnology 23 points 6 years ago 
+Did you mean recursion?
+		permalinkembedsaveparentgive award
+
+
+
+[–]Khaim 49 points 6 years ago 
+Did you mean recursion?
+		permalinkembedsaveparentgive award
+
+
+load more comments (7 replies)
+		
+
+
+
+
+
+
+
+load more comments (5 replies)
+		
+
+
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+
+load more comments (7 replies)
+		
+
+
+
+
+
+
+
+
+[–]Ranek520 64 points 6 years ago 
+I don't know how well-known these are... But I like kerning and keming (look up the definition of kerning to help figure out what's happening).
+		permalinkembedsaveparentgive award
+
+
+
+[–]nandhp 17 points 6 years ago 
+twitch
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (14 replies)
+		
+
+
+
+
+
+
+
+
+[–]annabunches 168 points 6 years ago 
+I was just hired by Google as an SRE. My start date is in a couple of weeks.
+So, my question is...
+How much fun am I about to have?
+		permalinkembedsavegive award
+
+
+
+[–][deleted] 6 years ago 
+[deleted]
+		
+
+
+
+[–]Red_Inferno 55 points 6 years ago 
+Just don't post any pictures so you don't get fired.
+		permalinkembedsavegive award
+
+
+
+[–]Cayos 53 points 6 years ago 
+You mean post information about a currently unannounced project.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 181 points 6 years ago 
+All the fun. The learning curve is crazy, but it’s learning on systems the scale of which you will never see again.
+		permalinkembedsaveparentgive award
+
+
+
+[–]flowblok 67 points 6 years ago 
+I started working as a Google SRE two months ago, just after finishing my undergrad degree. It's all true, there's a reason Google is regarded as one of the best places to work at. Every day has been amazing, fantastic and generally awesome.
+EDIT: yes, there is a crazy learning curve, but you were hired because you're awesome and can handle it. :)
+		permalinkembedsaveparentgive award
+
+
+load more comments (9 replies)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]tonezime 30 points 6 years ago 
+What are your feelings about Nerf?
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–][deleted] 6 years ago* 
+[deleted]
+		
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+load more comments (13 replies)
+		
+
+
+
+
+
+
+
+
+[–]weareconvo 148 points 6 years ago 
+Was a Google SWE for 5+ years, worked in Ads Quality and Search Quality. I just wanted to say thanks, nobody really understands what you all go through, and if I could give you all another bottle of whiskey, I would.
+		permalinkembedsavegive award
+
+
+
+[–]fuckingdubstep 53 points 6 years ago 
+Another? 
+		permalinkembedsaveparentgive award
+
+
+
+[–]SpecialEmily 45 points 6 years ago 
+The SREs have a healthy whiskey culture. If you want to get in your SREs good books you give them a nice whiskey. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]weareconvo 28 points 6 years ago 
+Plus, if you get them drunk enough, hopefully they'll take your pager without noticing that your uptime sucks.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–][deleted] 18 points 6 years ago 
+I'm assuming he gave someone in the Site Reliability team a bottle of whiskey after he quit his job.
+		permalinkembedsaveparent
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+
+[–]thatlawyercat 122 points 6 years ago 
+what's the craziest problem you guys have ever had to deal with?
+		permalinkembedsavegive award
+
+
+
+[–]jrc-sreGoogle SRE 210 points 6 years ago 
+On the technical side: Please go get our brand new and very different cluster network design into production as fast as possible, everywhere (with multiple iterations on how do we do this faster).
+On the non technical side: Please go talk to the Prime Minister of Mongolia and his entourage about Cloud Computing.
+		permalinkembedsaveparentgive award
+
+
+
+[–]Juno_Malone 30 points 6 years ago 
+You mean the Prime Rib of Propecia?
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]weareconvo 100 points 6 years ago 
+One time when I was at Google, they took away all of our bottled water. That was pretty insane.
+		permalinkembedsaveparentgive award
+
+
+
+[–]fuckidk 47 points 6 years ago 
+Alright, who invited this guy? Is he even cool? Hey man, who did you come here with?
+		permalinkembedsaveparentgive award
+
+
+
+[–]weareconvo 43 points 6 years ago 
+I felt like they submitted this thread way too early and weren't answering any questions, so I just started doing it.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (9 replies)
+		
+
+
+
+
+
+
+
+
+[–][deleted] 6 years ago 
+[deleted]
+		
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]terracnosaur 38 points 6 years ago 
+No meat Monday was pretty insane. Thankfully it only happened once. But the outcry echoed for years. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]0xfe 39 points 6 years ago 
+I remember that Monday. That's when we wandered out into the real world to exchange money for food.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]ZiggyA 105 points 6 years ago 
+What do you think the biggest misconception that people have about what you do?
+		permalinkembedsavegive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 121 points 6 years ago 
+One misconception we do have is that we’re an ops/admin group or a NOC. It’s our responsibility to keep the site up, no matter what - that involves working at a scale that’s staggering, and you run into problems you’ve never seen before. You need good engineers who know how to work from first principles on a system that they may not have “trained on” and figure out what’s up, and get to a resolution within minutes, not hours. We also write a bunch of code to make sure the systems stay in a happy state. We do oncall, sure, but we’re also on the hook for doing automation and mitigation such that oncall isn’t a terrible experience and doesn’t keep you up all night.
+SRE is often a better experience for someone who likes to write code. Ben talks about some of that here: https://plus.google.com/+ResearchatGoogle/posts/Vtd6HPAiU5c
+		permalinkembedsaveparentgive award
+
+
+load more comments (6 replies)
+		
+
+
+
+
+
+
+
+
+[–]immerc 72 points 6 years ago 
+Judging by the questions here, I'd say it's that the SREs are an ops team (secops / netops, something like that).
+		permalinkembedsaveparentgive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 70 points 6 years ago 
+Yes, this :-)
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+
+
+
+
+[–]drincruz 94 points 6 years ago 
+	•	How's the on-call rotation?
+	•	How's the work-life balance? 
+		permalinkembedsavegive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 83 points 6 years ago 
+Oh, sorry - work-life balance:
+It’s what you make it. As a manager, it’s part of my job to make sure that people are able to manage their own work-life balance. We do personal objectives on a larger timescale than I’ve done at other places, so rather than saying “This needs to be done this week”, it’s more like “This needs to be done this month, you’re clever, figure it out”. Personally, I’m able to balance things pretty effectively, and I’d hate to think people who report to me didn’t have the same opportunity (while getting their stuff done, of course).
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 65 points 6 years ago 
+Oncall is part of being a SWE at Google whether you work on production services, in SRE or "pure dev" roles. All SWE groups producing user-visible or production code have these oncall rotations but, many ave timezone-shifted support so when you are oncall, it doesn't include overnights (i.e. you will get sleep). SRE's oncall rotations are generally more organized and consistent than most of SWE teams.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–][deleted] 81 points 6 years ago 
+What sort of tools (either commercial or custom-built) does your team use to ensure the reliability/health of the Google services?
+I once interviewed to be on the SRE team and it was a nagging question that I had that my interviewers refused to answer.
+		permalinkembedsave
+
+
+
+[–]clusteroopsGoogle SRE 95 points 6 years ago 
+Lots and lots of tools, most of which we write ourselves. Probably too many to fit in this box. 
+One big one is a monitoring system called "Borgmon". It collects, aggregates, and records instrumentation data, draws graphs, sends alerts, and dispenses candy. It's extremely powerful, but painful to use, because it has its own programming language. So we have a love-hate relationship with it.
+		permalinkembedsaveparentgive award
+
+
+load more comments (17 replies)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]Icedrive 78 points 6 years ago 
+What's the effect of people/apps constantly pinging google.com to see if there's an internet connection?
+		permalinkembedsavegive award
+
+
+
+[–]clusteroopsGoogle SRE 122 points 6 years ago 
+Pings are cheap, and the aggregate rate is steady, modulo DoS attacks. So we don't worry about it. (Side note: I actually wrote the code in our load balancer that crafts ICMP responses.)
+		permalinkembedsaveparentgive award
+
+
+
+[–]five_fifteen 117 points 6 years ago 
+Have you ever thought of disabling pings for a bit on April Fools day just to mess with people?
+		permalinkembedsaveparentgive award
+
+
+
+[–]jwhardcastle 48 points 6 years ago 
+The horror. Every sysadmin would scream out in horror all at once. 
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]tollerotter 31 points 6 years ago 
+That would be the end of the world.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+load more comments (6 replies)
+		
+
+
+
+
+
+
+
+
+
+
+[–]g0dspeed0ne 74 points 6 years ago 
+What do your sleep schedules look like?
+How big is the team?
+Have you met Larry Page or Sergey Brin?
+		permalinkembedsavegive award
+
+
+
+[–]clusteroopsGoogle SRE 88 points 6 years ago 
+Sleep schedule: roughly 12-2 to 8-10. Oncall doesn't affect it much, since teammates in different time zones cover nights. And I'm only oncall roughly one week in six.
+Team size: roughly 40 in my group, which takes care of Google Search. We're spread across Mountain View, Dublin, and Zurich. But I regularly work closely with many other groups.
+Larry and Sergey: both several times. I even briefly shared an office with Sergey.
+		permalinkembedsaveparentgive award
+
+
+
+[–][deleted] 13 points 6 years ago 
+Took me ages to realise you meant you slept approx. 8 hours every night starting sometime between 12am and 2am and ending somewhere between 8am and 10am.
+		permalinkembedsaveparent
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]jrc-sreGoogle SRE 48 points 6 years ago 
+Sleep schedules vary, its more about your personal approach. In SRE, the on call schedules provide a lot of structure, so its usually pretty reasonable. Working with groups in other time zones is where it can stretch a bit, if you want to keep in video conference contact with them. I lose more sleep because of my kids than work (I’m not currently on call, but it still applies).
+“The team” is kind of a nebulous term. We have lots of different sized teams, with varying amount of overlap. My personal team at the moment is 4 people (we’re hiring!) and we’re not an on call group. We’re spending our time on strategic planning of the infrastructure.
+I’ve met them both, on several different occasions, usually when we’re looking for a decision on something big enough to include them, sometimes during a high level review of something as well. SRE can be involved in rather large decisions like where should we be putting data centers. We get to focus on Engineering problems and talk about them with Larry and/or Sergey. They still spend time talking on Engineering, not just typical business questions, and you can still bump into them in the hallways too.
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]boomboomcamaro 74 points 6 years ago 
+I read an article in Wired recently discussing Google's data centers and they touched on the Site Reliability team as a group of elites who get their own leather jacket with military style insignias (I'm assuming like a patch). Can we see what this looks like? And thanks for keeping Google up and running!!!
+		permalinkembedsavegive award
+
+
+
+[–]jrc-sreGoogle SRE 165 points 6 years ago 
+Here's the patch from my jacket: http://i.imgur.com/pKRqXKr.jpg?1
+		permalinkembedsaveparentgive award
+
+
+
+[–]fragglet 42 points 6 years ago 
+"Duri et Periti" is Latin for "Tough and Competent" - the motto coined by NASA flight director Gene Kranz.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–][deleted] 15 points 6 years ago 
+Okay, that is just beyond awesome.
+		permalinkembedsaveparent
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]grundlehunter 68 points 6 years ago 
+How much data storage does Google Maps Street View take on your servers? How much data is added weekly?
+		permalinkembedsavegive award
+
+
+
+[–]jrc-sreGoogle SRE 96 points 6 years ago 
+Sounds like a good interview question... want to be an SRE? How much would you estimate? How would you design a system to handle this? Where's the bottleneck?
+		permalinkembedsaveparentgive award
+
+
+
+[–][deleted] 6 years ago* 
+[deleted]
+		
+
+
+load more comments (15 replies)
+		
+
+
+
+
+
+
+
+load more comments (15 replies)
+		
+
+
+
+
+
+
+
+
+
+
+[–]oscillat0r 71 points 6 years ago 
+Do you have any custom made NAGIOS-like system or do you rely on 3rd party software for availability measuring purposes? If not, do you use any 3rd party software in some point of the process? Thanks!
+		permalinkembedsavegive award
+
+
+
+[–]clusteroopsGoogle SRE 71 points 6 years ago 
+Grep for "Borgmon" in my other comments.
+		permalinkembedsaveparentgive award
+
+
+
+[–]MrYaah 49 points 6 years ago 
+Are you reading these comments through the command line?
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (6 replies)
+		
+
+
+
+
+
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–][deleted] 6 years ago* 
+[deleted]
+		
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 81 points 6 years ago 
+There are 4 SREs in the room, and one MLP figurine. We have failed you.
+		permalinkembedsavegive award
+
+
+load more comments (5 replies)
+		
+
+
+
+
+
+
+
+
+[–]cmsj 15 points 6 years ago 
+On behalf of an SRE friend without a reddit account: Not sure about MLP or kittens, but I have a large collection of Care Bears, and there are also lots of Winnie The Pooh around...
+		permalinkembedsavegive award
+
+
+
+[–]candourP 22 points 6 years ago 
+I'm the SRE with the Care Bear collection and I've just created an account :) There are lots of toys/bears/ponies/angry birds around. I did see quite a collection of My Little Ponies when I was visiting a team near Seattle.
+		permalinkembedsaveparentgive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–][deleted] 15 points 6 years ago 
+Just created account. Aye, I'm a Winnie the Pooh fanatic. We have an abundance of Poohs of varying sizes as well as a huge Pooh we can cuddle in times of need.
+		permalinkembedsaveparent
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+
+[–]SkankTillYaDrop 63 points 6 years ago 
+Hi there!
+As someone who is currently majoring in Computer Science and has spent a lot of time working in kitchens the idea of being on the SRE team is so unbelievably appealing it's almost difficult to put into words.
+One of my favorite things about being in a kitchen is the extreme rush, adrenaline, and stress that all combines with a necessity for quick rational thought and on your feet problem solving. The first time I read about DiRT I fell in love with the idea instantly. I have a couple questions relating to participating in the events.
+	•	Is it really as fun as I think it is? Since I love intense stress, adrenaline, problem solving, high-pressure situations, and computers it seems like a dream come true 
+	•	What sort of CIS focus would you recommend for the SRE team? 
+	•	How often does the team have "Oh shit" moments where something major breaks and you have to jump into action? What kind of things are breaking in those moments? 
+Thanks for doing the AMA! The work you all do is incredibly inspiring and motivational.
+		permalinkembedsavegive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 36 points 6 years ago 
+Dirt is pretty badass when it happens -- it’s a global exercise, so having the pager go off with “DiRT has occurred, battle stations” or whatever is a rush for sure. We try to formulate the tests and manage the time such that it’s as close as possible to the real situation (some teams organise round-the-clock rotations for the exercise in the office, we get catering in, that sort of thing).
+As for CIS focus, anything that involves abstract problem-solving is going to be good. I often lament that there’s no ‘degree in sysadmin’. You either get a tech-specific course or something focused on just programming (or a particular language). Anything that exposes you to good, resilient design practices and doesn’t overly focus on specific tech is usually best. Sorry for the wishy-washy answer, but there’s no silver bullet here, really. We hire people who have no degrees at all, if they have the experience and skills.
+Things break at a reasonable rate. We’re here to engineer away a lot of the things we can in design, or with redundancy, so for a lot of our tech, ‘fire drills’ are uncommon. They do happen, though, and there’s a certain rush to dealing with them, like with any reactive work.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]wiseasss 16 points 6 years ago 
+I don't think a "reliability team" is what you think it is. The key to making a big service reliable isn't waiting for shit to break and then dealing with "extreme rush, adrenaline, and stress" (else we'd see Google down all the time for a minute at a time). It's planning ahead. On a good day, nothing interesting happens at all.
+If you want computers + stress, go start your own company, and face each day not knowing whether your job will be around tomorrow or not.
+Thinking that an SRE team is exciting is like thinking that being a sailor on a submarine is exciting because you saw Sean Connery do it, or that cops have thrilling jobs because you saw Bruce Willis retake a skyscraper from hostages. What you don't see is that 99.9% of the time it's about as boring as can be.
+As Spolsky once said:
+I suppose some software shops have last-minute coding frenzies like this. If so, their software is probably marked by incredibly poor quality.
+The fact that Google is so reliable is a testament to how good the Google SRE are, and consequently how boring their jobs must be.
+		permalinkembedsaveparentgive award
+
+
+
+[–]0xfe 16 points 6 years ago 
+Trust me our jobs aren't boring. There are plenty of new services, features, and types of failure modes to keep us busy. Also, most SRE teams have weekly simulations and drills to keep them on their toes.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]TheFarmHand 61 points 6 years ago 
+We all know Google has some unique benefits, but what is the best part about working for Google that we probably haven't heard about?
+		permalinkembedsavegive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 87 points 6 years ago 
+I know this will sound corny (especially from the grumpy Irishman) but it has to be the people. Being in a place where you can interact with a group of people who are interesting and good at what they do, but who are also on average interesting people is probably what keeps the community strong and people staying here.
+Having access to free food, gyms, other facilities is great, but the novelty would wear off pretty quickly if you had to deal with people you don’t want to work with for whatever reason (i.e. they’re not good so you have to carry them, or they’re just not interesting). We have people in Dublin who make swords, play with lasers, and anything else you’d care to think of. It is kind of terrifying (in a good way) to ask “Does anyone have a lend of a medieval fighting axe” on a mailing list, and get a positive response.
+		permalinkembedsaveparentgive award
+
+
+
+[–]jrc-sreGoogle SRE 57 points 6 years ago 
+I have to agree with Dave. I specifically chose my latest gig at Google (been here 6 years) because of the people. I genuinely like and respect everyone around me, including and especially those above me. I am always learning from people here, not just on the technical or business sides either. I have a semi retired professional magician that works for me on security matters, a friend of mine here teaches welding classes, and my boss has taken some of the coolest astronomy pictures I’ve ever seen.
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+
+
+[–]weareconvo 30 points 6 years ago 
+Most of the offices have air conditioning.
+		permalinkembedsaveparentgive award
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+
+[–]Ranek520 24 points 6 years ago* 
+As a former intern, my favorite part was dogfooding new features or applications before they were released.
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]apostrophie 45 points 6 years ago 
+Security concerns over the net have been a hot topic for a while now. Seeing that Google basically owns the Internet, how worried should I be about privacy invasion, realistically? 
+Is there anything laymen can do to minimize it via Google besides deleting everything (Gmail, YouTube, Google searches, etc)?
+		permalinkembedsavegive award
+
+
+
+[–]weareconvo 72 points 6 years ago 
+Former Googler, but I just wanted to say that as a SWE, it is totally impossible to get access to anything personally identifiable. You have to go through a gigantic review and a whole lot of rigmarole just to be able to do analysis on stuff that's already been scrubbed and hashed and ISN'T PII, but could POTENTIALLY be in some universe somewhere.
+Not that this should make you complacent, but just so you know.
+		permalinkembedsaveparentgive award
+
+
+
+[–]syscomet 81 points 6 years ago 
+Also a former Googler, SRE; I was cautious when I started at Google, not sure if I'd be a culture fit because of my privacy concerns. I relaxed after the intro class from the engineer in charge of logs, as I realised that Google's triumvirate had solved the privacy problem by putting in charge of the logs an engineer who was even more of a privacy nut than I was. She was seriously protective of users' data, and was able to write the policies to reflect that.
+		permalinkembedsaveparentgive award
+
+
+
+[–]Asimoff 17 points 6 years ago* 
+That's good, but Google is still required to comply with the law of the countries it operates in. A lot of people are not so much concerned that Google itself is going to misuse their information, but that present or future governments will compel Google to hand it over.
+		permalinkembedsaveparentgive award
+
+
+
+[–]pinchealeman 19 points 6 years ago 
+That's definitely true, but remember, it's true of every company with whom you interact.
+Also, Google also has a long history of vigorously fighting overbroad subpoenas.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–]apostrophie 13 points 6 years ago 
+This makes me feel a bit better, thank you. :)
+		permalinkembedsaveparentgive award
+
+
+
+[–]weareconvo 37 points 6 years ago 
+Contrast this with Facebook, whose public stance on privacy is basically "Privacy is so yesterday, get over it people".
+		permalinkembedsaveparentgive award
+
+
+
+[–]westernsociety 30 points 6 years ago 
+Unless it involves Mark's sister
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]apostrophie 18 points 6 years ago 
+Fuckin' Facebook. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (6 replies)
+		
+
+
+
+
+
+
+
+
+
+
+
+
+[–][deleted] 6 years ago* 
+[deleted]
+		
+
+
+
+[–]Greenouttatheworld 14 points 6 years ago 
+best security advice out there, and just in case, do load the backup number, in case of theft/loss of phone 
+		permalinkembedsavegive award
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]homo-insurgo 44 points 6 years ago 
+What's Google's best reliability feature?
+		permalinkembedsavegive award
+
+
+
+[–]clusteroopsGoogle SRE 53 points 6 years ago 
+Scale. We're large enough that we can mitigate massive failures with minimal user damage, and absorb even large DoS attacks. We can retry queries internally or shift load to other datacenters in seconds.
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+[–]Johnny_McPoop 44 points 6 years ago 
+What's happening when google isn't working? It's usually working 100% of the time but every once and a while it's not. 
+What degrees do you guys have? Are you happy with the pay that you receive? (sorry if that one is personal, but you said AMA) 
+What do you think Bing could do to make themselves relevant? 
+		permalinkembedsavegive award
+
+
+
+[–]weareconvo 75 points 6 years ago 
+Ex-Googler: I really doubt they're able to answer that last one, since speaking negatively about your competitors in public is a no-no. However, since I don't work there anymore, I'll give it a shot:
+I like Bing a lot, and I believe that a lot of the ideas they've come up with over the years have been pretty innovative and impressive. Competition is really important from a user's point of view, and right now, I just feel like there's no good alternative to Google. The main reason is that Bing, quite frankly, just looks way too similar to Google. The UI is almost exactly the same, except the ads are of worse quality, they do a slightly worse job dealing with some of the more egregious forms of SEO (their results for long-tail queries aren't that bad), and they have a separate panel for Facebook results which rarely (if ever) has anything interesting in it.
+They need to radically change their UI and UX such that searching on Bing is a very different experience from searching on Google. As it stands, searching on Bing just feels like you're using Google except it kinda sucks more.
+		permalinkembedsaveparentgive award
+
+
+
+[–]ixireveng3ixi 53 points 6 years ago 
+"fees like you're using Google except it kinda sucks more." 
+I concur.
+Source: I like to use the internet sometimes.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (8 replies)
+		
+
+
+
+
+
+
+
+
+[–]Vaughn 11 points 6 years ago 
+Most of the time if Google is not working, something between you and Google is broken. It's reliable enough that I use the front page as a basic networking diagnostic.
+		permalinkembedsaveparentgive award
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+
+[–]LM10 39 points 6 years ago* 
+	1.	What sort of volume of logging data do you'll have to peruse through on a daily basis? 
+	2.	What are some of the most challenging incidents you have faced while trying to maintain uptime? 
+	3.	What level of uptime do you attempt to maintain? How many "9s"?  
+	4.	What series of checks would you follow if something was wrong? What would be the first response strategy? 
+	5.	How do you run a website so well that people basically use it to check whether or not their Internet is up? 
+	6.	How often do you have to interface with the Information Security folks and what sort of incident response activities do you delegate to them? 
+		permalinkembedsavegive award
+
+
+
+[–]clusteroopsGoogle SRE 46 points 6 years ago 
+Answering based on my personal experience:
+1: Almost none. In practice, aggregated instrumentation data suffices to solve most problems.
+2: Queries of death, which cause numerous systems to crash simultaneously. Although we have numerous layers of protection against QoDs these days.
+3: A lot. (Seriously though, it's complicated and differs between products and features, so no blanket statement would be very useful.)
+4: We typically go straight to our dashboards, which give a heads-up view of many different systems. These allow us to quickly identify the scope of the problem, and likely point of failure. Our first response is usually to mitigate damage by diverting queries at the load balancing layer.
+5: Aww, shucks.
+6: We don’t delegate to Secops - they run as a separate organisation that does (among many other things) incident management, and security reviews for upcoming launches. We usually talk to them pre-launch for anything that’s sensitive, and they rank highly when we’re triaging bug reports and user reports of problems with products we run.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]Supercharged38 37 points 6 years ago 
+What's your LDAP?
+		permalinkembedsavegive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 80 points 6 years ago 
+OpenLDAP 2.4, same as you.
+		permalinkembedsaveparentgive award
+
+
+load more comments (7 replies)
+		
+
+
+
+
+
+
+
+
+[–][deleted] 6 years ago* 
+[deleted]
+		
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (5 replies)
+		
+
+
+
+
+
+
+
+
+[–]sertigo 33 points 6 years ago 
+How much information do you have on most people and who is able to acces it? (like can someone just acces my e-mail, youtube and google search results and/or sites is visit while using chrome?)
+		permalinkembedsavegive award
+
+
+
+[–]Ranek520 25 points 6 years ago* 
+Not part of the AMA (but I interned there), but since there are no responses to you yet...
+They're very concerned about security. All accesses to user data is logged and any unauthorized access is severely punished. Different levels of access require different permissions. The requirements around password resets, for example, aren't that strict (I think there's a support team that does it and has permission). If I remember correctly, access to manually view and peruse your information requires a specific reason and approval from very high up the chain. Basically, I was a little worried about them abusing my data before I worked there, but I trust them completely to protect my data now. Any access to data is automatic and programmatic, usually for tailoring searches or ads to you specifically.
+In terms of how much... I'd say they probably have everything you've given them that you haven't asked them to delete.
+Edit: Also, see this by weareconvo, who knows more about it than I do http://www.reddit.com/r/IAmA/comments/177267/we_are_the_google_site_reliability_team_we_make/c82t6ir
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+
+
+[–]Livesinthefuture 33 points 6 years ago* 
+	•	I remember a Googler telling me you guys consider it a disk-space crisis when you've only got 10 PB free disk left. Is that actually true?
+	•	Are you expecting Google Glass to contribute a fair bit to the beating on your infrastructure?
+		permalinkembedsavegive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 179 points 6 years ago 
+OMG WE ONLY HAVE 10PB LEFT SOMEBODY GO TO FRY'S.
+		permalinkembedsaveparentgive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]fdsdfg 31 points 6 years ago 
+I once asked my brother (web dev) what the pinnacle of web scripting on a site was, and he answered google docs. 
+It made me wonder - have you ever done a big 'under the hood' revamp of one of your products that the end user was never supposed to notice? How is it? 
+		permalinkembedsavegive award
+
+
+
+[–]Ranek520 17 points 6 years ago 
+That's not the responsibility of the SREs, that'd be the SWEs working on that project.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (5 replies)
+		
+
+
+
+
+
+
+
+
+[–]lyzing 27 points 6 years ago 
+What are the majority of the problems you encounter caused from, what is the biggest problem you encounter when trying to fix said problems? With a company so large as Google, is internal communication a major issue when relying on other teams to fix things? 
+		permalinkembedsavegive award
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 51 points 6 years ago 
+I don’t think we can narrow down to a small number of root causes, the number of things that can affect services is staggering - everything from software fault to cuts in fiber in random places (we do have seasonal problems with fiber cuts in certain places. hunters get bored when they run out of game to shoot and start shooting fiber distribution boxes). This is why you’re never bored as an SRE - you can never make assumptions about the root cause of a problem :-)
+We’re really focused on keeping our teams in touch and in sync with each other -- being in the Dublin office means a lot of videoconferences, being able to manage email and IM, that sorta thing. We use hangouts pretty heavily internally to keep up to date with teams and individuals.
+		permalinkembedsaveparentgive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+
+
+[–]jamie321 23 points 6 years ago 
+I am a sysadmin at a company that insists on using our local time zone for internal logging instead of UTC. You can imagine how things get screwed up twice every year because of Daylight Savings. Now that we're opening other offices, it's not even "local" for everyone.
+My superiors don't see this as a problem. Are there any arguments you could provide for the use of UTC based on your experiences that might convince them?
+		permalinkembedsavegive award
+
+
+
+[–]immerc 18 points 6 years ago 
+You're definitely asking the wrong people.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+
+[–]COOLDOE 18 points 6 years ago 
+How much of your traffic goes through peering? Paid transit?
+What does your backbone on the US look like?
+What (if any) bottlenecks do you face at your data centres?
+How many levels of redundancy do you guys have on Gmail info for example? Raid 10 + duplication on site and offsite?
+How low do you get transit rates just because you buy SO much of it?
+		permalinkembedsavegive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]willphase 16 points 6 years ago 
+What's the best scenario you've dreamed up for DiRT and how far do you go to pretend it's real e.g. dressing up as zombies? (from the ACM queue article)
+		permalinkembedsavegive award
+
+
+
+[–]kripakrishnanGoogle SRE 22 points 6 years ago 
+This one is hard to answer - each year has it’s own theme and it’s all fun. We’ve had our action hero (based on a top executive in Google) save the day with Portals. We’ve had ‘rigidly defined areas of doubt and uncertainty’, and we’ve had zombies. We even have our own music videos sometimes.
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+
+
+
+[–]amazon_throwaway_201 15 points 6 years ago 
+How do you manage outages in systems written by other people? I've heard that once a system is stable enough, devs don't do oncall anymore and pass everything to you guys? If a system written by someone else fails at 3 am and you can't figure out an obvious problem, how do you proceed for the quick fix?
+Also, as SRE do you do any dev work? And vice-versa, do developers usually do regular oncall rotation, or they do it just for recently launched services and then pass it to you after an uneventful couple of weeks?
+Thanks for the AMA!! 99% of our teams don't have dedicated ops people and oncall period is definitely the most stressful and important for us! You do learn a lot more and a lot faster though so I guess it's a tradeoff!
+		permalinkembedsavegive award
+
+
+
+[–]clusteroopsGoogle SRE 21 points 6 years ago 
+Other people: we review systems before agreeing to maintain them, which helps us understand how they work and how they can fail. After handoff, the developers don't just disappear, they remain around to continue supporting the product. And in practice, we often escalate to them for particularly tricky problems. We have their phone numbers.
+Dev work: absolutely. We expect to spend no more than 50% time on ops work, although it varies by team in practice. Developers also do oncall, particularly because SRE support for any given system is not inevitable. We focus on high reliability and efficiency for Google's most important systems, and not basic care and feeding for every system ever produced.
+		permalinkembedsaveparentgive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+
+
+[–][deleted] 17 points 6 years ago 
+Google.com obviously runs quite complicated software. From what I have gathered, most of it is C++, Java or Python. (Correct?)
+Does the SRE team treat the software like a black box and mostly work with the diagnostic and debugging features its software developers left in, or do you also dig into the source code to do actual live debugging yourself?
+If you do, how do you manage to keep up your knowledge of the code/architecture as the various products are developed by their teams? 
+Do you have people who specialize in the various products, or do you prefer to keep your team as generalists?
+		permalinkembedsave
+
+
+
+[–]clusteroopsGoogle SRE 25 points 6 years ago 
+Debugging: we do a fair amount of black box monitoring, but for debugging our focus is on instrumentation and logging. In practice, many of the systems are so complex that we can't practically tell what they're doing unless they tell us. In fact, we often add instrumentation or logging to existing code to make the debugging process easier.
+Keeping up: we review major changes before they launch, and regularly work with developers to ensure the systems remain scrutable.
+Specialization: yes! My team focuses on Google Search. At a minimum, we all need to be capable of mitigating damage when any part of the system fails, and narrowing the root cause. But for day-to-day work, we regularly specialize in certain subsystems.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]just_a_dram 16 points 6 years ago 
+What's it like joining an SRE team at Google compared to your previous job? What's the biggest difference? What were your initial reactions?
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]PlNG 14 points 6 years ago 
+Any ties to YouTube?
+If so, why do YouTube's CDN's suck so badly?
+		permalinkembedsavegive award
+
+
+load more comments (7 replies)
+		
+
+
+
+
+
+
+
+
+[–]ateeist 14 points 6 years ago 
+I am a nursing student and electronic medical records systems are horrible. They are ugly, disorganized, and a pain to use. Could Google get into the electronic medical records business? The world would be a better place.
+		permalinkembedsavegive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–]dezmodez 11 points 6 years ago 
+I hear you guys are a great bunch of people that work your butts off every day.
+I've also seen you described as "the world's most intense pit crew"
+How would you describe your career in one sentence?
+Also, If you could change Google's name to include more o's. Would you change it? If so, where would you put them?
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]zaphodX 14 points 6 years ago 
+How much of your tools are internal to google? What are tools that you can't live with?
+		permalinkembedsavegive award
+
+
+load more comments (2 replies)
+		
+
+
+
+
+
+
+
+
+[–]icco 11 points 6 years ago 
+DiRT seems to be a cool idea, and comparable to Netflix's Chaos Monkey. Does Google do anything that takes down machines, racks, or data centers more often than once a year?
+		permalinkembedsavegive award
+
+
+
+[–]fubo 13 points 6 years ago 
+If you have a zillion machines, you always have a one-in-a-zillion failure.
+(Which is why you equip your staff with a Warhammer of Zillyhoo.)
+		permalinkembedsaveparentgive award
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+
+[–]amazon_throwaway_201 13 points 6 years ago* 
+Do you ever feel envious that guys who build features get all the credit while you guys operate "behind the scenes" and make sure everything is very smooth (which by the way seems to me much harder and more stressful than pure dev work)?
+		permalinkembedsavegive award
+
+
+
+[–]jrc-sreGoogle SRE 27 points 6 years ago 
+Personally, I don’t. 3 reasons... (1) Folks within Google are usually very appreciative of the work we do. So, we actually do get quite a bit of kudos. (2) Usually by the time people recognize something we did, we’ve already moved on to something else, and actually solving whatever problems we’re facing is why I come to work every day. (3) I like solving big, hairy problems that haven’t been solved before. That usually means having someone else think up something crazy and then I get to figure out how to actually make it work.
+And, just to point it out, the features and solutions are always better when its not just “guys” coming up with them. Our best work comes when we have a bunch of different folks contributing.
+		permalinkembedsaveparentgive award
+
+
+load more comments (4 replies)
+		
+
+
+
+
+
+
+
+
+[–]sre_pointyhairGoogle SRE[S] 23 points 6 years ago 
+Not really. In reality, SREs have a pretty integral role in making launches happen. We’re as proud of the stuff we help to put out as the people who design or produce them, and it’s amazing to see how it affects people’s lives. Example: I was listening to a Jazz radio station the other day in the car, and they were reading out random cities people were visiting their live stream from, from Google Analytics Real-Time. I helped launch that last year, and it was an exciting time for everyone involved. Moments like that make it not really matter if my name’s in an easter egg :-)
+		permalinkembedsaveparentgive award
+
+
+load more comments (3 replies)
+		
+
+
+
+
+
+
+
+load more comments (1 reply)
+		
+
+
+
+
+
+
+
+load more comments (856 replies)
+
+
+
+		about
+		blog
+		about
+		advertising
+		careers
+		help
+		site rules
+		Reddit help center
+		wiki
+		reddiquette
+		mod guidelines
+		contact us
+		apps & tools
+		Reddit for iPhone
+		Reddit for Android
+		mobile website
+		<3
+		reddit premium
+		reddit coins
+		redditgifts
+Use of this site constitutes acceptance of our User Agreement and Privacy Policy. © 2019 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+Advertise - lifestyles
+π 
+
+
+
+
+
+
+

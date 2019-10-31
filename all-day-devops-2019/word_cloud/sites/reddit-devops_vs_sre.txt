@@ -1,0 +1,379 @@
+
+jump to content
+GET NEW REDDIT
+MY SUBREDDITS
+				HOME-POPULAR-ALL-RANDOM-MOD-USERS | WORLDNEWS-FLYING-CONSULTING-FATFIRE-DEVOPS-POLITICALDISCUSSION-AWS-KUBERNETES-DOCKER-AZURE-ITMANAGERS-ETL-BUSINESSSCHOOL
+EDIT »
+		reddit.com devopscomments
+		mrcrassic (3,889)|messages|chat messages7|mod messages|mod messages|preferences|logout
+
+this post was submitted on 04 May 2019
+20 points (82% upvoted)
+shortlink: https://redd.it/bkgmbe
+
+Submit a new text post
+
+
+Get an ad-free experience with special benefits, and directly support Reddit.
+Get Reddit Premium
+devops
+leave119,291 readers
+306 users here now
+Show my flair on this subreddit. It looks like:
+mrcrassicConsultant a.k.a "The Enemy"(edit)
+Welcome to /r/DevOps
+/r/DevOps is a subreddit dedicated to the DevOps movement where we discuss upcoming technologies, meetups, conferences and everything that brings us together to build the future of IT systems
+What is DevOps? Learn about it on our wiki!
+Traffic stats & metrics
+Rules and guidelines
+Be excellent to each other!
+All articles will require a short submission statement of 3-5 sentences.
+Use the article title as the submission title. Do not editorialize the title or add your own commentary to the article title.
+Follow the rules of reddit
+Follow the reddiquette
+No editorialized titles. 
+No vendor spam. Buy an ad from reddit instead.
+Job postings here
+More details here
+Social & Fun
+@reddit_DevOps
+##DevOps @ irc.freenode.net
+Find a DevOps meetup near you!
+Icons info!
+General Information
+https://github.com/Leo-G/DevopsWiki
+
+created by [deleted]
+a community for 9 years
+
+message the moderators
+MODERATORS
+		mthode
+		rufusdenne
+		about moderation team »
+RECENTLY VIEWED LINKS
+		   Why I turned down an AWS job offer
+		156 points | 83 comments      Notes on Site Reliability Engineering
+		28 points | 9 comments      Airpods Pro Unboxing, Size Comparison, and Initial Impressions
+		514 points | 313 comments      AirPods Pro Earpiece Tip Replacements Will Cost $4
+		639 points | 254 comments      Huawei FreeBuds 3 review: No more AirPods envy - Android Authority
+		0 points | 53 comments     clear  
+account activity
+This is an archived post. You won't be able to vote or comment.
+
+
+
+
+DevOps vs. SRE - What's Your Take? (self.devops)
+20 points submitted 6 months ago by thepaintsaintDevOps
+I'm a newly minted DevOps Engineer, fresh from a 50/50 Windows/Linux sysadmin background. I'm absolutely loving my job. But it seems to be a strong mix of CloudFormation/other AWS, and Linux automation and administration. While I'm really happy where I am, I'm wondering for future advancement...
+What do y'all consider the difference between DevOps and SRE? In my limited view, it appears that DevOps is a bit more tied in with CI/CD, while SRE is a little more on the infrastructure side. How do you distinguish this? And what central tech skills do you see for each role?
+		30 commentssharesavehidegive awardreportcrosspost
+
+
+
+all 30 comments
+sorted by: top
+
+
+
+[–]ejb50 20 points 5 months ago* 
+typically devops engineers work closely with developers in one team and are heavily involved in the development process and helping the devs deploy the pipelines all the way to production.
+SRE typically monitoring the production system. look at scaling stability etc. You tend to need them in bigger companies (SRE invented at Google) running large fleets of servers. Small companies say to up to a couple of hundred server instances typically get by just with devops engineers monitoring system as performance and scalability not such a big issue.
+If Devops Engineer is not a role then what are those hundreds of jobs advertised each week. ha ha. You can say they are misusing the term but language is purely what most people agree. We talk of Linux when we should really call it Linux/GNU so is everyone using the term linux wrong?
+In the english language we don't have language police like in France for the french language ha ha.
+		permalinkembedsavegive award
+
+
+
+[–]NormieChomsky 2 points 5 months ago 
+I bet all those devops engineers didn’t even read The Phoenix Project!
+		permalinkembedsaveparentgive award
+
+
+
+[–]MyName_Is_Adam 1 point 5 months ago 
+I did!
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+[–]jhermann_ 18 points 5 months ago* 
+DevOps is not a role, and there is no "vs". See https://web.devopstopologies.com/#type-seven
+		permalinkembedsavegive award
+
+
+
+[–]copy_paprDevOps 20 points 5 months ago 
+DevOps Engineer: probably just trying to do their job, was given title by HR or management, facilitates automation, infrastructure decisions, CI/CD 
+SRE: probably just trying to do their job, was given title by HR or management, facilitates automation, infrastructure decisions, CI/CD 
+The rest is a load of snark and holier than thou-ism.
+		permalinkembedsaveparentgive award
+
+
+
+[–]wheres_my_toast 4 points 5 months ago 
+DevOps Engineer: probably just trying to do their job, was given title by HR or management
+God, that's me. I don't actually do any DevOps work right now and I cringe heavily whenever I get introduced to clients as "one of our DevOps engineers". Those conversations always get awkward.
+		permalinkembedsaveparentgive award
+
+
+
+[–]TyrSniper 3 points 5 months ago 
+My favorite is to open most DevOps conversations with "so we all know it's not a real role, but I'm <insert intro here>". I usually get chuckles from vendors.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+[–]ShepardRTC 8 points 5 months ago 
+If DevOps isn't a role then why has every company I've ever worked for hired DevOps engineers?
+It wasn't originally intended to be a role, but sometimes people go a different direction from what was intended because it just works better. Go tell your devs to build an AWS deployment infrastructure in their free time and see what happens.
+		permalinkembedsaveparentgive award
+
+
+
+[–]sharpfork 2 points 5 months ago 
+There are roles and organizations with Dev Ops titles because it is easier to give something a name than it is to change a way of working. Sounds like you are an infrastructure or platform engineer and hopefully your org is aligned with a dev ops philosophy.
+		permalinkembedsaveparentgive award
+
+
+
+[–]ShepardRTC 3 points 5 months ago 
+We don’t have sysadmins and our devs do get very involved in deployments and fixes. But the sheer amount of work involved requires a team dedicated to just DevOps stuff. The original philosophy was great. I fully subscribed to it. But it’s not very pragmatic. And as time goes on and automation becomes easier, pure sysadmin roles disintegrate. 
+My previous job at a bank had devs and sysadmins, and neither could work on the other’s areas. These were not the highest skilled employees. So they had to form a DevOps team. It’s the lazy way of doing it, sure, but replacing the others with higher skilled people was not an option. It took me a year to fully build a deployment framework. I maintained it for a while and then left. 
+I always say that a good DevOps Engineer should automate themselves out of a job. And I did.
+		permalinkembedsaveparentgive award
+
+
+
+[–]sharpfork 1 point 5 months ago 
+Automating yourself out of a job is a great goal! Automation Engineer might have been a more fitting title than DevOps engineer.
+I see a ton of fortune 500's trying to buy some kind of "transformation" instead of making hard decisions that change culture (same thing happens with "Agile"). There are plenty of consulting companies that will sell big companies DevOps as a DevOps team staffed with a DevOps Engineers but not much really changes across the company. It becomes a sort of buzzword that some executive can point to on a powerpoint without any meaningful cultural change. I choose to be very intentful with my language around DevOps because asking 10 IT professionals what DevOps means often yields >22 opinions.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]Craptcha 2 points 5 months ago 
+If your job is to build, automate and maintain code/test pipelines and release mechanisms, you are a devops engineer and therefore that is your role.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]votebluein2018plz 2 points 5 months ago 
+If DevOps isn't a role then why has every company I've ever worked for hired DevOps engineers?
+Because it *is* a role and snarky bitter sysadmins get butthurt their jobs are disappearing. Devops engineer, generally, is a very distinct role from anything else. SRE feels like a shitty title in my opinion. I don't just engineer "reliability" I also engineer entire automated systems.
+		permalinkembedsaveparentgive award
+
+
+
+[–]brokenscope 3 points 5 months ago* 
+Building automation is a clear requirement of improving reliability of a complex system.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+[–]sarkie 1 point 5 months ago 
+Bingo
+		permalinkembedsaveparentgive award
+
+
+
+[–]Brecci 1 point 5 months ago 
+Was his name-o
+		permalinkembedsaveparentgive award
+
+
+
+[–]Ska-jayjay 2 points 5 months ago 
+Had a farm...DOH!
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+
+
+[–]ShepardRTC 6 points 5 months ago 
+I'm sorry the elitists on this sub come at you with "but its not a role". Your view on the difference between DevOps and SRE is pretty close. SRE is generally more concerned with performance monitoring and failure recovery. Both tend to work on the infrastructure. And DevOps does tend to be more concerned with CI/CD. But often the lines get blurred for one reason or another.
+		permalinkembedsavegive award
+
+
+
+[–]sharpfork 0 points 5 months ago 
+They get blurred because people are not clear with language. I guess I’m just an elitist.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]Gigi_men 4 points 5 months ago 
+There is no difference and are not comparable. DevOps is a methodology while SRE is a role. I think that the main task of that role is to automate all the processes of build, test and deploy applications. It does not matter the tools you are using because it depends on the company, team and languages you are using.
+The problem and confussion about this is that ghe recruiters are taking that DevOps word while they don't know what it means.
+		permalinkembedsavegive award
+
+
+
+[–]wradewra 2 points 5 months ago 
+Devops is more a philosophy than an methodology
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]spoxor 3 points 5 months ago 
+stumbled across this the other day;
+
+a nice little tldr from google crew https://www.youtube.com/watch?v=uTEL8Ff1Zvk
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]garchangel 2 points 5 months ago 
+An SRE implements DevOps: https://cloud.google.com/blog/products/gcp/sre-vs-devops-competing-standards-or-close-friends
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]sevencityseven 1 point 5 months ago 
+Central tech skills for each role: doing the needful.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]trump_farted_beaver 0 points 6 months ago 
+I've held both titles (and many others but that's not the point) and the difference I find between SRE and DevOps is a SRE is more your Systems Engineer (think of a sysadmin who can automate and code fluently). 
+If you take it like I said; you would be confused and ask what's the difference between DevOps and SRE? I think it's the same idea with 2 different titles.
+People will tell you that SRE is more engineering or application centric; but then you gotta ask what the heck is DevOps then? 
+As far as moving up; you could move up to be a manager eventually or you could after 10-15years start consulting and charge the big bucks and stuff it away for retirement and retire early.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]BadUsername_Numbers -6 points 5 months ago 
+Devops engineer? Doggy doggy what now?
+Anyway what you're describing is to me basically the same thing.
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]vtrac -9 points 6 months ago 
+yawn
+		permalinkembedsavegive award
+
+
+
+[–]skat_in_the_hat -2 points 5 months ago 
+I agree. So tired of this question... "erma gard! What do I learn!? I want to be a younix admeeen!"
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]evilboygenius -12 points 5 months ago 
+A Dev ops engineer writes a program that automatically deploys your code. A SRE writes a program that manages all your docker images. That's how we framed it while building our DevOps team.
+		permalinkembedsavegive award
+
+
+
+[–]Burnsy2023 7 points 5 months ago 
+From that description, you understand neither DevOps nor SRE.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+		about
+		blog
+		about
+		advertising
+		careers
+		help
+		site rules
+		Reddit help center
+		wiki
+		reddiquette
+		mod guidelines
+		contact us
+		apps & tools
+		Reddit for iPhone
+		Reddit for Android
+		mobile website
+		<3
+		reddit premium
+		reddit coins
+		redditgifts
+Use of this site constitutes acceptance of our User Agreement and Privacy Policy. © 2019 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+π 
+
+
+
+
+
+
+

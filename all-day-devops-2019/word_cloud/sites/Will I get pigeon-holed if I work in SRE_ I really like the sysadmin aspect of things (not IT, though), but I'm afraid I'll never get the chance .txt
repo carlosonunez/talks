@@ -1,0 +1,216 @@
+
+jump to content
+GET NEW REDDIT
+MY SUBREDDITS
+				HOME-POPULAR-ALL-RANDOM-MOD-USERS | WORLDNEWS-FLYING-CONSULTING-FATFIRE-DEVOPS-POLITICALDISCUSSION-AWS-KUBERNETES-DOCKER-AZURE-ITMANAGERS-ETL-BUSINESSSCHOOL
+EDIT »
+		reddit.com cscareerquestionscomments
+		mrcrassic (3,889)|messages|chat messages7|mod messages|mod messages|preferences|logout
+
+this post was submitted on 29 Nov 2018
+1 point (100% upvoted)
+shortlink: https://redd.it/a1djwu
+
+Ask a new question
+
+
+Get an ad-free experience with special benefits, and directly support Reddit.
+Get Reddit Premium
+cscareerquestions
+join300,333 readers
+6,914 users here now
+Show my flair on this subreddit. It looks like:
+mrcrassic(edit)
+Welcome, one and all, to CSCareerQuestions! 
+Here we discuss careers in Computer Science, Computer Engineering, Software Engineering, and related fields. Please keep the conversation professional, adhere to the reddiquette, and remember to READ OUR RULES.
+
+Discord
+CSCQ regular u/Kevincav runs a discord called CS Career Hackers. Please check it out for your chatting needs: https://discord.gg/ndFR4RF
+Please note that we, the CSCQ mod team are not in charge of this discord.
+
+Want to ask a question?
+	•	First: Read the rules 
+	•	Second: Check out this awesome "quick answers to common questions" thread 
+	•	Third: Check the FAQ 
+	•	Fourth: Search for prior posts on the subject 
+	•	Fifth: Post post post 
+
+User Flair??
+Noticed some cool user flair around? Take a look at this thread to see what it's all about. 
+tl;dr: darker colors == more posting experience here.
+
+Salary Sharing Survey
+The survey and response spreadsheet have been updated as of November 23, 2018.
+Survey | Responses
+These are the old responses to the previous survey
+Share your current compensation and review the data submitted by other users in the two links above. More info about the salary survey can be found on the subreddit wiki.
+
+Salary Sharing Threads
+These are only posted by mods, following the schedule listed in the FAQ. You can find past threads here.
+
+Demographics Survey
+	•	2017/2018 Results
+	•	2016 Results
+
+Daily Threads
+In addition to a chat thread that's newly spawned every day, we have a daily rotation for threads for certain topics. Please don't start new threads about these topics without getting mod permission first, lest we be forced to...intervene.
+	•	Sunday: Big N 
+	•	Monday: Interviews 
+	•	Tuesday: Resumes 
+	•	Wednesday: Big N 
+	•	Thursday: Interviews 
+	•	Friday: Special Rant Thread 
+	•	Saturday: Resumes 
+
+Related Subs
+Other CS Career Subs
+CS Career Questions: Europe
+Experienced Devs
+CS Interview Questions
+Education/Theory
+CS Majors
+CompSci
+Computer Science
+CS Education
+Programming
+Learn Programming
+General Programming Discussion
+Coding
+Other Jobs Subs
+IT Career Questions
+Telecommuting
+General Job Discussion
+Digital Nomads
+Career Guidance
+
+Contribute to the FAQ!
+We could always do with more help and wisdom, friend! The better the FAQ, the harder we can come down on lazy posters with low-effort OPs, which means a higher quality subreddit experience for you.
+
+Don't see your link?
+created by [deleted]
+a community for 8 years
+
+message the moderators
+MODERATORS
+		CriticDangerSoftware Engineer
+		Himekat12 Years XP | TPM | DevOps
+		LLJKCiceroAndroid Dev @ G | 7Y XP
+		AutoModeratorRobot
+		ocawaSoftware Engineer
+		cscqflairbotRobot
+		HackVTHiring Manager
+		xiongchiamiovSite Reliability Engineer
+		XXAligatorXxFreshman
+		RyanTargaryen
+		...and 1 more »
+RECENTLY VIEWED LINKS
+		   articleWhy I turned down an AWS job offer
+		154 points | 83 comments      Notes on Site Reliability Engineering
+		31 points | 9 comments      Airpods Pro Unboxing, Size Comparison, and Initial Impressions
+		517 points | 313 comments      AirPods Pro Earpiece Tip Replacements Will Cost $4
+		652 points | 255 comments      Huawei FreeBuds 3 review: No more AirPods envy - Android Authority
+		0 points | 53 comments     clear  
+account activity
+This is an archived post. You won't be able to vote or comment.
+
+
+
+
+Will I get pigeon-holed if I work in SRE? I really like the sysadmin aspect of things (not IT, though), but I'm afraid I'll never get the chance to go back to pure software engineering again (self.cscareerquestions)
+1 point submitted 11 months ago by united_glory
+A little bit of background: I'm graduating soon, and I got this great offer to join as a SRE (Site Reliability Engineer) at one of {Amazon,Google,FB} and I'm really grateful for the opportunity. I've developed software, but I think I like working on performance engineering, networking (not the people kind, I mean computer-to-computer networking :P), low-level systems engineering etc. After some research, SRE roles seemed to fit these the best.
+But here's the catch: I have no real experience as an SRE. Both my previous internships were SWE (Software Engineering). I'm just worried that if I happen to not actually like SRE, I'll get pigeon-holed if I go into SRE for the rest of my life.
+The team I'll be joining does a lot of scripting and stuff, so I'll still be writing code (and I want to). I just don't want to move too far away from SWE and become a IT guy.
+		4 commentssharesavehidegive awardreportcrosspost
+
+
+
+all 4 comments
+sorted by: top
+
+
+
+[–]monotonicentrySoftware Engineer | Site Reliability Engineer 3 points 11 months ago 
+Depends on where you SRE. First, Amazon doesn't have SREs, the SRE work is done by normal SWE.
+I can share some information about Google SRE. I imagined FB can be similar, if you say which company, it will make things easier.
+At Google, there are two tracks for SRE. SWE-SRE and SE-SRE. If you are hired as "SWE-SRE" you are an SWE but working in SRE organization, so if you don't like SRE, you can transition out as a team change to say regular SWE. (no interviews ofc, easy process, just need a manager to accept you). If SRE @Google wasn't growing SWE skills, do you think Google would allow that? The pool for hiring "SWE-SRE" is from SWE, technically SRE is a decision at team matching. There are plenty of full fledged Software Engineering work in SRE. (There's no distinct between SWE-SRE and SE-SRE, but since you have SWE experience, I assume the company is G, you are most probably a SWE-SRE).
+
+Google SRE has a rule of spending at least 50% on your time on project work, in practice it is usually more since leadership will push more before it reaches 50%. I like to think of SRE as a subset of SWE. Teams without SREs (A product only gets SRE when it's deemed very important like search,ads,gmail) are doing SRE stuff anyways. 
+
+Another thing to consider is teams, some SRE teams are more oriented towards SWE over System engineering, or the other way around. 
+SREs @Google/FB really have a good reputation. As long as you are working on relevant project work in SRE, you will have no problems switching to any SWE team outside them.
+
+For some other companies, SRE is just a way of "I renamed my sysadmin team to SRE and expect stuff to solve itself".
+
+I've attached some links to you about SRE :)
+
+https://landing.google.com/sre/sre-book/chapters/software-engineering-in-sre/
+https://students.googleblog.com/2013/07/site-reliability-engineering-through.html
+https://www.reddit.com/r/cscareerquestions/comments/9zmjk7/starting_career_as_sre/
+
+
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]ShoddyDay 2 points 11 months ago 
+“IT guy”
+“regular sysadmins”
+You guys sound like pompous assholes...
+		permalinkembedsavegive award
+
+
+
+[–]united_glory[S] 2 points 11 months ago 
+we're a higher breed, you know
+just kidding, I just meant positions that don't have any programming, sorry if I came across as offensive
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+[–]burdalane 0 points 11 months ago* 
+In general, the SRE's at the top tech companies are supposed to have strong software engineering skills and spend significant time coding, so you should be able to transition to SWE. However, there might be some pigeonholing. For one thing, you could still spend up to 50% of your time (maybe more depending on company or if your team is not well run) on operational tasks. Unless you get to contribute to a tool, the code you write in SRE might be scripting for automation and configuration management. This is different from SWE. 
+FWIW, I've done a couple of SRE-type interviews and noticed that the programming questions are easier than SWE interviews.
+		permalinkembedsavegive award
+
+
+
+		about
+		blog
+		about
+		advertising
+		careers
+		help
+		site rules
+		Reddit help center
+		wiki
+		reddiquette
+		mod guidelines
+		contact us
+		apps & tools
+		Reddit for iPhone
+		Reddit for Android
+		mobile website
+		<3
+		reddit premium
+		reddit coins
+		redditgifts
+Use of this site constitutes acceptance of our User Agreement and Privacy Policy. © 2019 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+Advertise - technology
+π 
+
+
+
+
+
+
+

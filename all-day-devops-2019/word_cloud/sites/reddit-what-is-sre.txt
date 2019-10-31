@@ -1,0 +1,213 @@
+
+jump to content
+GET NEW REDDIT
+MY SUBREDDITS
+				HOME-POPULAR-ALL-RANDOM-MOD-USERS | WORLDNEWS-FLYING-CONSULTING-FATFIRE-DEVOPS-POLITICALDISCUSSION-AWS-KUBERNETES-DOCKER-AZURE-ITMANAGERS-ETL-BUSINESSSCHOOL
+EDIT »
+		reddit.com cscareerquestionscomments
+		mrcrassic (3,889)|messages|chat messages7|mod messages|mod messages|preferences|logout
+
+this post was submitted on 31 May 2017
+4 points (83% upvoted)
+shortlink: https://redd.it/6ei4qg
+
+Ask a new question
+
+
+Get an ad-free experience with special benefits, and directly support Reddit.
+Get Reddit Premium
+cscareerquestions
+join300,298 readers
+6,474 users here now
+Show my flair on this subreddit. It looks like:
+mrcrassic(edit)
+Welcome, one and all, to CSCareerQuestions! 
+Here we discuss careers in Computer Science, Computer Engineering, Software Engineering, and related fields. Please keep the conversation professional, adhere to the reddiquette, and remember to READ OUR RULES.
+
+Discord
+CSCQ regular u/Kevincav runs a discord called CS Career Hackers. Please check it out for your chatting needs: https://discord.gg/ndFR4RF
+Please note that we, the CSCQ mod team are not in charge of this discord.
+
+Want to ask a question?
+	•	First: Read the rules 
+	•	Second: Check out this awesome "quick answers to common questions" thread 
+	•	Third: Check the FAQ 
+	•	Fourth: Search for prior posts on the subject 
+	•	Fifth: Post post post 
+
+User Flair??
+Noticed some cool user flair around? Take a look at this thread to see what it's all about. 
+tl;dr: darker colors == more posting experience here.
+
+Salary Sharing Survey
+The survey and response spreadsheet have been updated as of November 23, 2018.
+Survey | Responses
+These are the old responses to the previous survey
+Share your current compensation and review the data submitted by other users in the two links above. More info about the salary survey can be found on the subreddit wiki.
+
+Salary Sharing Threads
+These are only posted by mods, following the schedule listed in the FAQ. You can find past threads here.
+
+Demographics Survey
+	•	2017/2018 Results
+	•	2016 Results
+
+Daily Threads
+In addition to a chat thread that's newly spawned every day, we have a daily rotation for threads for certain topics. Please don't start new threads about these topics without getting mod permission first, lest we be forced to...intervene.
+	•	Sunday: Big N 
+	•	Monday: Interviews 
+	•	Tuesday: Resumes 
+	•	Wednesday: Big N 
+	•	Thursday: Interviews 
+	•	Friday: Special Rant Thread 
+	•	Saturday: Resumes 
+
+Related Subs
+Other CS Career Subs
+CS Career Questions: Europe
+Experienced Devs
+CS Interview Questions
+Education/Theory
+CS Majors
+CompSci
+Computer Science
+CS Education
+Programming
+Learn Programming
+General Programming Discussion
+Coding
+Other Jobs Subs
+IT Career Questions
+Telecommuting
+General Job Discussion
+Digital Nomads
+Career Guidance
+
+Contribute to the FAQ!
+We could always do with more help and wisdom, friend! The better the FAQ, the harder we can come down on lazy posters with low-effort OPs, which means a higher quality subreddit experience for you.
+
+Don't see your link?
+created by [deleted]
+a community for 8 years
+
+message the moderators
+MODERATORS
+		CriticDangerSoftware Engineer
+		Himekat12 Years XP | TPM | DevOps
+		LLJKCiceroAndroid Dev @ G | 7Y XP
+		AutoModeratorRobot
+		ocawaSoftware Engineer
+		cscqflairbotRobot
+		HackVTHiring Manager
+		xiongchiamiovSite Reliability Engineer
+		XXAligatorXxFreshman
+		RyanTargaryen
+		...and 1 more »
+RECENTLY VIEWED LINKS
+		   articleWhy I turned down an AWS job offer
+		159 points | 83 comments      Notes on Site Reliability Engineering
+		28 points | 9 comments      Airpods Pro Unboxing, Size Comparison, and Initial Impressions
+		515 points | 313 comments      AirPods Pro Earpiece Tip Replacements Will Cost $4
+		643 points | 254 comments      Huawei FreeBuds 3 review: No more AirPods envy - Android Authority
+		0 points | 53 comments     clear  
+account activity
+This is an archived post. You won't be able to vote or comment.
+
+
+
+
+What is an SRE? (self.cscareerquestions)
+4 points submitted 2 years ago by TaylorHu
+Site Reliability Engineer. This is a job title I see crop up occasionally, but I haven't really found a clear definition as to what it is. It kind of seems like it's the same as DevOps, in that it's kind of a generic job title for a jack of all trades style position that varies a lot from company to company. Anyone care to shed some light?
+		6 commentssharesavehidegive awardreportcrosspost
+
+
+
+all 6 comments
+sorted by: top
+
+
+
+[–]kingisaac10 Yrs / Software Architect 3 points 2 years ago 
+The way it works in my experience (full disclosure, I'm not an SRE, but I work with some) is that SRE's are a lot like DevOps except on the other side of the deployment. Site reliability engineers may goal is to keep everything running smoothly once it's out the door. They need to be familiar with monitoring solutions and at higher levels will be involved with developing crisis recovery protocols. 
+		permalinkembedsavegive award
+
+
+
+[–]TaylorHu[S] 1 point 2 years ago 
+Do they do any actual coding? All of the job descriptions I've seen list "familiarity with XXXXX programming language" as a requirement. I am assuming that's more so they can at least debug the problem somewhat accurately before kicking it back to the developer.
+		permalinkembedsaveparentgive award
+
+
+
+[–]zelmarvalarion 2 points 2 years ago 
+Depending on whether the SRE position is an actual SRE position, or whether the company decided to rebrand their Ops positions as "SRE" to attract.
+At the very least, you should be familiar enough with the language you are supporting to do basic debugging to both understand potential consequences of the issues create informed bugs for the developers. If you are a SWE-SRE, you will also likely be developing software, though primarily internal and not external software. It's possible that they may be different languages though (e.g. Services that you are supporting might be in Java or C++, but you might be developing in Python or Go [Using Google as an example]). Projects that would likely be SRE developed would be things like: * Monitoring Platforms/Dashboards * Statistical health modeling/alerting * Production service analysis * Automated configuration/release pushes * Issue mitigation assistance/automation
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–][deleted] 1 point 2 years ago 
+The answer to this is always "it depends". Right now I work as an SRE where I code 99% of the time - I write internal tools and make open-source contributions to tools that we use in my team.
+I've had previous SRE jobs which promised me coding where I was doing 99% Linux sysadmin (kinda bait-and-switch job but it happens in the murky world of "what the fuck is devops").
+		permalinkembedsaveparent
+
+
+
+
+
+
+[–]jjirsaEngineering Manager @  1 point 2 years ago 
+Usually SRE is a title at organizations large enough that you can't operate without being able to program. For example, in some companies you'll have a hundred thousand servers running the same piece of software. If you detect a potential problem, and you need to fix it, you can't do that one server at a time - you HAVE to be able to program in SOMETHING, or you'll be ineffective. 
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+[–]slpgh 3 points 2 years ago 
+Here's the "official"(?) definition from Google's SRE team: https://landing.google.com/sre/book/chapters/introduction.html
+Scroll down to: "Google’s Approach to Service Management: Site Reliability Engineering"
+		permalinkembedsavegive award
+
+
+
+		about
+		blog
+		about
+		advertising
+		careers
+		help
+		site rules
+		Reddit help center
+		wiki
+		reddiquette
+		mod guidelines
+		contact us
+		apps & tools
+		Reddit for iPhone
+		Reddit for Android
+		mobile website
+		<3
+		reddit premium
+		reddit coins
+		redditgifts
+Use of this site constitutes acceptance of our User Agreement and Privacy Policy. © 2019 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+Advertise - technology
+π 
+
+
+
+
+
+
+

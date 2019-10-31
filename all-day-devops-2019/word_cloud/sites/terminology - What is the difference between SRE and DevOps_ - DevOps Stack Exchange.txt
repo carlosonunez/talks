@@ -1,0 +1,276 @@
+
+
+
+	.	   
+	.	Log in Sign up 
+	.	
+By using our site, you acknowledge that you have read and understand our Cookie Policy, Privacy Policy, and our Terms of Service. 
+
+DevOps Stack Exchange is a question and answer site for software engineers working on automated testing, continuous delivery, service integration and monitoring, and building SDLC infrastructure. It only takes a minute to sign up.
+Sign up to join this community 
+￼ 
+Anybody can ask a question 
+￼ 
+Anybody can answer 
+￼ 
+The best answers are voted up and rise to the top 
+
+DevOps Beta 
+	.	Home  
+	.	Questions  
+	.	Tags  
+	.	Users  
+	.	Unanswered  
+What is the difference between SRE and DevOps?
+Ask Question 
+Asked 2 years, 8 months ago 
+Active 2 years, 4 months ago 
+Viewed 7k times 
+
+57
+
+11
+What is the difference between SRE and DevOps?
+Site Reliability Engineering and Development Operations seem to overlap a lot in detail. How do I know which group is responsible for what, and how do I know what jobs would be appropriate for my skillset?
+It seems like SRE is about maintaining servers and network, and DevOps is about maintaining code, is that correct? Isn't there still a fair amount of overlap between those two?
+terminology sre job-role team-role 
+share|improve this question
+edited Jun 6 '17 at 19:40 
+￼
+chicks
+1,2751
+1 gold badge
+6
+6 silver badges
+24
+24 bronze badges
+asked Feb 28 '17 at 18:37 
+￼
+jcolebrand
+6325
+5 silver badges
+13
+13 bronze badges
+
+		3  I think DevOps has been so abused as a term that it means anything or nothing at this point. – chicks Apr 28 '17 at 0:02   1  A company I talked to had both an SRE and an DevOps team. They told me DevOps was used for creating new applications (0-6 months) and SRE was maintaining old applications. Both were developers that used automation, coded and released apps. – Paul Totzke Nov 1 '17 at 16:43   1  I think Googles book on SRE would be a good read to understand what it is: landing.google.com/sre – Kyle Steenkamp Dec 14 '17 at 12:02   
+add a comment 
+4 Answers 
+active
+oldest
+votes
+
+49
+
+
+DevOps is about maintaining code, is that correct?
+DevOps is not "just" about code, or systems, or any one thing. DevOps is a very general term that covers all things related to software delivery.
+Site Reliability Engineering is a term popularized by Google. From this article https://landing.google.com/sre/interview/ben-treynor.html we can distill their TL;DR:
+Fundamentally, it’s what happens when you ask a software engineer to design an operations function.
+Operations, Engineering, and Software Development are blurring together. The degree of automation required to create and maintain a mature infrastructure requires skills from all three. SREs are admins, and engineers, and developers.
+See also: http://shop.oreilly.com/product/0636920041528.do
+
+share|improve this answer
+edited Feb 28 '17 at 20:14 
+￼
+jcolebrand
+6325
+5 silver badges
+13
+13 bronze badges
+answered Feb 28 '17 at 18:54 
+￼
+Dave Swersky
+3,0581
+1 gold badge
+12
+12 silver badges
+31
+31 bronze badges
+
+		6  DevOps is not restricted simply to software, that is a misconception. It should tie all the way to product design, product requirements, documentation, etc. It is supposed to follow the entire value chain from a customer back to customer. Restricting the view leads to reduction in the impact and eventually to misunderstanding of the role as more sophisticated release engineer. – Jiri Klouda Mar 1 '17 at 1:14    I've yet to understand the distinction between DevOps Engineering and SRE work beyond that one is an acronym developed by Google and backed up by a pretty cool (free!) book. – BlackVegetable Apr 25 '17 at 21:45    Site Reliability Engineer is an actual title and job description. It implies just what it says. A title that can imply DevOps on the software side is Platform Engineer, where you're building and automating a platform for developers to deploy on. Meanwhile a SRE is the person who is responsible for what used to be typical operations. These are a bit anecdotal but can probably help your understanding @BlackVegetable. – Matt O. Dec 11 '17 at 19:30   1  There are a bunch of great YouTube videos from Seth Vargo and Liz Fong (Google them.) They make it clear: "class SRE implements DevOps." SRE is a concrete, formalized practice that follows many DevOps principles. – Dave Swersky Mar 29 '18 at 20:18   1  See also: youtube.com/watch?v=uTEL8Ff1Zvk&t=2s – sethvargo Sep 18 '18 at 0:56   
+add a comment 
+
+21
+
+Dave Swersky already posted an excellent response above with Ben Treynor's definition of SRE, which is as poignant today as it was in 2003.
+Fundamentally, it’s what happens when you ask a software engineer to design an operations function.
+So, in an attempt to further define "DevOps", here's an excerpt from the book Effective DevOps by Jennifer Davis & Katherine Daniels:
+Devops is a way of thinking and a way of working. It is a framework for sharing stories and developing empathy... [it's] is not just another software development methodology.
+[P]ractices can include software development methods, or features like infrastructure automation and continuous delivery, [although] it is much more than just the sum of these parts.
+While these concepts are related and may be frequently seen in devops environments, focusing solely on them misses the bigger picture--the cultural and interpersonal aspects that give devops its power.
+In summary: an effective SRE will leverage DevOps practices.
+--
+Also: 
+How do I know which group is responsible for what?
+Ownership should not be implicit; communicate!
+
+share|improve this answer
+edited Apr 28 '17 at 20:25 
+￼
+Pierre.Vriens♦
+3,8965
+5 gold badges
+18
+18 silver badges
+55
+55 bronze badges
+answered Feb 28 '17 at 19:35 
+￼
+Woodland Hunter
+7003
+3 silver badges
+12
+12 bronze badges
+
+add a comment 
+
+17
+
+Site Reliability Engineering falls under more or less traditional operations, but heavily automated and version controlled, what is also called Infrastructure as Code. It is a well defined vertical role. In modern DevOps this is the vertical slice that relates to Operations. You can have a team of SRE.
+DevOps as such is a cultural change for an organization. In addition to the vertical, top down, management structure, it creates a horizontal connection between the teams along the delivery paths of work throughout the value chains. For an engineer it is a loosely defined horizontal role binding several teams together, ensuring that work passes smoothly and quickly throughout the organization. You cannot have a team of DevOps engineers, that is an oxymoron, as spanning the team boundaries is a crucial part of the role.
+
+share|improve this answer
+edited Mar 1 '17 at 14:55 
+
+
+answered Mar 1 '17 at 0:58 
+￼
+Jiri Klouda
+4,4271
+1 gold badge
+9
+9 silver badges
+45
+45 bronze badges
+
+		 Any links to relevant sources would be great. – kenorb Mar 1 '17 at 10:55   
+add a comment 
+
+1
+
+Another way to describe differences between Site Reliability Engineering and DevOps is to look at Wikipedia's explanation of a Site Reliability Engineer, which starts like so:
+Site reliability engineer (SRE) is a job description given to software engineers focused on reliability, scalability, and the development of cloud computing infrastructure, known as Site Reliability Engineering (SRE).
+So you may consider SREs as people involved in Building walls ...
+However, Wikipedia's explanation of DevOps starts like so:
+DevOps ... is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. It aims at establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.
+What it doesn't say is that all these DevOps practices are actually triggered by a Demand from the business side. So combined with building and testing (the Develop part of it) and the Release of software, DevOps is about a DDR (= Demand-Develop-Release) culture and environment, which some people may remember from these 9 seconds of a historical speach to Tear down this wall.
+Refer to the question about Brief outage planned for Wed, May 3, 2017 at 8pm US/Eastern (like a fire drill for computers) for an example about all SE sites ... posted (signed) by a user with job title SRE Manager, Stack Overflow, Inc.
+
+share|improve this answer
+edited Apr 27 '17 at 21:16 
+
+
+answered Mar 2 '17 at 11:55 
+￼
+Pierre.Vriens♦
+3,8965
+5 gold badges
+18
+18 silver badges
+55
+55 bronze badges
+
+		 I don't follow the argument that SRE involves building walls. Where are you getting that from? – Xiong Chiamiov Jul 5 '18 at 15:58    Also, Tom Limoncelli is known for a lot more than merely working at Stack Exchange. – Xiong Chiamiov Jul 5 '18 at 16:00   
+add a comment 
+protected by Dawny33♦ Sep 4 '17 at 18:53 
+Thank you for your interest in this question. Because it has attracted low-quality or spam answers that had to be removed, posting an answer now requires 10 reputation on this site (the association bonus does not count).   Would you like to answer one of these unanswered questions instead?
+Not the answer you're looking for? Browse other questions tagged terminology sre job-role team-role or ask your own question. 
+Blog 
+	•	 Stack Overflow Podcast #126 – The Pros and Cons of Programming with ADHD  
+	•	 My Most Embarrassing Mistakes as a Programmer (so far)  
+Featured on Meta 
+	•	 Feedback post: Moderator review and reinstatement processes  
+	•	 Post for clarifications on the updated pronouns FAQ  
+
+Linked
+40
+What is the difference between Sysadmin and DevOps Engineer?
+14
+What could be a valid definition of DevOps to introduce it to a novice?
+13
+What is the difference between the traditional Development and Operations Model and Site Reliability Engineering?
+1
+How can I become a DevOps Engineer?
+Related
+42
+What's the difference between DevOps and Automation?
+40
+What is the difference between Sysadmin and DevOps Engineer?
+18
+What processes or tools enable Segregation of Duties when engineers both deploy and run code?
+13
+What is the difference between the traditional Development and Operations Model and Site Reliability Engineering?
+5
+What processes enable software vendor/supplier management in a DevOps way of working?
+15
+What is a Platform Engineer?
+6
+Implications of introducing Docker to the development team
+5
+Recipe for hiring a winning DevOps empowered team?
+8
+Datapoints motivating introduction of SRE in organisation
+9
+Is scrum or kanban really useful for SRE teams?
+Hot Network Questions 
+	▪	Employer reneged on negotiated clauses that weren't part of agreed contract, citing budget cuts - what can I do? 
+	▪	Has an engineer called Trevor Jackson invented a revolutionary battery allowing for a car range of 1500 miles? 
+	▪	Comparison of C-Cl bond length in CH3Cl and CF3Cl 
+	▪	What is the speed of "electricity"? 
+	▪	Is it possible to have a preference relation that is complete but not transitive? 
+	▪	How to control the padding below a BarLegend? 
+	▪	During a log backup is the data backed up to the start or end of the operation? 
+	▪	Is there a Ukrainian transcript of Trump's controversial July 25 call to President Zelensky? 
+	▪	Does cashing a 3% share harm the company itself? 
+	▪	Dodging a Deathbeam travelling at speed of light 
+	▪	Is homebrew Martial Spear as balanced as the Chultan spear (yklwa)? 
+	▪	Would rocket engine exhaust create pockets of gas in space which could hinder further space exploration? 
+	▪	Why was the Vulcan bomber used for the Falklands raid? 
+	▪	How do I stop my colleague trying to convince me that I'm trans? 
+	▪	are there any security risks of using user generated html tags? 
+	▪	What does "T.O." mean? 
+	▪	A Caesar cipher in Python3 
+	▪	Body swap, then building it back to health 
+	▪	Can Alter Self be used to enter an enemy's body and destroy it from the inside? 
+	▪	How likely are you to be injured by falling shot from a game shoot? 
+	▪	What is the type of English used in the King James Bible called? 
+	▪	Promotions usually come with raises, right? 
+	▪	Is there an operator or an easy way to match an expression one or more times with the LIKE operator in SQL? 
+	▪	Is it worth delving deep outside my field to revise a paper? 
+Question feed 
+Subscribe to RSS 
+Question feed
+To subscribe to this RSS feed, copy and paste this URL into your RSS reader.
+https://devops.stackexchange.com/feeds/question/86
+
+
+
+DEVOPS
+		Tour
+		Help
+		Chat
+		Contact
+		Feedback
+		Mobile
+		Disable Responsiveness
+COMPANY
+		Stack Overflow
+		Stack Overflow Business
+		Developer Jobs
+		About
+		Press
+		Legal
+		Privacy Policy
+STACK EXCHANGE NETWORK
+		Technology
+		Life / Arts
+		Culture / Recreation
+		Science
+		Other
+		Blog
+		Facebook
+		Twitter
+		LinkedIn
+site design / logo © 2019 Stack Exchange Inc; user contributions licensed under cc by-sa 4.0 with attribution required. rev 2019.10.30.35292 
+DevOps Stack Exchange works best with JavaScript enabled 
+ 

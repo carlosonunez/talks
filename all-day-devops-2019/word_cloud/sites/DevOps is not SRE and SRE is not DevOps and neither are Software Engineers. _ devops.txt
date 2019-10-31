@@ -1,0 +1,206 @@
+
+jump to content
+GET NEW REDDIT
+MY SUBREDDITS
+				HOME-POPULAR-ALL-RANDOM-MOD-USERS | WORLDNEWS-FLYING-CONSULTING-FATFIRE-DEVOPS-POLITICALDISCUSSION-AWS-KUBERNETES-DOCKER-AZURE-ITMANAGERS-ETL-BUSINESSSCHOOL
+EDIT »
+		reddit.com devopscomments
+		mrcrassic (3,889)|messages|chat messages7|mod messages|mod messages|preferences|logout
+
+this post was submitted on 06 Dec 2018
+0 points (33% upvoted)
+shortlink: https://redd.it/a3ii1f
+
+Submit a new text post
+
+
+Get an ad-free experience with special benefits, and directly support Reddit.
+Get Reddit Premium
+devops
+leave119,297 readers
+206 users here now
+Show my flair on this subreddit. It looks like:
+mrcrassicConsultant a.k.a "The Enemy"(edit)
+Welcome to /r/DevOps
+/r/DevOps is a subreddit dedicated to the DevOps movement where we discuss upcoming technologies, meetups, conferences and everything that brings us together to build the future of IT systems
+What is DevOps? Learn about it on our wiki!
+Traffic stats & metrics
+Rules and guidelines
+Be excellent to each other!
+All articles will require a short submission statement of 3-5 sentences.
+Use the article title as the submission title. Do not editorialize the title or add your own commentary to the article title.
+Follow the rules of reddit
+Follow the reddiquette
+No editorialized titles. 
+No vendor spam. Buy an ad from reddit instead.
+Job postings here
+More details here
+Social & Fun
+@reddit_DevOps
+##DevOps @ irc.freenode.net
+Find a DevOps meetup near you!
+Icons info!
+General Information
+https://github.com/Leo-G/DevopsWiki
+
+created by [deleted]
+a community for 9 years
+
+message the moderators
+MODERATORS
+		mthode
+		rufusdenne
+		about moderation team »
+RECENTLY VIEWED LINKS
+		   Why I turned down an AWS job offer
+		156 points | 83 comments      Notes on Site Reliability Engineering
+		30 points | 9 comments      Airpods Pro Unboxing, Size Comparison, and Initial Impressions
+		514 points | 313 comments      AirPods Pro Earpiece Tip Replacements Will Cost $4
+		642 points | 255 comments      Huawei FreeBuds 3 review: No more AirPods envy - Android Authority
+		0 points | 53 comments     clear  
+account activity
+This is an archived post. You won't be able to vote or comment.
+
+
+
+
+DevOps is not SRE and SRE is not DevOps and neither are Software Engineers. (self.devops)
+0 points submitted 10 months ago by AlderaanianGhostSRE
+Kinda a rant. So I've seen an increasing number of SRE positions requiring either " 7 years of software engineering experience." or "automation experience in java or other programming languages". Clearly they want to under pay people. Also SRE jobs should not require you to be fluent in any language besides those used to automation, ansible, chef, puppet, bash, and maybe python for serverless stuff. But to be honest in my 3 years as an SRE most of my coding comes from one of the automation languages above or coding python on the fly googling the shit out of it. I also learn with linux academy and code academy in my free time. But basing an SRE job on coding requirements besides one they will actually use needs to stop. 
+		10 commentssharesavehidegive awardreportcrosspost
+
+
+
+all 10 comments
+sorted by: top
+
+
+
+[–][deleted] 2 points 10 months ago 
+Site Reliability Engineering (SRE) is a discipline that incorporates aspects of software engineering and applies them to IT operations problems. The main goals are to create ultra-scalable and highly reliable software systems. According to Ben Treynor, founder of Google's Site Reliability Team, SRE is "what happens when a software engineer is tasked with what used to be called operations."
+...
+Site Reliability Engineering was created at Google around 2003 when Ben Treynor was hired to lead a team of seven software engineers to run a production environment
+In practice their SRE teams are somewhere >33% software engineers, this is the model the rest of the 'industry' is patterned after, and the original home of the SRE moniker
+		permalinkembedsave
+
+
+
+[–]AlderaanianGhostSRE[S] -5 points 10 months ago 
+Just cause google does something doesn't mean its the standard.
+		permalinkembedsaveparentgive award
+
+
+
+[–][deleted] 7 points 10 months ago* 
+In this case they very literally invented the term, built the first teams, and quite literally wrote the book on it. Prior to Google SRE, there were popularly only programmers, developers, software engineers and system administrators. "Devops" did not become a buzzword, never mind a discipline until much later -- 2008-2010ish I think.
+I agree perceptions and standards do vary over time, but your perception of what SRE entails differs wildly from current industry understanding. Even in what is commonly understood as devops there is a a strong element of development involved - it is enshrined in the name itself.
+Tools in this space did not appear out of thin air overnight from some separate software engineering function, at least in the case of Ansible, Puppet and Chef, these were all the product of ops guys with an itch to scratch. My experience within SRE tallies with this -- tools do not receive dedicated software engineering until their need has been proven and initial development exceeds the resources of the ops team that originated them. In other words, tool engineering is explicitly driven by ops teams satisfying a real-world problem before migrating to a dedicated resource.
+What you described sounds a bit more like what is commonly thought of as the oppy end of devops, and it's totally fine and very useful, and most ops teams have a mixture of dev and ops staff, but you must understand the limitations of this capability when presented with scenarios for which no good tool exists -- and these scenarios are often found in strange and unique configurations in any mid-sized company, even those that do not otherwise produce bespoke software.
+Finally, comparing SRE to "devops", and just addressing the ops aspects, SRE specifically has a strong and more formalized analytical and modelling angle that typically is not predominant in classical administration work. I'd recommend you find time to read Site Reliability Engineering, it's available for free online.
+		permalinkembedsaveparent
+
+
+
+
+
+
+[–]wysguy 2 points 10 months ago 
+But they did create SRE as a discipline.
+		permalinkembedsaveparentgive award
+
+
+
+[–]AlderaanianGhostSRE[S] 1 point 10 months ago 
+Ya I read the o'reilly sre book.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+
+
+
+
+
+[–]BallC420 3 points 10 months ago 
+The folks who invented the term SRE disagree...
+A primary building block of Google’s approach to service management is the composition of each SRE team. As a whole, SREs can be broken down into two main categories. 
+50–60% are Google Software Engineers, or more precisely, people who have been hired via the standard procedure for Google Software Engineers. The other 40–50% are candidates who were very close to the Google Software Engineering qualifications (i.e., 85–99% of the skill set required), and who in addition had a set of technical skills that is useful to SRE but is rare for most software engineers. By far, UNIX system internals and networking (Layer 1 to Layer 3) expertise are the two most common types of alternate technical skills we seek.
+https://landing.google.com/sre/sre-book/chapters/introduction/
+		permalinkembedsavegive award
+
+
+
+
+
+
+[–]chub79 2 points 10 months ago 
+You are right, SRE is certainly not mostly about software engineering. But I think SRE shows you need a balance between various facets of the overall engineering spectrum. Software engineering is not just about coding (shouldn't anyway).
+		permalinkembedsavegive award
+
+
+
+[–]AlderaanianGhostSRE[S] -1 points 10 months ago 
+u are right, SRE is certainly not mostly about software engineering. But I think SRE shows you need a balance between various facets of the overall engineering spectrum. Software engineering is not just about coding (shouldn't anyway).
+I agree, know about the platform, know how to handle java issues when they come up as the software runs on the systems you maintain and build. However, you and I know that software engineers care little for the infrastructure its always I need more of X I need it now or I need a new dev env plus the 5 others I already have access to or I need access to prod. No no you don't need any of those things. 
+		permalinkembedsaveparentgive award
+
+
+
+[–]chub79 1 point 10 months ago 
+I hear ya :/
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+[–]lorarcDevOps Engineer 1 point 10 months ago 
+I need more of X I need it now or I need a new dev env plus the 5 others I already have access to or I need access to prod. No no you don't need any of those things.
+Why the hell not? I was once part of coup-de-etat on project that was run by devs with ocassional admin popping in to perform something that should be automated years ago. And we started to move several times faster when I, as an ex-dev, was part of the actual team.
+You want a new environment? Well the monthly cost for that is less that our hourly rate, take 5, here's a button to spin it up, it will spin down automatically on weekend.
+Need access to prod? What for? The staging environment is missing something? Let's fix the staging! The logs are only on prod? Let's move them somewhere else! You want to manually edit a few files to see if the production will still be working? Go fish!
+It's not that software engineers don't care about infrastracture, it's that the infrastracture is a necessary evil and we would all be much happier if software run in some magical cloud that takes care of everything.
+Next time actually listen to why they think they need those things.
+		permalinkembedsaveparentgive award
+
+
+
+
+
+
+
+		about
+		blog
+		about
+		advertising
+		careers
+		help
+		site rules
+		Reddit help center
+		wiki
+		reddiquette
+		mod guidelines
+		contact us
+		apps & tools
+		Reddit for iPhone
+		Reddit for Android
+		mobile website
+		<3
+		reddit premium
+		reddit coins
+		redditgifts
+Use of this site constitutes acceptance of our User Agreement and Privacy Policy. © 2019 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+π 
+
+
+
+
+
+
+

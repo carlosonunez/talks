@@ -1,0 +1,253 @@
+
+
+
+	.	   
+	.	Log in Sign up 
+	.	
+By using our site, you acknowledge that you have read and understand our Cookie Policy, Privacy Policy, and our Terms of Service. 
+
+DevOps Stack Exchange is a question and answer site for software engineers working on automated testing, continuous delivery, service integration and monitoring, and building SDLC infrastructure. It only takes a minute to sign up.
+Sign up to join this community 
+￼ 
+Anybody can ask a question 
+￼ 
+Anybody can answer 
+￼ 
+The best answers are voted up and rise to the top 
+
+DevOps Beta 
+	.	Home  
+	.	Questions  
+	.	Tags  
+	.	Users  
+	.	Unanswered  
+What is the difference between the traditional Development and Operations Model and Site Reliability Engineering?
+Ask Question 
+Asked 2 years, 6 months ago 
+Active 2 years, 4 months ago 
+Viewed 704 times 
+
+13
+
+9
+"SRE is what happens when you ask a software engineer to design an operations team." – Site Reliability Engineering 
+Since Google's Site Reliability Engineering Book was released, on more than one occasion I have been told that SRE is an extension of the existing Operations or Application Support model.
+We've had a couple of questions that defined differences between Sys. Admins, DevOps Engineers and Site Reliability Engineers:
+	•	What is the difference between Sysadmin and DevOps Engineer?
+	•	What is the difference between SRE and DevOps?
+	•	What could be a valid definition of DevOps to introduce it to a novice?
+However none of these questions or their answers describe the differences between a Systems Administrator and a Site Reliability Engineer.
+In broader terms: what are the key differences between Google's practice of Site Reliability Engineering and the traditional separated Development and Operations functions within a business.
+sre operating-model sysadmin 
+share|improve this question
+asked Apr 16 '17 at 16:36 
+￼
+Richard Slater
+6,2053
+3 gold badges
+21
+21 silver badges
+63
+63 bronze badges
+
+add a comment 
+1 Answer 
+active
+oldest
+votes
+
+6
+
+
+Thankfully, since Site Reliability Engineering developed internally at Google and only recently has started to make its way into the broader community, it is fairly well-defined. What isn't, though, is web operations (or "systems administration" - as an example of the lack of clarity, you use both in your question). It's difficult to discuss the differences between two things when you're not altogether sure what one of them is.
+But I'm an adventurous fellow, so I'll give it a shot.
+
+In very traditional shops, developers and sysadmins are very siloed from each other. The devs build an app, then consider their job complete as soon as their code has been committed. The sysadmins take the build artifacts (which may be just the code, if it's an interpreted language) and deploy it to production servers. It's the sysadmins' job to keep the application running smoothly, and in general manage the production environment. However, often performance problems come from architecture issues in the app; the sysadmins don't have the programming knowledge to know what the app is doing, and the developers don't know how the app acts in the production topology with production traffic, so no one is equipped by themselves to solve the problem.
+Additionally, the developers are usually judged on how quickly they can produce new features, while the sysadmins are judged on how infrequent the app breaks in production. Since change is one of the leading causes of breakage, this puts the two departments at odds with each other - an old rivalry that hurts the business and the people involved.
+At some point, some developer-centric companies got so annoyed at this that they began practicing "NoOps" - they eliminated their operations departments and the perceived roadblocks that came with them. In reality, this meant that developers took on operations roles, but maintained their old titles.
+In a discussion surrounding NoOps, John Allspaw, then VP of Technical Operations at Etsy and an editor of the well-respected Web Operations book, defined roles at Etsy this way:
+Etsy Operations is responsible for:
+	•	Responding to outages, takes on-call
+	•	Alerting systems thresholding, design
+	•	Architecture design and review
+	•	Building metrics collection
+	•	Application configuration
+	•	Infrastructure buildout/management
+Etsy Development is responsible for:
+	•	Responding to outages, takes on-call
+	•	Alerting systems thresholding, design
+	•	Architecture design and review
+	•	Building metrics collection
+	•	Application configuration
+	•	Shipping public-facing code
+Neither of those lists are comprehensive, I'm sure I'm missing something there. While Etsy Ops has made production-facing application changes, they're few but real (and sometimes quite deep). While Etsy Dev makes Chef changes, they're few but real. If there's so much overlap in responsibilities, why the difference, you might ask? Domain expertise and background. Not many Devs have deep knowledge of how TCP slow start works, but Ops does. Not many Ops have a comprehensive knowledge of sorting or relevancy algorithms, but Dev does. Ops has years of experience in forecasting resource usage quickly with acceptable accuracy, Dev doesn't. Dev might not be aware of the pros and cons of distributing workload options across all layers1-7, maybe only just at 7, Ops does. Entity-relationship modeling may come natural to a developer, it may not to ops. In the end, they both discover solutions to various forms of Byzantine failure scenarios and resilience patterns, at all tiers and layers.
+In his world, developers and ops engineers had very similar high-level skill sets and responsibilities; where they differed was in their expertise. Their differing specialties encouraged them to work together to solve problems, and their common base-level skills gave them a language in which to do that.
+This is generally the definition of web operations that I land on for most cases. So it's the one we're going to continue along with.
+
+So then, what is Site Reliability Engineering?
+The Google SRE book opens with a definition of SRE... and then another one... and then spends a chapter continuing to define the role and an entire book covering the specifics. Even when developed in one organization, it seems that it's difficult to condense the job down to one single agreed-upon definition.
+To start with, we need to walk back to 2003, when Ben Traynor joined Google and founded what came to be the first Site Reliability Engineering team. Recall that a few paragraphs ago we were in the early 2010s; but in 2003, the industry was still pretty set on the sysadmin/developer divide as the natural way of things. So when Ben says that SRE was what would happen if a software engineer created an operations team, this was a much more radical melding of the two worlds than it appears now.
+The definition given in the preface emphasizes each of the three words individually:
+	•	Engineering - the use of computer science and engineering concepts to solve problems
+	•	Reliability - a focus on making systems more scalable, more reliable, and more efficient
+	•	Service - the later evolution of "site", emphasizing that SREs are responsible for networked services
+The introduction chapter lists the tenets of Site Reliability Engineering as:
+	•	Ensuring a durable focus on engineering - taking pre-emptive action to avoid frequent pages and other "toil"
+	•	Persuing maximum change velocity without violating a service's SLO - a subject that can easily have its own several-hundred word answer, but roughly summarized as helping developers make changes, as long as they don't cause too many issues
+	•	Monitoring - automatic alerts when things go wrong
+	•	Emergency response - fixing things when they're broken
+	•	Change management
+	•	Capacity planning
+	•	Provisioning
+	•	Efficiency and performance - ensuring that a service performs at an expected level - bottlenecking hurts users, but excess capacity costs money
+
+I'd categorize Site Reliability Engineering as a specialized subset of modern Web Operations. An SRE organization focuses heavily on automating everything, to a degree that is only cost-effective in fairly large companies. Ideas like error budgets can only work when your service has many, many requests, as otherwise you lose granularity (for a smaller service, a particular error could affect 0-20% of your requests, depending on the minute). Related areas like security are absent from the SRE definition because companies large enough to have true SRE teams have dedicated teams for security.
+The SRE program, as defined by Google, is web ops developed for the specific needs of Google, and not necessarily applicable elsewhere.
+However, Site Reliability Engineering has been expanding in broader industry use recently. My current job title is an SRE, even though I work at a much smaller company and my job description fits pretty well with John Allspaw's 2012 Etsy web ops definition. My theory is that we've been progressing through titles as a shorthand for espousing the evolution of a single field:
+	•	We started as sysadmins.
+	•	Then as web sites became more of a "thing", job postings started to refer to web operations engineers to distinguish sysadmins who specialized in the web from those who also handled general office IT.
+	•	Then DevOps was supposed to separate out those who were comfortable using programming to reduce their web ops workload.
+	•	But as DevOps got muddled by the lack of a clear definition, we adopted Site Reliability Engineering to specify that we're looking for people who are on-call supporting production services.
+So what is the difference between a sysadmin and an SRE? The year in which they received their title. What is the difference between traditional operations and site reliability engineering? SRE is merely the current incarnation of ops, using new tools (hello, containers!) and, as networked programs continue to become more larger and more important, an increased focus on practices that allow one engineer to do more.
+
+share|improve this answer
+answered Jun 3 '17 at 17:23 
+￼
+Xiong Chiamiov
+2,1733
+3 silver badges
+24
+24 bronze badges
+
+		 A few more interesting pieces of reading (that I don't necessarily agree with): charity.wtf/2016/06/30/… , charity.wtf/2016/05/31/wtf-is-operations-serverless , susanjfowler.com/blog/2016/10/13/the-ops-identity-crisis – Xiong Chiamiov Jun 3 '17 at 17:31   
+add a comment 
+Your Answer 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+Sign up or log in
+Sign up using Google 
+Sign up using Facebook 
+Sign up using Email and Password 
+Post as a guest
+Name
+
+Email
+Required, but never shown
+
+Post as a guest
+Name
+
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agree to our terms of service, privacy policy and cookie policy 
+Not the answer you're looking for? Browse other questions tagged sre operating-model sysadmin or ask your own question. 
+Blog 
+	•	 Stack Overflow Podcast #126 – The Pros and Cons of Programming with ADHD  
+	•	 My Most Embarrassing Mistakes as a Programmer (so far)  
+Featured on Meta 
+	•	 Feedback post: Moderator review and reinstatement processes  
+	•	 Post for clarifications on the updated pronouns FAQ  
+Linked
+40
+What is the difference between Sysadmin and DevOps Engineer?
+57
+What is the difference between SRE and DevOps?
+14
+What could be a valid definition of DevOps to introduce it to a novice?
+1
+How can I become a DevOps Engineer?
+Related
+57
+What is the difference between SRE and DevOps?
+18
+What processes or tools enable Segregation of Duties when engineers both deploy and run code?
+6
+What do businesses that employ multiple development teams use to implement DevOps in a structured manner?
+9
+Pros/cons of discontinuing a DevOps workflow?
+6
+Implications of introducing Docker to the development team
+8
+Datapoints motivating introduction of SRE in organisation
+9
+Is scrum or kanban really useful for SRE teams?
+Hot Network Questions 
+	▪	Does the on'yomi of 輪 (リン) have any relation to the English "ring", or is it a coincidence? 
+	▪	Washing the skin of a dead rat 
+	▪	English equivalent of the Malayalam saying "don't stab/poke the dead body"? 
+	▪	Why do gas water heater exhausts have an air gap before the chimney? 
+	▪	Adding coordinate constant to file in QGIS 
+	▪	Tic Tac Toe console program 
+	▪	How did composers "test" their music? 
+	▪	Why was the Vulcan bomber used for the Falklands raid? 
+	▪	Peano's dot notation 
+	▪	Creating cryptographic algorithms at runtime 
+	▪	Employer reneged on negotiated clauses that weren't part of agreed contract, citing budget cuts - what can I do? 
+	▪	Is there an operator or an easy way to match an expression one or more times with the LIKE operator in SQL? 
+	▪	If I am just replacing the car engine, do I need to replace the odometer as well? 
+	▪	Why apt package chromium-browser installs snap package instead? 
+	▪	How do I complete the "A Brilliant Smile" triumph? 
+	▪	What does "2 fingers to Scotland" mean in Peter Grant's statement about Johnson not listening to the SNP's Westminster leader speeches? 
+	▪	How do I tell my new Windows 10 PC to import images via SD card or card reader when I insert a card? 
+	▪	flalign - aligning terms in two lined equation 
+	▪	Locked out of my own server 
+	▪	What is the type of English used in the King James Bible called? 
+	▪	What is the equivalent of "if you say so" in German? 
+	▪	Log user out after change of IP address? 
+	▪	How do I stop my colleague trying to convince me that I'm trans? 
+	▪	Graph with cropped letters 
+Question feed 
+Subscribe to RSS 
+Question feed
+To subscribe to this RSS feed, copy and paste this URL into your RSS reader.
+https://devops.stackexchange.com/feeds/question/911
+
+
+
+DEVOPS
+		Tour
+		Help
+		Chat
+		Contact
+		Feedback
+		Mobile
+		Disable Responsiveness
+COMPANY
+		Stack Overflow
+		Stack Overflow Business
+		Developer Jobs
+		About
+		Press
+		Legal
+		Privacy Policy
+STACK EXCHANGE NETWORK
+		Technology
+		Life / Arts
+		Culture / Recreation
+		Science
+		Other
+		Blog
+		Facebook
+		Twitter
+		LinkedIn
+site design / logo © 2019 Stack Exchange Inc; user contributions licensed under cc by-sa 4.0 with attribution required. rev 2019.10.30.35292 
+DevOps Stack Exchange works best with JavaScript enabled 
+ 
