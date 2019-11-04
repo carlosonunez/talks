@@ -37,5 +37,5 @@ then
 fi
 
 >&2 echo "INFO: Launching talk: $talk_name_raw. Type CTRL+C to stop and 'S' to view speaker notes."
-SLIDES_DIR=./$talk_name docker-compose up && \
-  SLIDES_DIR=./$talk_name docker-compose down
+SLIDES_DIR=./$talk_name docker-compose up slides; \
+SLIDES_DIR=./$talk_name docker-compose down
