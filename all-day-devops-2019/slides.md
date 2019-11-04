@@ -5,6 +5,28 @@ revealOptions:
 ---
 
 <!-- .slide: data-background="./assets/front_page_background.png" -->
+
+<style>
+#left {
+	margin: 10px 0 15px 20px;
+	text-align: left;
+	float: left;
+	z-index:-10;
+	width:48%;
+	font-size: 0.85em;
+	line-height: 1.5;
+}
+
+#right {
+	margin: 10px 0 15px 0;
+	float: right;
+	text-align: left;
+	z-index:-10;
+	width:48%;
+	font-size: 0.85em;
+	line-height: 1.5;
+}
+</style>
  
 **Carlos Nunez**
 *2019 October 21*
@@ -18,7 +40,38 @@ glad to answer them. I also have these slides and code samples on GitHub; links 
 
 ---
 
+<div id="left">
+
+## Left column
+- Bullet 1
+- Bullet 2
+- Bullet 3
+- Even [links](https://www.google.com)
+
+</div>
+
+<div id="right">
+
+## Right colum
+1. List
+2. List
+3. ![Icon](https://cdn3.iconfinder.com/data/icons/ballicons-free/128/graph.png)
+
+</div>
+
+---
+
+<div id="left">
+
+<img src="./assets/me.jpg" height="30%" width="30%">
+
+</div>
+
+<div id="right">
+
 # Hello, I'm Carlos
+
+</div>
 
 Note:
 My name's Carlos Nunez. I've been a systems administrator and software engineer for over 10 years.
