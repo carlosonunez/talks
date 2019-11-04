@@ -11,8 +11,6 @@ services:
     command:
       - --port
       - "8000"
-      - --theme
-      - white
   export-slides:
     extends: slides
     volumes:

@@ -4,31 +4,20 @@ revealOptions:
   transition: none
 ---
 
-<!-- .slide: data-background="./assets/front_page_background.png" -->
-
 <style>
-#left {
-	margin: 10px 0 15px 20px;
-	text-align: left;
-	float: left;
-	z-index:-10;
-	width:48%;
-	font-size: 0.85em;
-	line-height: 1.5;
-}
-
-#right {
-	margin: 10px 0 15px 0;
-	float: right;
-	text-align: left;
-	z-index:-10;
-	width:48%;
-	font-size: 0.85em;
-	line-height: 1.5;
+.twocolumn {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   text-align: center;
 }
 </style>
- 
+
+<!-- .slide: data-background="./assets/background.jpeg" -->
+# SRE + BDD
+## The Ultimate Power Pair
+
 **Carlos Nunez**
+
 *2019 October 21*
 
 Note:
@@ -40,36 +29,28 @@ glad to answer them. I also have these slides and code samples on GitHub; links 
 
 ---
 
-<div id="left">
+<div class="twocolumn">
 
-## Left column
-- Bullet 1
-- Bullet 2
-- Bullet 3
-- Even [links](https://www.google.com)
+<div class="column">
+
+<img src="./assets/me.jpg" height=auto width=90%>
 
 </div>
 
-<div id="right">
+<div class="column">
 
-## Right colum
-1. List
-2. List
-3. ![Icon](https://cdn3.iconfinder.com/data/icons/ballicons-free/128/graph.png)
+<center>
 
-</div>
+## I'm Carlos!
 
----
+- Systems software engineer and SRE for 10+ years
+- Worked at companies large and small throughout the US
+- Enjoys: 🍻, ✈️  and 👨🏾‍💻
+- **GitHub**: @carlosonunez
 
-<div id="left">
-
-<img src="./assets/me.jpg" height="30%" width="30%">
+</center>
 
 </div>
-
-<div id="right">
-
-# Hello, I'm Carlos
 
 </div>
 
@@ -83,6 +64,7 @@ wife, my gym or travels somewhere.
 
 ---
 
+
 # Agenda
 
 Note:
@@ -95,14 +77,16 @@ This is what I'd like to talk about today:
 
 ---
 
-# `$foo`Reliability Engineering
+# `$foo` Reliability Engineering
 
 Notes:
 Let's talk about Site Reliability Engineering, or, as I call it, `$foo` Reliability Engineering.
 
 ---
 
-<img src="./assets/buttload-of-servers.png" height="30%" width="30%">
+<img src="./assets/buttload-of-servers.png" class="stretch">
+
+SRE, basically.
 
 Notes:
 
@@ -119,7 +103,9 @@ Notes:
 
 ---
 
-<img src="./assets/top-20-sre-words.png" height="100%">
+<img src="./assets/top-20-sre-words.png" class="stretch">
+
+SRE, as defined by **the Internet**
 
 Notes:
 
@@ -130,15 +116,27 @@ Notes:
 
 ---
 
-<img src="./assets/top-20-sre-words-reliability.png" height="40%">
+<img src="./assets/top-20-sre-words-reliability.png" class="stretch">
 
 - `$f`RE is about reliability of a thing (hence `$foo`)
-  - Site is popular because Google made it so, but even they have different
-    RE for things like Cloud and CorpEng.
+- `Site` is popular because Google made it so, but even they have different
+  RE for things like Cloud and CorpEng.
 
 ---
 
-<img src="./assets/top-20-sre-words-reliability-def-overlay.png" height="40%">
+<img src="./assets/reliability-overlay.png" class="stretch">
+
+Reliability.
+
+Notes:
+- Read the definition
+- If we break this down...
+
+---
+
+<img src="./assets/reliability-overlay-broken-down.png" class="stretch">
+
+Reliability, as defined by **your customers**.
 
 Notes:
 - Read the definition
@@ -147,7 +145,9 @@ Notes:
 
 ---
 
-<img src="./assets/top-20-sre-words-sre.png" height="40%">
+<img src="./assets/top-20-sre-words-sre.png" class="stretch">
+
+DevOps vs. RE?
 
 Notes:
 - For some reason, there's a debate on RE vs. DevOps
@@ -155,7 +155,9 @@ Notes:
 
 ---
 
-<img src="./assets/top-20-sre-words-people.png" height="40%">
+<img src="./assets/sre-devops-epic-fist-bump.png" class="stretch">
+
+Better together.
 
 Notes:
 - DevOps is about bringing people together: from the Dev side and the Ops side
@@ -171,7 +173,10 @@ Let's talk about BDD.
 
 ---
 
-![](./assets/babel.png)
+
+<img src="./assets/languages.jpeg" class="stretch">
+
+Miscommunication.
 
 Notes:
 
@@ -185,7 +190,7 @@ Notes:
 
 ---
 
-![](./assets/bdd.png)
+<img src="./assets/bdd.png" class="stretch">
 
 Notes:
 
@@ -195,7 +200,9 @@ Notes:
 
 ---
 
-![](./assets/test_pyramid.png)
+<img src="./assets/test_pyramid.png" class="stretch">
+
+Where BDD fits.
 
 Notes:
 
@@ -208,7 +215,9 @@ Notes:
 
 ---
 
-![](./assets/bdd_example.png)
+<img src="./assets/bdd_example.png" class="stretch">
+
+Example.
 
 Notes:
 
@@ -222,7 +231,9 @@ Notes:
 
 ---
 
-![](./assets/bdd_example_under_the_hood.png)
+<img src="./assets/bdd_example_under_the_hood.png" class="stretch">
+
+Example.
 
 Notes:
 
@@ -243,7 +254,9 @@ Notes:
 
 ---
 
-![](./assets/slo.png)
+<img src="./assets/slo.png" class="stretch">
+
+A note about SLOs.
 
 Notes:
 
@@ -254,7 +267,7 @@ Notes:
 
 ---
 
-![](./assets/sre-bdd-slo-epic-handshake.jpg)
+<img src="./assets/sre-bdd-slo-epic-handshake.jpeg" class="stretch">
 
 Notes:
 - In other words, the SLO is the bridge between product and engineering!
@@ -262,7 +275,9 @@ Notes:
 
 ---
 
-![](./assets/babel.png)
+<img src="./assets/reliability-product-miscommunication.png" class="stretch">
+
+Miscommuncation, again.
 
 Notes:
 - In other _other_ words, it's a potential point of miscommunication
@@ -271,7 +286,9 @@ Notes:
 
 ---
 
-![](./assets/bdd_example.png)
+<img src="./assets/bdd_example.png" class="stretch">
+
+What if we took this...
 
 Notes:
 - We solved this already for software development by writing acceptance tests using BDD
@@ -279,7 +296,9 @@ Notes:
 
 ---
 
-![](./assets/bdd_sre_example.png)
+<img src="./assets/bdd_sre_example.png" class="stretch">
+
+...and did this?
 
 Notes:
 - It could look something like this!
@@ -287,7 +306,11 @@ Notes:
 
 ---
 
-![](./assets/bdd_sre_vs_blackbox_exporter.png)
+<img src="./assets/sre_blackbox_exporter_example.png" width=50%>
+
+vs.
+
+<img src="./assets/bdd_sre_example.png" width=60%>
 
 Notes:
 - If you're an RE, you're probably wondering "I can already do this with Prometheus"
@@ -297,7 +320,7 @@ Notes:
 
 ---
 
-![](./assets/bdd_sre_example.png)
+<img src="./assets/bdd_sre_example.png" class="stretch">
 
 Notes:
 - Two things to notice:
@@ -308,30 +331,32 @@ Notes:
 
 ---
 
-![](./assets/bdd_sre_example_under_the_hood.png)
+<img src="./assets/bdd_sre_example_under_the_hood.png" class="stretch">
+
+Example.
 
 Notes:
 
 - Just like our software acceptance tests, all of the action here happens under the hood
   through step definitions.
+- This is a very simple implementation of this idea. You may want to look into
+  using synthetic techniques to simulate more life-like conditions, like
+  running this as a serverless function in different regions, using something
+  like Browserstack to run this on real browsers, etc.
+- You might also have other success criteria here, like whether the page
+  renders correctly. You can add those here, too!
 
 ---
 
-![](./assets/bdd_sre_pipeline.png)
+<img src="./assets/observability_is_still_key.png" class="stretch">
 
-Notes:
-
-- This becomes even more effective when run through an automated pipeline
-- You can configure your build runner to dispatch alerts whenever the error rate
-  for your reliability tests drops below the target for that SLO
-
----
-
-![](./assets/observability_is_still_key.png)
+Observability is still key!
 
 Notes:
 
 - Observability is still key, however!
+- This is the Hierarchy of Service Reliability from Mikey Dickerson, a SRE at the USDS
+- Notice that monitoring is the underpinning of everything; that's intentional
 - You need tooling that can measure your SLIs and other nuances that impact
   reliability
 - Observability also helps squash problems before they even become problems
