@@ -323,9 +323,28 @@ Notes:
 <img src="./assets/bdd_sre_example.png" class="stretch">
 
 Notes:
+
+Let's go back to our example.
+
+---
+
+<img src="./assets/bdd_sre_example_1.png" class="stretch">
+
+Filters.
+
+Notes:
 - Two things to notice:
 - 1. These can live in the same codebase as the software whose reliability is under test,
      but can be filtered through tags such as the `@reliability` one here
+
+---
+
+<img src="./assets/bdd_sre_example_2.png" class="stretch">
+
+Reliability documents.
+
+Notes:
+- Two things to notice:
 - 2. The test looks exactly like what you might see in a SLO document. No guesswork
      needed.
 
@@ -368,5 +387,9 @@ Notes:
 # Thanks! 👏
 
 **Blog**: https://blog.carlosnunez.me
+
+**Talk**: https://talks.carlosnunez.me/addo2019
+
+**All the Codez**: https://github.com/carlosonunez/talks
 
 **Commence Pitchfork Gathering Here**: http://twitter.carlosnunez.me

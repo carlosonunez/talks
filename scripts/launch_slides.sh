@@ -36,6 +36,17 @@ then
   exit 1
 fi
 
+if test "$EXPORT" == "true"
+then
+  if test -f "$WEBSITE_S3_BUCKET"
+  then
+    >&2 echo "Please define WEBSITE_S3_BUCKET"
+    exit 1
+  fi
+  SLIDES_DIR=./$talk_name docker-compose run --rm export-slides && \
+  aws s3 cp --recursive static/ "s3://$WEBSITE_S3_BUCKET"
+fi
+
 >&2 echo "INFO: Launching talk: $talk_name_raw. Type CTRL+C to stop and 'S' to view speaker notes."
 SLIDES_DIR=./$talk_name docker-compose up slides; \
 SLIDES_DIR=./$talk_name docker-compose down

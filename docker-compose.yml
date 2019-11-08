@@ -1,5 +1,14 @@
 version: '2.2'
 services:
+  terraform:
+    image: hashicorp/terraform
+    env_file: ${SLIDES_DIR}/.env
+    environment:
+      - TF_CLI_ARGS_apply="-auto-approve"
+      - TF_CLI_ARGS_destroy="-auto-approve"
+    volumes:
+      - $PWD/infra:/app
+    working_dir: /app
   slides:
     build:
       context: .
@@ -11,6 +20,29 @@ services:
     command:
       - --port
       - "8000"
+  print-slides:
+    extends: slides
+    environment:
+      DEBUG: reveal-md
+    command:
+      - --puppeteer-launch-args
+      - "dumpio:true --no-sandbox --disable-setuid-sandbox"
+      - --puppeteer-chromium-executable
+      - /opt/google/chrome-unstable/chrome
+      - --print
+      - "slides.pdf"
+  copy-slides:
+    image: anigeo/awscli
+    volumes:
+      - $PWD:/app
+    working_dir: /app
+    env_file: ./infra/.env
+    command:
+      - s3
+      - cp
+      - static
+      - s3://${TALK_S3_BUCKET}/${TALK_S3_BUCKET_KEY}
+      - --recursive
   export-slides:
     extends: slides
     volumes:
@@ -20,3 +52,39 @@ services:
       - ${TALK_URL:-https://localhost}
       - --static
       - /static
+      - --static-dirs
+      - assets
+  tf-init:
+    extends: terraform
+    command:
+      - init
+      - --backend-config
+      - "bucket=${TERRAFORM_STATE_S3_BUCKET}"
+      - --backend-config
+      - "key=${TERRAFORM_STATE_S3_KEY}"
+      - --backend-config
+      - "region=${DEFAULT_AWS_REGION}"
+  tf-plan:
+    extends: terraform
+    command:
+      - plan
+  tf-plan-prod:
+    extends: tf-plan
+    environment:
+      TF_VAR_enable_cloudfront_cdn: 1
+  tf-apply:
+    extends: terraform
+    command:
+      - apply
+  tf-apply-prod:
+    extends: tf-apply
+    environment:
+      TF_VAR_enable_cloudfront_cdn: 1
+  tf-destroy:
+    extends: terraform
+    command:
+      - destroy
+  tf-destroy-prod:
+    extends: tf-destroy
+    environment:
+      TF_VAR_enable_cloudfront_cdn: 1
